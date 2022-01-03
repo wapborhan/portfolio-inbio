@@ -1,4 +1,10 @@
 import React from "react";
+import {
+  FiCheckCircle,
+  FiArrowRight,
+  FiClock,
+  FiActivity,
+} from "react-icons/fi";
 
 function Pricing() {
   return (
@@ -97,53 +103,77 @@ function Pricing() {
                       <div className="check-wrapper">
                         <div className="left-area">
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>1 Page with Elementor</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>Design Customization</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>Responsive Design</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>Content Upload</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>Design Customization</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>2 Plugins/Extensions</p>
                           </div>
                         </div>
                         <div className="right-area">
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>multipage Elementor</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>Design Figma</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>MAintaine Design</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>Content Upload</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>Design With XD</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>8 Plugins/Extensions</p>
                           </div>
                         </div>
@@ -152,15 +182,21 @@ function Pricing() {
                     <div className="pricing-footer">
                       <a href="#" className="rn-btn d-block">
                         <span>ORDER NOW</span>
-                        <i data-feather="arrow-right"></i>
+                        <i>
+                          <FiArrowRight />
+                        </i>
                       </a>
                       <div className="time-line">
                         <div className="single-cmt d-flex">
-                          <i data-feather="clock"></i>
+                          <i>
+                            <FiClock />
+                          </i>
                           <span>2 Days Delivery</span>
                         </div>
                         <div className="single-cmt d-flex">
-                          <i data-feather="activity"></i>
+                          <i>
+                            <FiActivity />
+                          </i>
                           <span>Unlimited Revission</span>
                         </div>
                       </div>
@@ -194,53 +230,77 @@ function Pricing() {
                       <div className="check-wrapper">
                         <div className="left-area">
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>1 Page with Elementor</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>Design Customization</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>Responsive Design</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>Content Upload</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>Design Customization</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>2 Plugins/Extensions</p>
                           </div>
                         </div>
                         <div className="right-area">
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>multipage Elementor</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>Design Figma</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>MAintaine Design</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>Content Upload</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>Design With XD</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>8 Plugins/Extensions</p>
                           </div>
                         </div>
@@ -249,15 +309,21 @@ function Pricing() {
                     <div className="pricing-footer">
                       <a href="#" className="rn-btn d-block">
                         <span>ORDER NOW</span>
-                        <i data-feather="arrow-right"></i>
+                        <i>
+                          <FiArrowRight />
+                        </i>
                       </a>
                       <div className="time-line d-flex">
                         <div className="single-cmt d-flex">
-                          <i data-feather="clock"></i>
+                          <i>
+                            <FiClock />
+                          </i>
                           <span>2 Days Delivery</span>
                         </div>
                         <div className="single-cmt d-flex">
-                          <i data-feather="activity"></i>
+                          <i>
+                            <FiActivity />
+                          </i>
                           <span>Unlimited Revission</span>
                         </div>
                       </div>
@@ -291,53 +357,77 @@ function Pricing() {
                       <div className="check-wrapper">
                         <div className="left-area">
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>1 Page with Elementor</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>Design Customization</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>Responsive Design</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>Content Upload</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>Design Customization</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>2 Plugins/Extensions</p>
                           </div>
                         </div>
                         <div className="right-area">
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>multipage Elementor</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>Design Figma</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>MAintaine Design</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>Content Upload</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>Design With XD</p>
                           </div>
                           <div className="check d-flex">
-                            <i data-feather="check"></i>
+                            <i>
+                              <FiCheckCircle />
+                            </i>
                             <p>8 Plugins/Extensions</p>
                           </div>
                         </div>
@@ -346,15 +436,21 @@ function Pricing() {
                     <div className="pricing-footer">
                       <a href="#" className="rn-btn d-block">
                         <span>ORDER NOW</span>
-                        <i data-feather="arrow-right"></i>
+                        <i>
+                          <FiArrowRight />
+                        </i>
                       </a>
                       <div className="time-line d-flex">
                         <div className="single-cmt d-flex">
-                          <i data-feather="clock"></i>
+                          <i>
+                            <FiClock />
+                          </i>
                           <span>2 Days Delivery</span>
                         </div>
                         <div className="single-cmt d-flex">
-                          <i data-feather="activity"></i>
+                          <i>
+                            <FiActivity />
+                          </i>
                           <span>Unlimited Revission</span>
                         </div>
                       </div>

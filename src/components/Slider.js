@@ -2,13 +2,35 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+function SampleNextArrow(props) {
+  const { onClick } = props;
+  return (
+    <button class="slide-arrow next-arrow" onClick={onClick}>
+      <i class="feather-arrow-right"></i>
+    </button>
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { onClick } = props;
+  return (
+    <button class="slide-arrow prev-arrow" onClick={onClick}>
+      <i class="feather-arrow-left"></i>
+    </button>
+  );
+}
+
 function TestiSlider() {
   const settings = {
-    dots: true,
     infinite: true,
-    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    dots: true,
+    arrows: true,
+    adaptiveHeight: true,
+    cssEase: "linear",
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
   };
   return (
     <div

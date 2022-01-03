@@ -1,4 +1,5 @@
 import React from "react";
+import { FiSettings } from "react-icons/fi";
 
 function RightDemo() {
   return (
@@ -6,7 +7,9 @@ function RightDemo() {
       {/* <!-- Start Right Demo  --> */}
       <div className="rn-right-demo">
         <button className="demo-button">
-          <span className="text">Social</span>
+          <span className="text">
+            <FiSettings />
+          </span>
         </button>
       </div>
       {/* <!-- End Right Demo  --> */}

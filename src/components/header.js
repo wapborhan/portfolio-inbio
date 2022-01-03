@@ -1,4 +1,16 @@
 import React from "react";
+import {
+  FiHome,
+  FiBriefcase,
+  FiLayers,
+  FiUsers,
+  FiShoppingCart,
+  FiImage,
+  FiMessageSquare,
+  FiMessageCircle,
+  FiMenu,
+  FiX,
+} from "react-icons/fi";
 
 function Header() {
   return (
@@ -15,43 +27,67 @@ function Header() {
             <ul className="primary-menu nav nav-pills">
               <li className="nav-item">
                 <a className="nav-link smoth-animation-two active" href="#home">
-                  <i data-feather="home"></i> Home
+                  <i>
+                    <FiHome />
+                  </i>{" "}
+                  Home
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link smoth-animation-two" href="#features">
                   {" "}
-                  <i data-feather="briefcase"></i>Features
+                  <i>
+                    <FiBriefcase />
+                  </i>
+                  Features
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link smoth-animation-two" href="#portfolio">
-                  <i data-feather="layers"></i>Portfolio
+                  <i>
+                    <FiLayers />
+                  </i>
+                  Portfolio
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link smoth-animation-two" href="#resume">
-                  <i data-feather="users"></i>Resume
+                  <i>
+                    <FiUsers />
+                  </i>
+                  Resume
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link smoth-animation-two" href="#pricing">
-                  <i data-feather="shopping-cart"></i>Pricing
+                  <i>
+                    <FiShoppingCart />
+                  </i>
+                  Pricing
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link smoth-animation-two" href="#blog">
-                  <i data-feather="image"></i>blog
+                  <i>
+                    <FiImage />
+                  </i>
+                  blog
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link smoth-animation-two" href="#testimonial">
-                  <i data-feather="message-square"></i>Testimonial
+                  <i>
+                    <FiMessageSquare />
+                  </i>
+                  Testimonial
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link smoth-animation-two" href="#contacts">
-                  <i data-feather="message-circle"></i>Contact
+                  <i>
+                    <FiMessageCircle />
+                  </i>
+                  Contact
                 </a>
               </li>
             </ul>
@@ -138,14 +174,16 @@ function Header() {
           <div className="col-6">
             <div className="logo">
               <a href="index.html">
-                <img src="assets/images/logo/logo-dark.png" alt="Logo" />
+                <img src="images/logo/logo-dark.png" alt="Logo" />
               </a>
             </div>
           </div>
           <div className="col-6">
             <div className="header-right text-right">
               <div className="hamberger-menu">
-                <i id="menuBtn" className="feather-menu humberger-menu"></i>
+                <i id="menuBtn" className="feather-menu humberger-menu">
+                  <FiMenu />
+                </i>
               </div>
             </div>
           </div>
@@ -162,7 +200,7 @@ function Header() {
                 <div className="sr-logo">
                   <a className="logo" href="index.html">
                     <img
-                      src="assets/images/logo/logos-circle.png"
+                      src="images/logo/logos-circle.png"
                       alt="Personal Portfolio"
                     />
                   </a>
@@ -173,7 +211,9 @@ function Header() {
               </div>
               <div className="close-button">
                 <button className="close-menu-activation close">
-                  <i data-feather="x"></i>
+                  <i data-feather="x">
+                    <FiX />
+                  </i>
                 </button>
               </div>
             </div>

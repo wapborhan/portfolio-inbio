@@ -1,4 +1,11 @@
 import React from "react";
+import {
+  FiArrowRight,
+  FiLoader,
+  FiMenu,
+  FiBookOpen,
+  FiTv,
+} from "react-icons/fi";
 
 function Services() {
   return (
@@ -33,7 +40,9 @@ function Services() {
             <div className="rn-service">
               <div className="inner">
                 <div className="icon">
-                  <i data-feather="menu"></i>
+                  <i>
+                    <FiMenu />
+                  </i>
                 </div>
                 <div className="content">
                   <h4 className="title">Web Design</h4>
@@ -42,7 +51,9 @@ function Services() {
                     lie close to the earth.
                   </p>
                   <a className="read-more-button">
-                    <i className="feather-arrow-right"></i>
+                    <i className="feather-arrow-right">
+                      <FiArrowRight />
+                    </i>
                   </a>
                 </div>
               </div>
@@ -61,7 +72,9 @@ function Services() {
             <div className="rn-service">
               <div className="inner">
                 <div className="icon">
-                  <i data-feather="book-open"></i>
+                  <i>
+                    <FiBookOpen />
+                  </i>
                 </div>
                 <div className="content">
                   <h4 className="title">Web Development</h4>
@@ -71,7 +84,9 @@ function Services() {
                     a handful of model sentence.
                   </p>
                   <a className="read-more-button">
-                    <i className="feather-arrow-right"></i>
+                    <i className="feather-arrow-right">
+                      <FiArrowRight />
+                    </i>
                   </a>
                 </div>
               </div>
@@ -90,7 +105,9 @@ function Services() {
             <div className="rn-service">
               <div className="inner">
                 <div className="icon">
-                  <i data-feather="tv"></i>
+                  <i>
+                    <FiTv />
+                  </i>
                 </div>
                 <div className="content">
                   <h4 className="title">App Development</h4>
@@ -99,7 +116,9 @@ function Services() {
                     lie close to the earth.
                   </p>
                   <a className="read-more-button">
-                    <i className="feather-arrow-right"></i>
+                    <i className="feather-arrow-right">
+                      <FiArrowRight />
+                    </i>
                   </a>
                 </div>
               </div>
@@ -111,7 +130,10 @@ function Services() {
         <div className="row">
           <div className="col-lg-12 mt-5 text-center">
             <a className="rn-btn" href="more/features/index.html">
-              See More <i className="feather-loader"></i>
+              See More{" "}
+              <i className="feather-loader">
+                <FiLoader />
+              </i>
             </a>
           </div>
         </div>

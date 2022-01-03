@@ -1,4 +1,5 @@
 import React from "react";
+import { FiUser } from "react-icons/fi";
 
 function Info() {
   return (
@@ -15,7 +16,9 @@ function Info() {
                       <div className="user-info-header">
                         <div className="sr-user">
                           <div className="user">
-                            <i data-feather="user"></i>
+                            <i>
+                              <FiUser />
+                            </i>
                           </div>
                           <h2 className="title">
                             Hi, I am <span>Borhan</span>
@@ -23,10 +26,10 @@ function Info() {
                         </div>
                         {/* <!-- type headline start--> */}
                         <span className="cd-headline clip is-full-width">
-                          <span>Web</span>
+                          {/* <span>Web</span> */}
                           {/* <!-- ROTATING TEXT --> */}
                           <span className="cd-words-wrapper">
-                            <b className="is-visible">Designer.</b>
+                            <b className="is-visible">Front-End Developer.</b>
                             <b className="is-hidden">Developer.</b>
                             <b className="is-hidden">App Developer.</b>
                           </span>

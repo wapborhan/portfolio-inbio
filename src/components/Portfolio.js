@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import { FiGithub, FiExternalLink, FiEye, FiLoader } from "react-icons/fi";
 
 function Portfolio() {
   return (
@@ -56,10 +57,9 @@ function Portfolio() {
                             className="btn card-btn"
                             title="Source Code"
                           >
-                            <i
-                              data-brackets-id="11286"
-                              className="feather-github"
-                            ></i>
+                            <i>
+                              <FiGithub />
+                            </i>
                           </a>
                         </div>
                         <div>
@@ -68,10 +68,9 @@ function Portfolio() {
                             className="btn card-btn"
                             title="Live"
                           >
-                            <i
-                              data-brackets-id="11286"
-                              className="feather-external-link"
-                            ></i>
+                            <i className="feather-external-link">
+                              <FiExternalLink />
+                            </i>
                           </a>
                         </div>
                         <div>
@@ -82,10 +81,9 @@ function Portfolio() {
                             className="btn card-btn"
                             title="Details"
                           >
-                            <i
-                              data-brackets-id="11286"
-                              className="feather-eye"
-                            ></i>
+                            <i className="feather-eye">
+                              <FiEye />
+                            </i>
                           </a>
                         </div>
                       </div>
@@ -138,10 +136,9 @@ function Portfolio() {
                             className="btn card-btn"
                             title="Source Code"
                           >
-                            <i
-                              data-brackets-id="11286"
-                              className="feather-github"
-                            ></i>
+                            <i>
+                              <FiGithub />
+                            </i>
                           </a>
                         </div>
                         <div>
@@ -150,10 +147,9 @@ function Portfolio() {
                             className="btn card-btn"
                             title="Live"
                           >
-                            <i
-                              data-brackets-id="11286"
-                              className="feather-external-link"
-                            ></i>
+                            <i className="feather-external-link">
+                              <FiExternalLink />
+                            </i>
                           </a>
                         </div>
                         <div>
@@ -164,10 +160,9 @@ function Portfolio() {
                             className="btn card-btn"
                             title="Details"
                           >
-                            <i
-                              data-brackets-id="11286"
-                              className="feather-eye"
-                            ></i>
+                            <i className="feather-eye">
+                              <FiEye />
+                            </i>
                           </a>
                         </div>
                       </div>
@@ -219,10 +214,9 @@ function Portfolio() {
                             className="btn card-btn"
                             title="Source Code"
                           >
-                            <i
-                              data-brackets-id="11286"
-                              className="feather-github"
-                            ></i>
+                            <i>
+                              <FiGithub />
+                            </i>
                           </a>
                         </div>
                         <div>
@@ -231,10 +225,9 @@ function Portfolio() {
                             className="btn card-btn"
                             title="Live"
                           >
-                            <i
-                              data-brackets-id="11286"
-                              className="feather-external-link"
-                            ></i>
+                            <i className="feather-external-link">
+                              <FiExternalLink />
+                            </i>
                           </a>
                         </div>
                         <div>
@@ -245,10 +238,9 @@ function Portfolio() {
                             className="btn card-btn"
                             title="Details"
                           >
-                            <i
-                              data-brackets-id="11286"
-                              className="feather-eye"
-                            ></i>
+                            <i className="feather-eye">
+                              <FiEye />
+                            </i>
                           </a>
                         </div>
                       </div>
@@ -277,7 +269,10 @@ function Portfolio() {
         <div className="row">
           <div className="col-lg-12 mt-5 text-center">
             <a className="rn-btn" href="more/portfolio/index.html">
-              See More <i className="feather-loader"></i>
+              See More{" "}
+              <i className="feather-loader">
+                <FiLoader />
+              </i>
             </a>
           </div>
         </div>

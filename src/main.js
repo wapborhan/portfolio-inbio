@@ -6,7 +6,6 @@ import Portfolio from "./components/Portfolio.js";
 import Pricing from "./components/Pricing.js";
 import Blog from "./components/Blog.js";
 import Testimonials from "./components/Testimonials.js";
-import TestiSlider from "./components/Slider";
 // import Contact from "./components/Contact.js";
 import Footer from "./components/footer.js";
 import RightDemo from "./components/RightDemo.js";
@@ -22,7 +21,6 @@ function Main() {
       <Pricing />
       <Blog />
       <Testimonials />
-      <TestiSlider />
       {/* <Contact /> */}
       <Footer />
       <RightDemo />
