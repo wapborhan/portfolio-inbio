@@ -6510,7 +6510,7 @@ select {
     appearance: none;
     border: 1px solid var(--color-border);
     border-radius: 4px;
-    background: url(../images/icons/arrow-icon.html) 95% center no-repeat transparent;
+    /* background: url(./assets/images/icons/arrow-icon.html) 95% center no-repeat transparent; */
     padding-right: 32px;
 }
 
@@ -7085,7 +7085,7 @@ Background Image
     background-size: cover;
     background-position: center center;
 }
-
+/* 
 .bg_image--1 {
     background-image: url(../images/bg/bg-image-1.jpg);
 }
@@ -7244,7 +7244,7 @@ Background Image
 
 .bg_image--40 {
     background-image: url(../images/bg/bg-image-40.html);
-}
+} */
 
 /* Height and width */
 .fullscreen {
@@ -13811,7 +13811,7 @@ button.rn-btn.thumbs-icon svg {
     height: 87px;
     left: 50%;
     top: -37px;
-    background-image: url(../images/icons/quote2.png);
+    /* background-image: url(../images/icons/quote2.png); */
     content: "";
     opacity: 1;
     background-repeat: no-repeat;
@@ -15147,8 +15147,8 @@ figcaption {
 }
 
 .thumbnail.masking .inner {
-    -webkit-mask-image: url("../images/icones/shape1.svg");
-    mask-image: url("../images/icones/shape1.svg");
+    /* -webkit-mask-image: url("../images/icones/shape1.svg");
+    mask-image: url("../images/icones/shape1.svg"); */
     -webkit-mask-position: center center;
     mask-position: center center;
     -webkit-mask-size: 100%;
@@ -16155,14 +16155,14 @@ div#featured-project-carousel {
 }
 
 .featured-project-carousel .carousel-control-prev-icon {
-    background: url(../images/icons/short-arrow-left.png) center center no-repeat;
+    /* background: url(../images/icons/short-arrow-left.png) center center no-repeat; */
     width: 4rem;
     height: 4rem;
     display: inline-block;
 }
 
 .featured-project-carousel .carousel-control-next-icon {
-    background: url(../images/icons/short-arrow-right.png) center center no-repeat;
+    /* background: url(../images/icons/short-arrow-right.png) center center no-repeat; */
     width: 4rem;
     height: 4rem;
     display: inline-block;
@@ -17305,7 +17305,7 @@ div#featured-project-carousel {
     left: 0;
     top: -130px;
     background: transparent;
-    background-image: url(../images/icons/quote.png);
+    /* background-image: url(../images/icons/quote.png); */
     background-size: cover;
     z-index: -1;
     opacity: 0.5;
