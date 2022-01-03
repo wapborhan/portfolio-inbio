@@ -8313,7 +8313,7 @@ textarea:-ms-input-placeholder {
     color: var(--color-lightn);
     -webkit-transition: var(--transition);
     transition: var(--transition);
-    stroke-width: 2;
+    strokeWidth: 2;
     position: relative;
     z-index: 2;
     width: 20px;
@@ -14344,7 +14344,7 @@ figcaption {
     color: var(--color-lightn);
     -webkit-transition: var(--transition);
     transition: var(--transition);
-    stroke-width: 2;
+    strokeWidth: 2;
     position: relative;
     z-index: 2;
     width: 20px;
@@ -15817,7 +15817,7 @@ figcaption {
     width: 50px;
     height: auto;
     color: var(--color-primary);
-    stroke-width: 1 !important;
+    strokeWidth: 1 !important;
 }
 
 .rn-service .inner .content .title {
@@ -18925,7 +18925,7 @@ div#featured-project-carousel {
 }
 
 .contact-about-area .social-area .social-icone a svg {
-    stroke-width: 2;
+    strokeWidth: 2;
     width: 20px;
     color: var(--color-lightn);
     -webkit-transition: var(--transition);
@@ -19762,7 +19762,7 @@ div#featured-project-carousel {
 .service-card-one .inner svg {
     width: 55px;
     height: auto;
-    stroke-width: 1px;
+    strokeWidth: 1px;
     color: var(--color-primary);
     margin-bottom: 25px;
 }
@@ -20052,7 +20052,7 @@ div#featured-project-carousel {
     color: var(--color-lightn);
     -webkit-transition: var(--transition);
     transition: var(--transition);
-    stroke-width: 2;
+    strokeWidth: 2;
     position: relative;
     z-index: 2;
     width: 20px;

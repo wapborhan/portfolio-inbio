@@ -10,10 +10,7 @@ function Footer() {
             <div className="footer-area text-center">
               <div className="logo">
                 <a href="index.html">
-                  <img
-                    src="./assets/images/logo/logo-vertical-dark.png"
-                    alt="logo"
-                  />
+                  <img src="images/logo/logo-vertical-dark.png" alt="logo" />
                 </a>
               </div>
 

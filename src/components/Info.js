@@ -2,50 +2,50 @@ import React from "react";
 
 function Info() {
   return (
-    <div id="home" class="rn-slide-area">
-      <div class="slide slider-style-3">
+    <div id="home" className="rn-slide-area">
+      <div className="slide slider-style-3">
         <div id="particles-js"></div>
-        <div class="container">
-          <div class="row slider-wrapper">
-            <div class="order-2 order-xl-1 col-lg-12 col-xl-5 mt_lg--50 mt_md--50 mt_sm--50">
-              <div class="slider-info">
-                <div class="row">
-                  <div class="col-xl-12 col-lg-12 col-12">
-                    <div class="user-info-top">
-                      <div class="user-info-header">
-                        <div class="sr-user">
-                          <div class="user">
+        <div className="container">
+          <div className="row slider-wrapper">
+            <div className="order-2 order-xl-1 col-lg-12 col-xl-5 mt_lg--50 mt_md--50 mt_sm--50">
+              <div className="slider-info">
+                <div className="row">
+                  <div className="col-xl-12 col-lg-12 col-12">
+                    <div className="user-info-top">
+                      <div className="user-info-header">
+                        <div className="sr-user">
+                          <div className="user">
                             <i data-feather="user"></i>
                           </div>
-                          <h2 class="title">
+                          <h2 className="title">
                             Hi, I am <span>Borhan</span>
                           </h2>
                         </div>
                         {/* <!-- type headline start--> */}
-                        <span class="cd-headline clip is-full-width">
+                        <span className="cd-headline clip is-full-width">
                           <span>Web</span>
                           {/* <!-- ROTATING TEXT --> */}
-                          <span class="cd-words-wrapper">
-                            <b class="is-visible">Designer.</b>
-                            <b class="is-hidden">Developer.</b>
-                            <b class="is-hidden">App Developer.</b>
+                          <span className="cd-words-wrapper">
+                            <b className="is-visible">Designer.</b>
+                            <b className="is-hidden">Developer.</b>
+                            <b className="is-hidden">App Developer.</b>
                           </span>
                         </span>
                         {/* <!-- type headline end --> */}
-                        <p class="disc">
+                        <p className="disc">
                           Develop a passion for learning. If you do, you will
                           never cease to grow.
                         </p>
                       </div>
-                      <div class="user-info-footer">
-                        <div class="info">
+                      <div className="user-info-footer">
+                        <div className="info">
                           <i data-feather="file"></i>
                           <span>
                             Developer{" "}
                             <a href="http://www.codestrickz.xyz">CodesTrickZ</a>
                           </span>
                         </div>
-                        <div class="info">
+                        <div className="info">
                           <i data-feather="mail"></i>
                           <span>
                             <a href="mailto:borhaninfos@gmail.com">
@@ -53,7 +53,7 @@ function Info() {
                             </a>
                           </span>
                         </div>
-                        <div class="info">
+                        <div className="info">
                           <i data-feather="map-pin"></i>
                           <span>
                             <a href="https://goo.gl/maps/MA7zFUaa29n3J6JA6">
@@ -66,14 +66,14 @@ function Info() {
                     </div>
                   </div>
 
-                  <div class="col-xl-12 col-lg-12 col-12">
-                    <div class="user-info-bottom">
+                  <div className="col-xl-12 col-lg-12 col-12">
+                    <div className="user-info-bottom">
                       <span>Download my curriculum vitae: </span>
-                      <div class="button-wrapper d-flex">
-                        <a class="rn-btn mr--30" href="more/cv.html">
+                      <div className="button-wrapper d-flex">
+                        <a className="rn-btn mr--30" href="more/cv.html">
                           <span>DOWNLOAD CV</span>
                         </a>
-                        <a class="rn-btn" href="#contacts">
+                        <a className="rn-btn" href="#contacts">
                           <span>CONTACT ME</span>
                         </a>
                       </div>
@@ -83,17 +83,17 @@ function Info() {
               </div>
             </div>
 
-            <div class="order-1 order-xl-2 col-lg-12 col-xl-7">
-              <div class="background-image-area srpd">
-                <div class="havatar thumbnail-image img-container--gradient">
+            <div className="order-1 order-xl-2 col-lg-12 col-xl-7">
+              <div className="background-image-area srpd">
+                <div className="havatar thumbnail-image img-container--gradient">
                   <img
                     id="border"
-                    class="image gardnt"
-                    src="assets/images/slider/banner-02.png"
+                    className="image gardnt"
+                    src="images/slider/banner-02.png"
                     alt="Personal Portfolio"
                   />
                 </div>
-                <span class="gradient-borders"></span>
+                <span className="gradient-borders"></span>
               </div>
             </div>
           </div>

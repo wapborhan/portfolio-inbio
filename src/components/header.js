@@ -4,63 +4,63 @@ function Header() {
   return (
     <div className="header">
       {/* <!-- start Header area --> */}
-      <div class="d-none d-xl-block header-style-2">
-        <header class="rn-header-area d-flex align-items-start flex-column left-header-style">
-          <div class="logo-area">
+      <div className="d-none d-xl-block header-style-2">
+        <header className="rn-header-area d-flex align-items-start flex-column left-header-style">
+          <div className="logo-area">
             <a href="index.html">
-              <img src="assets/images/logo/logo-06.png" alt="personal-logo" />
+              <img src="images/logo/logo-06.png" alt="personal-logo" />
             </a>
           </div>
-          <nav id="sideNavs" class="mainmenu-nav navbar-example2">
-            <ul class="primary-menu nav nav-pills">
-              <li class="nav-item">
-                <a class="nav-link smoth-animation-two active" href="#home">
+          <nav id="sideNavs" className="mainmenu-nav navbar-example2">
+            <ul className="primary-menu nav nav-pills">
+              <li className="nav-item">
+                <a className="nav-link smoth-animation-two active" href="#home">
                   <i data-feather="home"></i> Home
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link smoth-animation-two" href="#features">
+              <li className="nav-item">
+                <a className="nav-link smoth-animation-two" href="#features">
                   {" "}
                   <i data-feather="briefcase"></i>Features
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link smoth-animation-two" href="#portfolio">
+              <li className="nav-item">
+                <a className="nav-link smoth-animation-two" href="#portfolio">
                   <i data-feather="layers"></i>Portfolio
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link smoth-animation-two" href="#resume">
+              <li className="nav-item">
+                <a className="nav-link smoth-animation-two" href="#resume">
                   <i data-feather="users"></i>Resume
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link smoth-animation-two" href="#pricing">
+              <li className="nav-item">
+                <a className="nav-link smoth-animation-two" href="#pricing">
                   <i data-feather="shopping-cart"></i>Pricing
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link smoth-animation-two" href="#blog">
+              <li className="nav-item">
+                <a className="nav-link smoth-animation-two" href="#blog">
                   <i data-feather="image"></i>blog
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link smoth-animation-two" href="#testimonial">
+              <li className="nav-item">
+                <a className="nav-link smoth-animation-two" href="#testimonial">
                   <i data-feather="message-square"></i>Testimonial
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link smoth-animation-two" href="#contacts">
+              <li className="nav-item">
+                <a className="nav-link smoth-animation-two" href="#contacts">
                   <i data-feather="message-circle"></i>Contact
                 </a>
               </li>
             </ul>
           </nav>
-          <div class="footer">
-            <div class="social-share-style-1  mt--30">
-              <span class="title">find with me</span>
-              <ul class="social-share d-flex liststyle">
-                <li class="facebook">
+          <div className="footer">
+            <div className="social-share-style-1  mt--30">
+              <span className="title">find with me</span>
+              <ul className="social-share d-flex liststyle">
+                <li className="facebook">
                   <a href="http://facebook.com/infoborhan">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -69,16 +69,16 @@ function Header() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="feather feather-facebook"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="feather feather-facebook"
                     >
                       <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                     </svg>
                   </a>
                 </li>
-                <li class="instagram">
+                <li className="instagram">
                   <a href="https://www.instagram.com/wapborhan">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -87,10 +87,10 @@ function Header() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="feather feather-instagram"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="feather feather-instagram"
                     >
                       <rect
                         x="2"
@@ -105,7 +105,7 @@ function Header() {
                     </svg>
                   </a>
                 </li>
-                <li class="linkedin">
+                <li className="linkedin">
                   <a href="https://www.linkedin.com/in/wapborhan/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -114,10 +114,10 @@ function Header() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="feather feather-linkedin"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="feather feather-linkedin"
                     >
                       <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
                       <rect x="2" y="9" width="4" height="12"></rect>
@@ -133,19 +133,19 @@ function Header() {
       {/* <!-- start Header area end --> */}
 
       {/* <!-- Header Mobile Bar  --> */}
-      <div class="header-style-2 d-block d-xl-none">
-        <div class="row align-items-center">
-          <div class="col-6">
-            <div class="logo">
+      <div className="header-style-2 d-block d-xl-none">
+        <div className="row align-items-center">
+          <div className="col-6">
+            <div className="logo">
               <a href="index.html">
                 <img src="assets/images/logo/logo-dark.png" alt="Logo" />
               </a>
             </div>
           </div>
-          <div class="col-6">
-            <div class="header-right text-right">
-              <div class="hamberger-menu">
-                <i id="menuBtn" class="feather-menu humberger-menu"></i>
+          <div className="col-6">
+            <div className="header-right text-right">
+              <div className="hamberger-menu">
+                <i id="menuBtn" className="feather-menu humberger-menu"></i>
               </div>
             </div>
           </div>
@@ -154,78 +154,78 @@ function Header() {
       {/* <!-- Header Mobile Bar  --> */}
 
       {/* <!-- Start Popup Mobile Menu  --> */}
-      <div class="popup-mobile-menu">
-        <div class="inner">
-          <div class="menu-top">
-            <div class="menu-header">
-              <div class="sr-hd">
-                <div class="sr-logo">
-                  <a class="logo" href="index.html">
+      <div className="popup-mobile-menu">
+        <div className="inner">
+          <div className="menu-top">
+            <div className="menu-header">
+              <div className="sr-hd">
+                <div className="sr-logo">
+                  <a className="logo" href="index.html">
                     <img
                       src="assets/images/logo/logos-circle.png"
                       alt="Personal Portfolio"
                     />
                   </a>
                 </div>
-                <div class="sr-content">
-                  <p class="discription">WapBorhan</p>
+                <div className="sr-content">
+                  <p className="discription">WapBorhan</p>
                 </div>
               </div>
-              <div class="close-button">
-                <button class="close-menu-activation close">
+              <div className="close-button">
+                <button className="close-menu-activation close">
                   <i data-feather="x"></i>
                 </button>
               </div>
             </div>
           </div>
-          <div class="content">
-            <ul class="primary-menu nav nav-pills">
-              <li class="nav-item">
-                <a class="nav-link smoth-animation-two active" href="#home">
+          <div className="content">
+            <ul className="primary-menu nav nav-pills">
+              <li className="nav-item">
+                <a className="nav-link smoth-animation-two active" href="#home">
                   Home
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link smoth-animation-two" href="#features">
+              <li className="nav-item">
+                <a className="nav-link smoth-animation-two" href="#features">
                   Features
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link smoth-animation-two" href="#portfolio">
+              <li className="nav-item">
+                <a className="nav-link smoth-animation-two" href="#portfolio">
                   Portfolio
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link smoth-animation-two" href="#resume">
+              <li className="nav-item">
+                <a className="nav-link smoth-animation-two" href="#resume">
                   Resume
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link smoth-animation-two" href="#clients">
+              <li className="nav-item">
+                <a className="nav-link smoth-animation-two" href="#clients">
                   Clients
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link smoth-animation-two" href="#pricing">
+              <li className="nav-item">
+                <a className="nav-link smoth-animation-two" href="#pricing">
                   Pricing
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link smoth-animation-two" href="#blog">
+              <li className="nav-item">
+                <a className="nav-link smoth-animation-two" href="#blog">
                   blog
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link smoth-animation-two" href="#contacts">
+              <li className="nav-item">
+                <a className="nav-link smoth-animation-two" href="#contacts">
                   Contact
                 </a>
               </li>
             </ul>
             {/* <!-- social sharea area --> */}
-            <div class="social-share-style-1 mt--40">
-              <span class="title">find with me</span>
-              <ul class="social-share d-flex liststyle">
-                <li class="facebook">
+            <div className="social-share-style-1 mt--40">
+              <span className="title">find with me</span>
+              <ul className="social-share d-flex liststyle">
+                <li className="facebook">
                   <a href="http://facebook.com/infoborhan">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -234,16 +234,16 @@ function Header() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="feather feather-facebook"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="feather feather-facebook"
                     >
                       <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                     </svg>
                   </a>
                 </li>
-                <li class="instagram">
+                <li className="instagram">
                   <a href="https://www.instagram.com/wapborhan">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -252,10 +252,10 @@ function Header() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="feather feather-instagram"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="feather feather-instagram"
                     >
                       <rect
                         x="2"
@@ -270,7 +270,7 @@ function Header() {
                     </svg>
                   </a>
                 </li>
-                <li class="linkedin">
+                <li className="linkedin">
                   <a href="https://www.linkedin.com/in/wapborhan/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -279,10 +279,10 @@ function Header() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="feather feather-linkedin"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="feather feather-linkedin"
                     >
                       <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
                       <rect x="2" y="9" width="4" height="12"></rect>
