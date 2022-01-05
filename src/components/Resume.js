@@ -31,6 +31,11 @@ function Resume() {
                   professional Skills
                 </a>
               </li>
+
+              {/* <li className="nav-item">
+                                <a className="nav-link" id="education-tab" data-toggle="tab" href="#education" role="tab" aria-controls="education" aria-selected="false">education</a>
+                            </li> */}
+
               <li className="nav-item">
                 <a
                   className="nav-link"
@@ -44,6 +49,10 @@ function Resume() {
                   experience
                 </a>
               </li>
+
+              {/* <li className="nav-item">
+                                <a className="nav-link" id="interview-tab" data-toggle="tab" href="#interview" role="tab" aria-controls="interview" aria-selected="false">interview</a>
+                            </li> */}
             </ul>
             {/* <!-- Start Tab Content Wrapper  --> */}
             <div className="rn-nav-content tab-content" id="myTabContents">
@@ -71,7 +80,7 @@ function Resume() {
                                 data-wow-duration="0.5s"
                                 data-wow-delay=".3s"
                                 role="progressbar"
-                                style="width: 85%"
+                                style={{ width: "85%" }}
                                 aria-valuenow="85"
                                 aria-valuemin="0"
                                 aria-valuemax="100"
@@ -91,7 +100,7 @@ function Resume() {
                                 data-wow-duration="0.6s"
                                 data-wow-delay=".4s"
                                 role="progressbar"
-                                style="width: 90%"
+                                style={{ width: "90%" }}
                                 aria-valuenow="85"
                                 aria-valuemin="0"
                                 aria-valuemax="100"
@@ -111,7 +120,7 @@ function Resume() {
                                 data-wow-duration="0.7s"
                                 data-wow-delay=".5s"
                                 role="progressbar"
-                                style="width: 50%"
+                                style={{ width: "50%" }}
                                 aria-valuenow="85"
                                 aria-valuemin="0"
                                 aria-valuemax="100"
@@ -131,7 +140,7 @@ function Resume() {
                                 data-wow-duration="0.8s"
                                 data-wow-delay=".6s"
                                 role="progressbar"
-                                style="width: 30%"
+                                style={{ width: "30%" }}
                                 aria-valuenow="85"
                                 aria-valuemin="0"
                                 aria-valuemax="100"
@@ -150,10 +159,8 @@ function Resume() {
                     <div className="col-lg-6 col-md-6 col-12 mt_sm--60">
                       <div className="progress-wrapper">
                         <div className="content pd-t">
-                          {/* <!--
-                                                    <span className="subtitle">Features</span>
-                                                    <h4 className="maintitle">Back-End</h4>
---> */}
+                          {/* <span className="subtitle">Features</span>
+                                                    <h4 className="maintitle">Back-End</h4> */}
 
                           {/* <!-- Start Single Progress Charts --> */}
                           <div className="progress-charts">
@@ -164,7 +171,7 @@ function Resume() {
                                 data-wow-duration="0.9s"
                                 data-wow-delay=".7s"
                                 role="progressbar"
-                                style="width: 30%"
+                                style={{ width: "30%" }}
                                 aria-valuenow="85"
                                 aria-valuemin="0"
                                 aria-valuemax="100"
@@ -184,7 +191,7 @@ function Resume() {
                                 data-wow-duration="0.5s"
                                 data-wow-delay=".3s"
                                 role="progressbar"
-                                style="width: 15%"
+                                style={{ width: "15%" }}
                                 aria-valuenow="85"
                                 aria-valuemin="0"
                                 aria-valuemax="100"
@@ -204,7 +211,7 @@ function Resume() {
                                 data-wow-duration="0.6s"
                                 data-wow-delay=".4s"
                                 role="progressbar"
-                                style="width: 30%"
+                                style={{ width: "30%" }}
                                 aria-valuenow="85"
                                 aria-valuemin="0"
                                 aria-valuemax="100"
@@ -224,7 +231,7 @@ function Resume() {
                                 data-wow-duration="0.8s"
                                 data-wow-delay=".6s"
                                 role="progressbar"
-                                style="width: 25%"
+                                style={{ width: "25%" }}
                                 aria-valuenow="85"
                                 aria-valuemin="0"
                                 aria-valuemax="100"

@@ -47,7 +47,7 @@ function Portfolio() {
                 <div className="content">
                   <div className="category-info">
                     <div className="category-list">
-                      <a href="javascript:void(0)">Development</a>
+                      <a>Development</a>
                     </div>
                     <div className="meta">
                       <div className="card-btn-container d-flex">
@@ -75,7 +75,6 @@ function Portfolio() {
                         </div>
                         <div>
                           <a
-                            href="javascript:void(0)"
                             data-toggle="modal"
                             data-target="#exampleModalCenter-1"
                             className="btn card-btn"
@@ -126,7 +125,7 @@ function Portfolio() {
                 <div className="content">
                   <div className="category-info">
                     <div className="category-list">
-                      <a href="javascript:void(0)">Development</a>
+                      <a>Development</a>
                     </div>
                     <div className="meta">
                       <div className="card-btn-container d-flex">
@@ -154,7 +153,6 @@ function Portfolio() {
                         </div>
                         <div>
                           <a
-                            href="javascript:void(0)"
                             data-toggle="modal"
                             data-target="#exampleModalCenter-2"
                             className="btn card-btn"
@@ -194,7 +192,7 @@ function Portfolio() {
             <div className="rn-portfolio">
               <div className="inner">
                 <div className="thumbnail">
-                  <a href="javascript:void(0)">
+                  <a>
                     <img
                       src="images/portfolio/portfolio-03.jpg"
                       alt="Personal Portfolio Images"
@@ -204,7 +202,7 @@ function Portfolio() {
                 <div className="content">
                   <div className="category-info">
                     <div className="category-list">
-                      <a href="javascript:void(0)">Development</a>
+                      <a>Development</a>
                     </div>
                     <div className="meta">
                       <div className="card-btn-container d-flex">
@@ -232,7 +230,6 @@ function Portfolio() {
                         </div>
                         <div>
                           <a
-                            href="javascript:void(0)"
                             data-toggle="modal"
                             data-target="#exampleModalCenter-3"
                             className="btn card-btn"
@@ -245,12 +242,12 @@ function Portfolio() {
                         </div>
                       </div>
                       {/* <!--
-                                                <span><a href="javascript:void(0)"><i className="feather-heart"></i></a>
+                                                <span><a ><i className="feather-heart"></i></a>
                                                     630</span>--> */}
                     </div>
                   </div>
                   <h4 className="title">
-                    <a href="javascript:void(0)">
+                    <a>
                       Todo List
                       <i className="feather-arrow-up-right"></i>
                     </a>

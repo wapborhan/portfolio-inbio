@@ -2,11 +2,11 @@ import React from "react";
 import Info from "./components/Info.js";
 import Services from "./components/Services.js";
 import Portfolio from "./components/Portfolio.js";
-// import Resume from "./components/Resume.js";
+import Resume from "./components/Resume.js";
 import Pricing from "./components/Pricing.js";
 import Blog from "./components/Blog.js";
 import Testimonials from "./components/Testimonials.js";
-// import Contact from "./components/Contact.js";
+import Contact from "./components/Contact.js";
 import Footer from "./components/footer.js";
 import RightDemo from "./components/RightDemo.js";
 import BacktoTop from "./components/BacktoTop.js";
@@ -17,11 +17,11 @@ function Main() {
       <Info />
       <Services />
       <Portfolio />
-      {/* <Resume /> */}
+      <Resume />
       <Pricing />
       <Blog />
       <Testimonials />
-      {/* <Contact /> */}
+      <Contact />
       <Footer />
       <RightDemo />
       <BacktoTop />

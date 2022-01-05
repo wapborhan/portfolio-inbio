@@ -24,9 +24,10 @@ function Contact() {
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1288.384878338166!2d88.95830402281295!3d24.02744201588017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fea5e989a3df29%3A0xf5251011b08f158f!2z4KaP4Ka44KaG4KawIOCmrOCni-CmsOCmueCmvuCmqA!5e0!3m2!1sbn!2sbd!4v1629847093289!5m2!1sbn!2sbd"
                   width="460"
                   height="285"
-                  style="border:0;"
-                  allowfullscreen=""
+                  style={{ border: "0" }}
+                  allowFullScreen=""
                   loading="lazy"
+                  tittle="Map"
                 ></iframe>
               </div>
               <div className="title-area">
@@ -78,7 +79,7 @@ function Contact() {
                 >
                   <div className="col-lg-6">
                     <div className="form-group">
-                      <label for="contact-name">Your Name</label>
+                      <label htmlFor="contact-name">Your Name</label>
                       <input
                         className="form-control form-control-lg"
                         name="contact-name"
@@ -90,7 +91,7 @@ function Contact() {
 
                   <div className="col-lg-6">
                     <div className="form-group">
-                      <label for="contact-phone">Phone Number</label>
+                      <label htmlFor="contact-phone">Phone Number</label>
                       <input
                         className="form-control"
                         name="contact-phone"
@@ -102,7 +103,7 @@ function Contact() {
 
                   <div className="col-lg-12">
                     <div className="form-group">
-                      <label for="contact-email">Email</label>
+                      <label htmlFor="contact-email">Email</label>
                       <input
                         className="form-control form-control-sm"
                         id="contact-email"
@@ -114,7 +115,7 @@ function Contact() {
 
                   <div className="col-lg-12">
                     <div className="form-group">
-                      <label for="subject">subject</label>
+                      <label htmlFor="subject">subject</label>
                       <input
                         className="form-control form-control-sm"
                         id="subject"
@@ -126,7 +127,7 @@ function Contact() {
 
                   <div className="col-lg-12">
                     <div className="form-group">
-                      <label for="contact-message">Your Message</label>
+                      <label htmlFor="contact-message">Your Message</label>
                       <textarea
                         name="contact-message"
                         id="contact-message"

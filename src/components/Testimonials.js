@@ -6,8 +6,8 @@ import { FiArrowRight, FiArrowLeft } from "react-icons/fi";
 function SampleNextArrow(props) {
   const { onClick } = props;
   return (
-    <button class="slide-arrow next-arrow" onClick={onClick}>
-      <i class="feather-arrow-right">
+    <button className="slide-arrow next-arrow" onClick={onClick}>
+      <i className="feather-arrow-right">
         <FiArrowRight />
       </i>
     </button>
@@ -17,8 +17,8 @@ function SampleNextArrow(props) {
 function SamplePrevArrow(props) {
   const { onClick } = props;
   return (
-    <button class="slide-arrow prev-arrow" onClick={onClick}>
-      <i class="feather-arrow-left">
+    <button className="slide-arrow prev-arrow" onClick={onClick}>
+      <i className="feather-arrow-left">
         <FiArrowLeft />
       </i>
     </button>

@@ -5,8 +5,8 @@ import "slick-carousel/slick/slick-theme.css";
 function SampleNextArrow(props) {
   const { onClick } = props;
   return (
-    <button class="slide-arrow next-arrow" onClick={onClick}>
-      <i class="feather-arrow-right"></i>
+    <button className="slide-arrow next-arrow" onClick={onClick}>
+      <i className="feather-arrow-right"></i>
     </button>
   );
 }
@@ -14,8 +14,8 @@ function SampleNextArrow(props) {
 function SamplePrevArrow(props) {
   const { onClick } = props;
   return (
-    <button class="slide-arrow prev-arrow" onClick={onClick}>
-      <i class="feather-arrow-left"></i>
+    <button className="slide-arrow prev-arrow" onClick={onClick}>
+      <i className="feather-arrow-left"></i>
     </button>
   );
 }
