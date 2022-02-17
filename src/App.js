@@ -1,6 +1,5 @@
-import Header from "./components/header.js";
-import Main from "./main.js";
-import { useEffect } from "react";
+import MainComponent from "./components/MainComponent";
+import React, { useEffect } from "react";
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Aos from "aos";
@@ -12,12 +11,7 @@ function App() {
     Aos.init({ duration: 2000 });
   }, []);
 
-  return (
-    <div className="App">
-      <Header />
-      <Main />
-    </div>
-  );
+  return <MainComponent />;
 }
 
 export default App;
