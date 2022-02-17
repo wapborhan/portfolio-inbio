@@ -5,7 +5,7 @@ import { Typewriter } from "react-simple-typewriter";
 const Info = () => {
   const handleType = (count) => {
     // access word count number
-    console.log(count);
+    // console.log(count);
   };
 
   const handleDone = () => {

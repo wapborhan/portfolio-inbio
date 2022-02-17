@@ -54,14 +54,14 @@ export default function SideBar() {
                 Resume
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link smoth-animation-two" href="#pricing">
                 <i>
                   <FiShoppingCart />
                 </i>
                 Pricing
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a className="nav-link smoth-animation-two" href="#blog">
                 <i>
