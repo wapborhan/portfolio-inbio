@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./header/Header";
-import Info from "./Info.js";
+import Info from "./info/Info.js";
 import Services from "./Services.js";
 import Portfolio from "./Portfolio.js";
 import Resume from "./Resume.js";

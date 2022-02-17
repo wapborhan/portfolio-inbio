@@ -1,6 +1,6 @@
 import MainComponent from "./components/MainComponent";
 import React, { useEffect } from "react";
-import "./App.css";
+
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Aos from "aos";
 import "aos/dist/aos.css";

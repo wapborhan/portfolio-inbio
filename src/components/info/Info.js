@@ -1,7 +1,17 @@
 import React from "react";
 import { FiUser } from "react-icons/fi";
+import { Typewriter } from "react-simple-typewriter";
 
-function Info() {
+const Info = () => {
+  const handleType = (count) => {
+    // access word count number
+    console.log(count);
+  };
+
+  const handleDone = () => {
+    console.log(`Done after 5 loops!`);
+  };
+
   return (
     <div id="home" className="rn-slide-area">
       <div className="slide slider-style-3">
@@ -24,14 +34,25 @@ function Info() {
                             Hi, I am <span>Borhan</span>
                           </h2>
                         </div>
+
                         {/* <!-- type headline start--> */}
                         <span className="cd-headline clip is-full-width">
-                          {/* <span>Web</span> */}
-                          {/* <!-- ROTATING TEXT --> */}
                           <span className="cd-words-wrapper">
-                            <b className="is-visible">Front-End Developer.</b>
-                            <b className="is-hidden">Developer.</b>
-                            <b className="is-hidden">App Developer.</b>
+                            <Typewriter
+                              words={[
+                                "Front-End Developer.",
+                                "Wordpress Developer.",
+                                "App Developer.",
+                              ]}
+                              loop={true}
+                              cursor
+                              cursorStyle="|"
+                              typeSpeed={70}
+                              deleteSpeed={50}
+                              delaySpeed={1000}
+                              onLoopDone={handleDone}
+                              onType={handleType}
+                            />
                           </span>
                         </span>
                         {/* <!-- type headline end --> */}
@@ -104,6 +125,6 @@ function Info() {
       </div>
     </div>
   );
-}
+};
 
 export default Info;
