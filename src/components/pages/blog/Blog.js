@@ -20,81 +20,143 @@ function Blog() {
             </div>
           </div>
         </div>
-        <div className="row row--25 mt--30 mt_md--10 mt_sm--10">
-          {/* <!-- Blog Iteam --> */}
+        <div class="row row--25 mt--30 mt_md--10 mt_sm--10">
+          {/* <!-- Start Single blog --> */}
           <div
             data-aos="fade-up"
             data-aos-duration="500"
             data-aos-delay="400"
             data-aos-once="true"
-            className="col-lg-12 "
+            class="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 aos-init aos-animate"
           >
-            <div className="rn-blog">
-              <div className="inner">
-                <div className=" active">
-                  <div className="portfolio-single">
-                    <div className="row direction">
-                      <div className="col-lg-5">
-                        <div className="inner">
-                          <h5 className="title">What is a Blog?</h5>
-                          <p className="discriptions">
-                            A blog (a shortened version of “weblog”) is an
-                            online journal or informational website displaying
-                            information in reverse chronological order, with the
-                            latest posts appearing first, at the top. It is a
-                            platform where a writer or a group of writers share
-                            their views on an individual subject.
-                          </p>
-                          {/* <!--
-                                            <div className="ft-area">
-                                                <div className="feature-wrapper">
-                                                    <div className="single-feature">
-                                                        <i data-feather="check"></i>
-                                                        <p>Wordpress</p>
-                                                    </div>
-                                                    <div className="single-feature">
-                                                        <i data-feather="check"></i>
-                                                        <p>Blogger</p>
-                                                    </div>
-                                                    <div className="single-feature">
-                                                        <i data-feather="check"></i>
-                                                        <p>Wix</p>
-                                                    </div>
-                                                </div>
-                                            </div>
---> */}
-                          <div className="row">
-                            <div className="col-lg-12 mb-5 text-center">
-                              <a
-                                className="rn-btn"
-                                href="https://blog.wapborhan.com/"
-                              >
-                                My Blog
-                                <i className="feather-loader"></i>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-lg-7 col-xl-7 sr-thmb">
-                        <a href="https://blog.wapborhan.com/">
-                          <div className="thumbnail">
-                            <img
-                              src="images/blog.jpg"
-                              alt="Personal Portfolio Image"
-                            />
-                          </div>
-                        </a>
-                      </div>
+            <div
+              class="rn-blog"
+              data-toggle="modal"
+              data-target="#exampleModalCenters"
+            >
+              <div class="inner">
+                <div class="thumbnail">
+                  <a href="javascript:void(0)">
+                    <img
+                      src="images/blog.jpg"
+                      alt="Personal Portfolio Images"
+                    />
+                  </a>
+                </div>
+                <div class="content">
+                  <div class="category-info">
+                    <div class="category-list">
+                      <a href="javascript:void(0)">Canada</a>
+                    </div>
+                    <div class="meta">
+                      <span>
+                        <i class="feather-clock"></i> 2 min read
+                      </span>
                     </div>
                   </div>
+                  <h4 class="title">
+                    <a href="javascript:void(0)">
+                      T-shirt design is the part of design
+                      <i class="feather-arrow-up-right"></i>
+                    </a>
+                  </h4>
                 </div>
               </div>
-              <a className="over-link" href="https://blog.wapborhan.com/"></a>
             </div>
           </div>
-          {/* <!-- Blog Iteam --> */}
+          {/* <!-- End Single blog --> */}
+
+          {/* <!-- Start Single blog --> */}
+          <div
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="600"
+            data-aos-once="true"
+            class="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 aos-init aos-animate"
+          >
+            <div
+              class="rn-blog"
+              data-toggle="modal"
+              data-target="#exampleModalCenters"
+            >
+              <div class="inner">
+                <div class="thumbnail">
+                  <a href="javascript:void(0)">
+                    <img
+                      src="images/blog.jpg"
+                      alt="Personal Portfolio Images"
+                    />
+                  </a>
+                </div>
+                <div class="content">
+                  <div class="category-info">
+                    <div class="category-list">
+                      <a href="javascript:void(0)">Development</a>
+                    </div>
+                    <div class="meta">
+                      <span>
+                        <i class="feather-clock"></i> 2 hour read
+                      </span>
+                    </div>
+                  </div>
+                  <h4 class="title">
+                    <a href="javascript:void(0)">
+                      The services provide for design{" "}
+                      <i class="feather-arrow-up-right"></i>
+                    </a>
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <!-- End Single blog --> */}
+
+          {/* <!-- Start Single blog --> */}
+          <div
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="800"
+            data-aos-once="true"
+            class="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 aos-init aos-animate"
+          >
+            <div
+              class="rn-blog"
+              data-toggle="modal"
+              data-target="#exampleModalCenters"
+            >
+              <div class="inner">
+                <div class="thumbnail">
+                  <a href="javascript:void(0)">
+                    <img
+                      src="images/blog.jpg"
+                      alt="Personal Portfolio Images"
+                    />
+                  </a>
+                </div>
+                <div class="content">
+                  <div class="category-info">
+                    <div class="category-list">
+                      <a href="javascript:void(0)">Application</a>
+                    </div>
+                    <div class="meta">
+                      <span>
+                        <i class="feather-clock"></i> 5 min read
+                      </span>
+                    </div>
+                  </div>
+                  <h4 class="title">
+                    <a href="javascript:void(0)">
+                      Mobile app landing design &amp; app maintain
+                      <i class="feather-arrow-up-right"></i>
+                    </a>
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <!-- End Single blog --> */}
         </div>
+        {/* */}
       </div>
     </div>
   );

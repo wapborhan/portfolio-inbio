@@ -1,10 +1,19 @@
 import React from "react";
+import { Typewriter } from "react-simple-typewriter";
 
 export default function Banner() {
+  const handleType = (count) => {
+    // access word count number
+    // console.log(count);
+  };
+
+  const handleDone = () => {
+    console.log(`Done after 5 loops!`);
+  };
   return (
     <section
       id="home"
-      className="slider-style-5 rn-section-gap pb--110 align-items-center with-particles"
+      className="slider-style-5  pb--110 align-items-center with-particles"
     >
       <div id="particles-js">
         {/* <canvas
@@ -18,24 +27,35 @@ export default function Banner() {
         <div className="row">
           <div className="col-lg-12">
             <div className="banner-inner">
-              <div className="thumbnail gradient-border gradient-animation">
+              <div className="thumbnail gradient-border havatar gradient-animationz">
                 <img
                   id="border"
-                  className="gradient-border"
-                  src="assets/images/slider/banner-06.png"
+                  className="gradient-border image gardnt"
+                  src="banner.jpg"
                   alt=""
                 />
+                <span className="gradient-borders"></span>
               </div>
-              <h1>Al-Amin Bali</h1>
+              <h1>Borhan Uddin</h1>
               {/* <!-- type headline start--> */}
               <span className="cd-headline clip is-full-width">
-                {/* <span>I am a</span> */}
-                {/* <!-- ROTATING TEXT --> */}
-                {/* <span className="cd-words-wrapper" style="width: 166.275px;">
-                  <b className="is-hidden">Lawyer.</b>
-                  <b className="is-hidden">Consulter.</b>
-                  <b className="is-visible">Developer.</b>
-                </span> */}
+                <span className="cd-words-wrapper">
+                  <Typewriter
+                    words={[
+                      "Front-End Developer.",
+                      "Wordpress Developer.",
+                      "App Developer.",
+                    ]}
+                    loop={true}
+                    cursor
+                    cursorStyle="|"
+                    typeSpeed={70}
+                    deleteSpeed={50}
+                    delaySpeed={1000}
+                    onLoopDone={handleDone}
+                    onType={handleType}
+                  />
+                </span>
               </span>
               {/* <!-- type headline end --> */}
               <div className="button-area">
