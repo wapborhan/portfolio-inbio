@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./pages/header/Header";
 import {
+  Banner,
   Info,
   Services,
   Portfolio,
@@ -18,11 +19,11 @@ export default function MainComponent() {
     <>
       <Header />
       <main className="page-wrapper-two">
+        <Banner />
         <Info />
         <Services />
         <Portfolio />
         <Resume />
-
         <Blog />
         <Testimonials />
         <Contact />
