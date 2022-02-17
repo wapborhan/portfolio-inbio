@@ -1,10 +1,11 @@
 import React from "react";
 import {
   FiHome,
+  FiUser,
   FiBriefcase,
   FiLayers,
   FiUsers,
-  FiShoppingCart,
+  // FiShoppingCart,
   FiImage,
   FiMessageSquare,
   FiMessageCircle,
@@ -30,6 +31,15 @@ export default function SideBar() {
               </a>
             </li>
             <li className="nav-item">
+              <a className="nav-link smoth-animation-two" href="#about">
+                {" "}
+                <i>
+                  <FiUser />
+                </i>
+                About{" "}
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link smoth-animation-two" href="#features">
                 {" "}
                 <i>
@@ -51,7 +61,7 @@ export default function SideBar() {
                 <i>
                   <FiUsers />
                 </i>
-                Resume
+                Skils
               </a>
             </li>
             {/* <li className="nav-item">

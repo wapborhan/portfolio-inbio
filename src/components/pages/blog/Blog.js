@@ -20,44 +20,44 @@ function Blog() {
             </div>
           </div>
         </div>
-        <div class="row row--25 mt--30 mt_md--10 mt_sm--10">
+        <div className="row row--25 mt--30 mt_md--10 mt_sm--10">
           {/* <!-- Start Single blog --> */}
           <div
             data-aos="fade-up"
             data-aos-duration="500"
             data-aos-delay="400"
             data-aos-once="true"
-            class="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 aos-init aos-animate"
+            className="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 aos-init aos-animate"
           >
             <div
-              class="rn-blog"
+              className="rn-blog"
               data-toggle="modal"
               data-target="#exampleModalCenters"
             >
-              <div class="inner">
-                <div class="thumbnail">
-                  <a href="javascript:void(0)">
+              <div className="inner">
+                <div className="thumbnail">
+                  <a href=" ">
                     <img
                       src="images/blog.jpg"
                       alt="Personal Portfolio Images"
                     />
                   </a>
                 </div>
-                <div class="content">
-                  <div class="category-info">
-                    <div class="category-list">
-                      <a href="javascript:void(0)">Canada</a>
+                <div className="content">
+                  <div className="category-info">
+                    <div className="category-list">
+                      <a href=" ">Canada</a>
                     </div>
-                    <div class="meta">
+                    <div className="meta">
                       <span>
-                        <i class="feather-clock"></i> 2 min read
+                        <i className="feather-clock"></i> 2 min read
                       </span>
                     </div>
                   </div>
-                  <h4 class="title">
-                    <a href="javascript:void(0)">
+                  <h4 className="title">
+                    <a href=" ">
                       T-shirt design is the part of design
-                      <i class="feather-arrow-up-right"></i>
+                      <i className="feather-arrow-up-right"></i>
                     </a>
                   </h4>
                 </div>
@@ -72,37 +72,37 @@ function Blog() {
             data-aos-duration="500"
             data-aos-delay="600"
             data-aos-once="true"
-            class="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 aos-init aos-animate"
+            className="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 aos-init aos-animate"
           >
             <div
-              class="rn-blog"
+              className="rn-blog"
               data-toggle="modal"
               data-target="#exampleModalCenters"
             >
-              <div class="inner">
-                <div class="thumbnail">
-                  <a href="javascript:void(0)">
+              <div className="inner">
+                <div className="thumbnail">
+                  <a href=" ">
                     <img
                       src="images/blog.jpg"
                       alt="Personal Portfolio Images"
                     />
                   </a>
                 </div>
-                <div class="content">
-                  <div class="category-info">
-                    <div class="category-list">
-                      <a href="javascript:void(0)">Development</a>
+                <div className="content">
+                  <div className="category-info">
+                    <div className="category-list">
+                      <a href=" ">Development</a>
                     </div>
-                    <div class="meta">
+                    <div className="meta">
                       <span>
-                        <i class="feather-clock"></i> 2 hour read
+                        <i className="feather-clock"></i> 2 hour read
                       </span>
                     </div>
                   </div>
-                  <h4 class="title">
-                    <a href="javascript:void(0)">
+                  <h4 className="title">
+                    <a href=" ">
                       The services provide for design{" "}
-                      <i class="feather-arrow-up-right"></i>
+                      <i className="feather-arrow-up-right"></i>
                     </a>
                   </h4>
                 </div>
@@ -117,37 +117,37 @@ function Blog() {
             data-aos-duration="500"
             data-aos-delay="800"
             data-aos-once="true"
-            class="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 aos-init aos-animate"
+            className="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 aos-init aos-animate"
           >
             <div
-              class="rn-blog"
+              className="rn-blog"
               data-toggle="modal"
               data-target="#exampleModalCenters"
             >
-              <div class="inner">
-                <div class="thumbnail">
-                  <a href="javascript:void(0)">
+              <div className="inner">
+                <div className="thumbnail">
+                  <a href=" ">
                     <img
                       src="images/blog.jpg"
                       alt="Personal Portfolio Images"
                     />
                   </a>
                 </div>
-                <div class="content">
-                  <div class="category-info">
-                    <div class="category-list">
-                      <a href="javascript:void(0)">Application</a>
+                <div className="content">
+                  <div className="category-info">
+                    <div className="category-list">
+                      <a href=" ">Application</a>
                     </div>
-                    <div class="meta">
+                    <div className="meta">
                       <span>
-                        <i class="feather-clock"></i> 5 min read
+                        <i className="feather-clock"></i> 5 min read
                       </span>
                     </div>
                   </div>
-                  <h4 class="title">
-                    <a href="javascript:void(0)">
+                  <h4 className="title">
+                    <a href=" ">
                       Mobile app landing design &amp; app maintain
-                      <i class="feather-arrow-up-right"></i>
+                      <i className="feather-arrow-up-right"></i>
                     </a>
                   </h4>
                 </div>
