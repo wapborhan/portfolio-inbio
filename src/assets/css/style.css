@@ -12842,7 +12842,7 @@ a:before {
 }
 .bs-tooltip-auto[data-popper-placement^=top] .tooltip-arrow::before, .bs-tooltip-top .tooltip-arrow::before {
  
-  border-top-color: #ff014f !important;
+  border-top-color: rgb(255, 1, 79) !important;
 }
 
 .tooltip.in {
