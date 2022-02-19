@@ -1,25 +1,51 @@
-import React from "react";
+import React, { useLayoutEffect, useEffect, useState, useRef } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 
-export default function MobileMenu() {
-  constructor(props) {
-    super(props);
-    this.addActiveClass= this.addActiveClass.bind(this);
-    this.state = {
-        active: false,
-    };
-}
-toggleClass() {
-    const currentState = this.state.active;
-    this.setState({ active: !currentState });
-};
+const MobileMenu = () => {
+  const [isOpen, setIsopen] = useState(false);
 
+  const MobileMenu = () => {
+    isOpen === true ? setIsopen(false) : setIsopen(true);
+  };
+
+  const ref = useRef();
+  let [check, setCheck] = useState(true);
+  const sticky = useStickyHeader(50);
+  const headerClasses = `header-style-2 d-block d-xl-none ${
+    sticky && check ? "sticky" : ""
+  }`;
+  const { clientHeight } = ref;
+
+  const checkChange = (value) => {
+    setCheck(value);
+  };
+
+  function useStickyHeader(offset = 0) {
+    const [stick, setStick] = useState(false);
+
+    const handleScroll = () => {
+      setStick(window.scrollY > offset);
+    };
+
+    useLayoutEffect(() => {
+      window.addEventListener("scroll", handleScroll);
+
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    });
+
+    return stick;
+  }
 
   return (
     <div>
-      {" "}
       {/* <!-- Header Mobile Bar  --> */}
-      <div className="header-style-2 d-block d-xl-none">
+      <div
+        ref={ref}
+        className={headerClasses}
+        // className="header-style-2 d-block d-xl-none"
+      >
         <div className="row align-items-center">
           <div className="col-6">
             <div className="logo">
@@ -30,7 +56,7 @@ toggleClass() {
           </div>
           <div className="col-6">
             <div className="header-right text-right">
-              <div className="hamberger-menu">
+              <div className="hamberger-menu" onClick={MobileMenu}>
                 <i id="menuBtn" className="feather-menu humberger-menu">
                   <FiMenu />
                 </i>
@@ -41,7 +67,10 @@ toggleClass() {
       </div>
       {/* <!-- Header Mobile Bar  --> */}
       {/* <!-- Start Popup Mobile Menu  --> */}
-      <div className="popup-mobile-menu">
+      <div
+        className={`popup-mobile-menu ${isOpen == true ? "menu-open" : ""}`}
+        onClick={MobileMenu}
+      >
         <div className="inner">
           <div className="menu-top">
             <div className="menu-header">
@@ -58,7 +87,7 @@ toggleClass() {
                   <p className="discription">WapBorhan</p>
                 </div>
               </div>
-              <div className="close-button">
+              <div className="close-button" onClick={MobileMenu}>
                 <button className="close-menu-activation close">
                   <i data-feather="x">
                     <FiX />
@@ -185,7 +214,10 @@ toggleClass() {
           </div>
         </div>
       </div>
+
       {/* <!-- End Popup Mobile Menu  --> */}
     </div>
   );
-}
+};
+
+export default MobileMenu;
