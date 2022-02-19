@@ -15356,15 +15356,8 @@ div#home {
   }
 }
 
-.rn-content-wrapper .header-right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+ .header-right {
+  text-align: right;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
