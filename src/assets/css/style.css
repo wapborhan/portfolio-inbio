@@ -12362,7 +12362,7 @@ body.template-color-1 {
 
 @media only screen and (max-width: 479px) {
   .popup-mobile-menu .inner {
-    width: 310px;
+    width: 270px;
     padding: 10px;
   }
 }
@@ -12919,9 +12919,11 @@ a.btn.card-btn:hover {
   background: var(--color-primary);
   color: #fff;
 }
+
 p.tags span {
   margin-right: 5px;
 }
+
 .rn-portfolio .inner .content .tags span {
   font-size: 10px;
   padding: 5px;
@@ -15008,7 +15010,19 @@ div#home {
 
 @media only screen and (max-width: 767px) {
   .slider-style-5 {
-    padding-top: 100px;
+    padding-top: 135px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .social-share-style-1 {
+    margin-top: 60px !important;
+  }
+}
+
+@media only screen and (max-width: 1040px) {
+  .slider-style-5 {
+    padding-top: 135px;
   }
 }
 
@@ -15086,7 +15100,7 @@ div#home {
 }
 
 .slider-style-5 .cd-headline span {
-  font-size: 30px;
+  font-size: 28px;
   color: var(--color-primary);
 }
 
@@ -16692,6 +16706,37 @@ div#featured-project-carousel {
   }
 }
 
+
+
+.progress {
+  background-color: #d8d8d8;
+  border-radius: 20px;
+  position: relative;
+  margin: 15px 0;
+  height: 30px;
+  /* width: 300px; */
+}
+
+.progress-miter {
+  background: linear-gradient(to left, #F2709C, #FF9472);
+  box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;
+  border-radius: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 0;
+  /* opacity:  0;  */
+  transition: 1s ease 0.3s;
+  position: relative;
+}
+
+.progress-done {
+  position: absolute;
+  top: -25px;
+}
+
 .progress-charts {
   overflow: hidden;
 }
@@ -16735,7 +16780,10 @@ div#featured-project-carousel {
   position: relative;
   border-radius: 14px;
   background: #f02981;
-  background: linear-gradient(145deg, #f02981 0%, #c81901 100%);
+  width: 0;
+  background: linear-gradient(to left, #F2709C, #FF9472);
+  box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;
+  transition: 1s ease 0.3s;
 }
 
 .progress-charts .progress .progress-bar span.percent-label {
@@ -16748,6 +16796,7 @@ div#featured-project-carousel {
   text-transform: uppercase;
   letter-spacing: 2px;
   opacity: 0.9;
+  transition: 1s ease 0.3s;
 }
 
 .rn-testimonial {
@@ -22139,9 +22188,9 @@ body.white-version {
   box-shadow: none;
 }
 
-.white-version .rn-resume-area .progress-charts .progress .progress-bar {
+/* .white-version .rn-resume-area .progress-charts .progress .progress-bar {
   background: linear-gradient(145deg, #fff 0%, var(--color-primary) 100%);
-}
+} */
 
 .white-version .rn-resume-area .progress-charts .progress .progress-bar span.percent-label {
   color: var(--color-body-white);
@@ -22158,9 +22207,9 @@ body.white-version {
   box-shadow: none;
 }
 
-.white-version .progress-charts .progress .progress-bar {
+/* .white-version .progress-charts .progress .progress-bar {
   background: linear-gradient(145deg, #fff 0%, var(--color-primary) 100%);
-}
+} */
 
 .white-version .progress-charts .progress .progress-bar span.percent-label {
   color: var(--color-body-white);
@@ -22537,6 +22586,10 @@ body.white-version {
 
 .white-version .popup-mobile-menu .inner .content .primary-menu .nav-item a {
   color: var(--color-heading-wv);
+}
+
+.white-version .popup-mobile-menu .inner .content .primary-menu .nav-item a i {
+  margin-right: 15px;
 }
 
 .white-version .popup-mobile-menu .inner .content .social-share-style-1 span.title {

@@ -1,5 +1,18 @@
 import React, { useLayoutEffect, useState, useRef } from "react";
-import { FiMenu, FiX } from "react-icons/fi";
+import {
+  FiHome,
+  FiUser,
+  FiBriefcase,
+  FiLayers,
+  FiUsers,
+  // FiShoppingCart,
+  FiImage,
+  FiMessageSquare,
+  FiMessageCircle,
+  FiMenu,
+  FiX,
+} from "react-icons/fi";
+import { Link } from "react-scroll";
 
 const MobileMenu = () => {
   const [isOpen, setIsopen] = useState(false);
@@ -67,10 +80,7 @@ const MobileMenu = () => {
       </div>
       {/* <!-- Header Mobile Bar  --> */}
       {/* <!-- Start Popup Mobile Menu  --> */}
-      <div
-        className={`popup-mobile-menu ${isOpen == true ? "menu-open" : ""}`}
-        onClick={MobileMenu}
-      >
+      <div className={`popup-mobile-menu ${isOpen == true ? "menu-open" : ""}`}>
         <div className="inner">
           <div className="menu-top">
             <div className="menu-header">
@@ -99,44 +109,132 @@ const MobileMenu = () => {
           <div className="content">
             <ul className="primary-menu nav nav-pills">
               <li className="nav-item">
-                <a className="nav-link smoth-animation-two active" href="#home">
+                <Link
+                  className="nav-link smoth-animation-two"
+                  activeClass="active"
+                  to="home"
+                  spy={true}
+                  onClick={MobileMenu}
+                  // smooth={true}
+                >
+                  <i>
+                    <FiHome />
+                  </i>
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link smoth-animation-two" href="#features">
+                <Link
+                  className="nav-link smoth-animation-two"
+                  activeClass="active"
+                  to="about"
+                  spy={true}
+                  onClick={MobileMenu}
+                  // smooth={true}
+                >
+                  <i>
+                    <FiUser />
+                  </i>
+                  About
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link smoth-animation-two"
+                  activeClass="active"
+                  to="features"
+                  spy={true}
+                  onClick={MobileMenu}
+                  // smooth={true}
+                >
+                  <i>
+                    <FiBriefcase />
+                  </i>
                   Features
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link smoth-animation-two" href="#portfolio">
+                <Link
+                  className="nav-link smoth-animation-two"
+                  activeClass="active"
+                  to="portfolio"
+                  spy={true}
+                  onClick={MobileMenu}
+                  // smooth={true}
+                >
+                  <i>
+                    <FiLayers />
+                  </i>
                   Portfolio
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link smoth-animation-two" href="#resume">
-                  Resume
-                </a>
+                <Link
+                  className="nav-link smoth-animation-two"
+                  activeClass="active"
+                  to="resume"
+                  spy={true}
+                  onClick={MobileMenu}
+                  // smooth={true}
+                >
+                  <i>
+                    <FiUsers />
+                  </i>
+                  Skils
+                </Link>
               </li>
+              {/* <li className="nav-item">
+              <a className="nav-link smoth-animation-two" href="#pricing">
+                <i>
+                  <FiShoppingCart />
+                </i>
+                Pricing
+              </a>
+            </li> */}
               <li className="nav-item">
-                <a className="nav-link smoth-animation-two" href="#clients">
-                  Clients
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link smoth-animation-two" href="#pricing">
-                  Pricing
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link smoth-animation-two" href="#blog">
+                <Link
+                  className="nav-link smoth-animation-two"
+                  activeClass="active"
+                  to="blog"
+                  spy={true}
+                  onClick={MobileMenu}
+                  // smooth={true}
+                >
+                  <i>
+                    <FiImage />
+                  </i>
                   blog
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link smoth-animation-two" href="#contacts">
+                <Link
+                  className="nav-link smoth-animation-two"
+                  activeClass="active"
+                  to="testimonial"
+                  spy={true}
+                  onClick={MobileMenu}
+                  // smooth={true}
+                >
+                  <i>
+                    <FiMessageSquare />
+                  </i>
+                  Testimonial
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link smoth-animation-two"
+                  activeClass="active"
+                  to="contacts"
+                  spy={true}
+                  onClick={MobileMenu}
+                  // smooth={true}
+                >
+                  <i>
+                    <FiMessageCircle />
+                  </i>
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
             {/* <!-- social sharea area --> */}
