@@ -12137,8 +12137,11 @@ body.template-color-1 {
 
 .left-header-style #sideNavs .primary-menu li {
   margin: 0;
+  cursor: pointer;
 }
-
+.demo-top h4.title {
+  color: var(--color-primary);
+}
 .left-header-style #sideNavs .primary-menu li a {
   display: -webkit-box;
   display: -ms-flexbox;

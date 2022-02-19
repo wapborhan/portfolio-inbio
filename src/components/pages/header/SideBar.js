@@ -10,6 +10,7 @@ import {
   FiMessageSquare,
   FiMessageCircle,
 } from "react-icons/fi";
+import { Link } from "react-scroll";
 
 export default function SideBar() {
   return (
@@ -23,46 +24,74 @@ export default function SideBar() {
         <nav id="sideNavs" className="mainmenu-nav navbar-example2">
           <ul className="primary-menu nav nav-pills">
             <li className="nav-item">
-              <a className="nav-link smoth-animation-two active" href="#home">
+              <Link
+                className="nav-link smoth-animation-two"
+                activeClass="active"
+                to="home"
+                spy={true}
+                // smooth={true}
+              >
                 <i>
                   <FiHome />
-                </i>{" "}
+                </i>
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link smoth-animation-two" href="#about">
-                {" "}
+              <Link
+                className="nav-link smoth-animation-two"
+                activeClass="active"
+                to="about"
+                spy={true}
+                // smooth={true}
+              >
                 <i>
                   <FiUser />
                 </i>
-                About{" "}
-              </a>
+                About
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link smoth-animation-two" href="#features">
-                {" "}
+              <Link
+                className="nav-link smoth-animation-two"
+                activeClass="active"
+                to="features"
+                spy={true}
+                // smooth={true}
+              >
                 <i>
                   <FiBriefcase />
                 </i>
                 Features
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link smoth-animation-two" href="#portfolio">
+              <Link
+                className="nav-link smoth-animation-two"
+                activeClass="active"
+                to="portfolio"
+                spy={true}
+                // smooth={true}
+              >
                 <i>
                   <FiLayers />
                 </i>
                 Portfolio
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link smoth-animation-two" href="#resume">
+              <Link
+                className="nav-link smoth-animation-two"
+                activeClass="active"
+                to="resume"
+                spy={true}
+                // smooth={true}
+              >
                 <i>
                   <FiUsers />
                 </i>
                 Skils
-              </a>
+              </Link>
             </li>
             {/* <li className="nav-item">
               <a className="nav-link smoth-animation-two" href="#pricing">
@@ -73,28 +102,46 @@ export default function SideBar() {
               </a>
             </li> */}
             <li className="nav-item">
-              <a className="nav-link smoth-animation-two" href="#blog">
+              <Link
+                className="nav-link smoth-animation-two"
+                activeClass="active"
+                to="blog"
+                spy={true}
+                // smooth={true}
+              >
                 <i>
                   <FiImage />
                 </i>
                 blog
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link smoth-animation-two" href="#testimonial">
+              <Link
+                className="nav-link smoth-animation-two"
+                activeClass="active"
+                to="testimonial"
+                spy={true}
+                // smooth={true}
+              >
                 <i>
                   <FiMessageSquare />
                 </i>
                 Testimonial
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link smoth-animation-two" href="#contacts">
+              <Link
+                className="nav-link smoth-animation-two"
+                activeClass="active"
+                to="contacts"
+                spy={true}
+                // smooth={true}
+              >
                 <i>
                   <FiMessageCircle />
                 </i>
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>

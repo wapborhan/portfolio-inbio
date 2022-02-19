@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, useEffect, useState, useRef } from "react";
+import React, { useLayoutEffect, useState, useRef } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 
 const MobileMenu = () => {
