@@ -1,22 +1,8 @@
 import React from "react";
 import Skils from "./Skils";
 import { FiUser } from "react-icons/fi";
-import { Typewriter } from "react-simple-typewriter";
 
 class Info extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
-  handleType = (count) => {
-    // access word count number
-    // console.log(count);
-  };
-
-  handleDone = () => {
-    console.log(`Done after 5 loops!`);
-  };
-
   render() {
     return (
       <div id="about" className="rn-slide-area">
@@ -40,31 +26,12 @@ class Info extends React.Component {
                               Hi, I am <span>Borhan</span>
                             </h2>
                           </div>
-
-                          {/* <!-- type headline start--> */}
-                          <span className="cd-headline clip is-full-width">
-                            <span className="cd-words-wrapper">
-                              <Typewriter
-                                words={[
-                                  "Front-End Developer.",
-                                  "Wordpress Developer.",
-                                  "App Developer.",
-                                ]}
-                                loop={true}
-                                cursor
-                                cursorStyle="|"
-                                typeSpeed={70}
-                                deleteSpeed={50}
-                                delaySpeed={1000}
-                                onLoopDone={this.handleDone}
-                                onType={this.handleType}
-                              />
-                            </span>
-                          </span>
-                          {/* <!-- type headline end --> */}
                           <p className="disc">
-                            Develop a passion for learning. If you do, you will
-                            never cease to grow.
+                            I am a web-developer. I like working with
+                            JavaScript. Therefore I use React JS to make
+                            stunning UI. I am ready to work with honesty,
+                            dedication, sincerity, and confidence to adapt to
+                            any situation to achieve my purpose.
                           </p>
                         </div>
                         <div className="user-info-footer">

@@ -1,9 +1,9 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
+import BannerSocial from "./BannerSocial";
 
 export default function Banner() {
   const handleType = (count) => {
-    // access word count number
     // console.log(count);
   };
 
@@ -15,14 +15,7 @@ export default function Banner() {
       id="home"
       className="slider-style-5  pb--110 align-items-center with-particles"
     >
-      <div id="particles-js">
-        {/* <canvas
-          className="particles-js-canvas-el"
-          style="width: 100%; height: 100%;"
-          width="1537"
-          height="955"
-        ></canvas> */}
-      </div>
+      <div id="particles-js"></div>
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
@@ -59,9 +52,7 @@ export default function Banner() {
               </span>
               {/* <!-- type headline end --> */}
               <div className="button-area">
-                <a className="rn-btn" href="#contacts">
-                  <span>CONTACT ME</span>
-                </a>
+                <BannerSocial />
               </div>
             </div>
           </div>

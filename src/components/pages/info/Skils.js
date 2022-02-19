@@ -42,12 +42,12 @@ export default function Skils() {
                   <img src="images/icons/js.png" alt="Icons Images" />
                 </li>
               </LightTooltip>
-              <LightTooltip title="REACT JS" placement="top" arrow>
+              <LightTooltip title="REACT" placement="top" arrow>
                 <li>
                   <img src="images/icons/react.png" alt="Icons Images" />
                 </li>
               </LightTooltip>
-              <LightTooltip title="VUE JS" placement="top" arrow>
+              <LightTooltip title="VUE" placement="top" arrow>
                 <li>
                   <img src="images/icons/vue.png" alt="Icons Images" />
                 </li>
@@ -67,76 +67,116 @@ export default function Skils() {
           <div className="skill-share-inner skill-share-inner-width margin-top-25">
             <span className="title">Secondary Skills on</span>
             <ul className="skill-share d-flex liststyle">
-              <li>
-                <img src="images/icons/nodejs.png" alt="Icons" />
-              </li>
-              <li>
-                <img src="images/icons/mongodb.png" alt="Icons" />
-              </li>
-              <li>
-                <img src="images/icons/materialui.png" alt="Icons" />
-              </li>
-              <li>
-                <img src="images/icons/bootstrap.png" alt="Icons" />
-              </li>
-              <li>
-                <img src="images/icons/sass.png" alt="Icons" />
-              </li>
-              <li>
-                <img src="images/icons/jquary.png" alt="Icons" />
-              </li>
-              <li>
-                <img src="images/icons/wordpress.png" alt="Icons" />
-              </li>
+              <LightTooltip title="NODE JS" placement="top" arrow>
+                <li>
+                  <img src="images/icons/nodejs.png" alt="Icons" />
+                </li>
+              </LightTooltip>
+              <LightTooltip title="MONGODB" placement="top" arrow>
+                <li>
+                  <img src="images/icons/mongodb.png" alt="Icons" />
+                </li>
+              </LightTooltip>
+              <LightTooltip title="MATERIAL UI" placement="top" arrow>
+                <li>
+                  <img src="images/icons/materialui.png" alt="Icons" />
+                </li>
+              </LightTooltip>
+              <LightTooltip title="BOOTSTRAP" placement="top" arrow>
+                <li>
+                  <img src="images/icons/bootstrap.png" alt="Icons" />
+                </li>
+              </LightTooltip>
+              <LightTooltip title="SASS" placement="top" arrow>
+                <li>
+                  <img src="images/icons/sass.png" alt="Icons" />
+                </li>
+              </LightTooltip>
+              <LightTooltip title="JQUARY" placement="top" arrow>
+                <li>
+                  <img src="images/icons/jquary.png" alt="Icons" />
+                </li>
+              </LightTooltip>
+              <LightTooltip title="WORDPRESS" placement="top" arrow>
+                <li>
+                  <img src="images/icons/wordpress.png" alt="Icons" />
+                </li>
+              </LightTooltip>
             </ul>
           </div>
           <div className="skill-share-inner skill-share-inner-width margin-top-25">
             <span className="title">Tools I Used</span>
             <ul className="skill-share d-flex liststyle">
-              <li>
-                <img src="images/icons/vscode.png" alt="Icons" />
-              </li>
-              <li>
-                <img src="images/icons/brackets.png" alt="Icons" />
-              </li>
-              <li>
-                <img src="images/icons/github.png" alt="Icons" />
-              </li>
-              <li>
-                <img src="images/icons/git.png" alt="Icons" />
-              </li>
-              <li>
-                <img src="images/icons/terminal.png" alt="Icons" />
-              </li>
-              <li>
-                <img src="images/icons/xaamp.png" alt="Icons" />
-              </li>
+              <LightTooltip title="VSCODE" placement="top" arrow>
+                <li>
+                  <img src="images/icons/vscode.png" alt="Icons" />
+                </li>
+              </LightTooltip>
+              <LightTooltip title="BRACKETS" placement="top" arrow>
+                <li>
+                  <img src="images/icons/brackets.png" alt="Icons" />
+                </li>
+              </LightTooltip>
+              <LightTooltip title="GITHUB" placement="top" arrow>
+                <li>
+                  <img src="images/icons/github.png" alt="Icons" />
+                </li>
+              </LightTooltip>
+              <LightTooltip title="GIT" placement="top" arrow>
+                <li>
+                  <img src="images/icons/git.png" alt="Icons" />
+                </li>
+              </LightTooltip>
+              <LightTooltip title="TERMINAL" placement="top" arrow>
+                <li>
+                  <img src="images/icons/terminal.png" alt="Icons" />
+                </li>
+              </LightTooltip>
+              <LightTooltip title="XAAMP" placement="top" arrow>
+                <li>
+                  <img src="images/icons/xaamp.png" alt="Icons" />
+                </li>
+              </LightTooltip>
             </ul>
           </div>
           <div className="skill-share-inner skill-share-inner-width margin-top-25">
             <span className="title">Graphical Skills</span>
             <ul className="skill-share d-flex liststyle">
-              <li>
-                <img src="images/icons/ps.png" alt="Icons" />
-              </li>
-              <li>
-                <img src="images/icons/xd.png" alt="Icons" />
-              </li>
-              <li>
-                <img src="images/icons/figma.png" alt="Icons" />
-              </li>
-              <li>
-                <img src="images/icons/sketch.png" alt="Icons" />
-              </li>
-              <li>
-                <img src="images/icons/illustrator.png" alt="Icons" />
-              </li>
-              <li>
-                <img src="images/icons/pr.png" alt="Icons" />
-              </li>{" "}
-              <li>
-                <img src="images/icons/canva.png" alt="Icons" />
-              </li>
+              <LightTooltip title="PHOTOSHOP" placement="top" arrow>
+                <li>
+                  <img src="images/icons/ps.png" alt="Icons" />
+                </li>
+              </LightTooltip>
+              <LightTooltip title="ADOBE XD" placement="top" arrow>
+                <li>
+                  <img src="images/icons/xd.png" alt="Icons" />
+                </li>
+              </LightTooltip>
+              <LightTooltip title="FIGMA" placement="top" arrow>
+                <li>
+                  <img src="images/icons/figma.png" alt="Icons" />
+                </li>
+              </LightTooltip>
+              <LightTooltip title="SKETCH" placement="top" arrow>
+                <li>
+                  <img src="images/icons/sketch.png" alt="Icons" />
+                </li>
+              </LightTooltip>
+              <LightTooltip title="ILLUSTRATOR" placement="top" arrow>
+                <li>
+                  <img src="images/icons/illustrator.png" alt="Icons" />
+                </li>
+              </LightTooltip>
+              <LightTooltip title="ADOBE PRIME" placement="top" arrow>
+                <li>
+                  <img src="images/icons/pr.png" alt="Icons" />
+                </li>
+              </LightTooltip>
+              <LightTooltip title="CANVA" placement="top" arrow>
+                <li>
+                  <img src="images/icons/canva.png" alt="Icons" />
+                </li>
+              </LightTooltip>
             </ul>
           </div>
         </div>
