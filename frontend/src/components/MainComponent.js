@@ -24,9 +24,9 @@ export default function MainComponent() {
         <Info />
         <Services />
         <Portfolio />
-        <Resume />
+        {/* <Resume /> */}
         <Blog />
-        <Code />
+        {/* <Code /> */}
         <Testimonials />
         <Contact />
         <Footer />

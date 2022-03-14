@@ -1,5 +1,6 @@
 import React from "react";
-import BackEndSkill from "./BackEndSkill";
+// import BackEndSkill from "./BackEndSkill";
+import CodingActivity from "./CodingActivity";
 import FrontEndSkill from "./FrontEndSkill";
 
 function Resume() {
@@ -33,7 +34,8 @@ function Resume() {
                     </div>
 
                     <div className="col-lg-6 col-md-6 col-12">
-                      <BackEndSkill />
+                      {/* <BackEndSkill /> */}
+                      <CodingActivity />
                     </div>
                   </div>
                 </div>
