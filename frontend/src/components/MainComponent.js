@@ -10,6 +10,7 @@ import {
   Testimonials,
   Contact,
   Footer,
+  Code,
 } from "./pages/AllPages";
 import RightDemo from "./RightDemo.js";
 import BacktoTop from "./BacktoTop.js";
@@ -25,6 +26,7 @@ export default function MainComponent() {
         <Portfolio />
         <Resume />
         <Blog />
+        <Code />
         <Testimonials />
         <Contact />
         <Footer />
