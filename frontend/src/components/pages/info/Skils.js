@@ -25,7 +25,7 @@ export default function Skils() {
           <h5 className="title">About My Skill</h5>
           <div className="skill-share-inner ">
             <span className="title">Primary Skills on</span>
-            <ul className="skill-share d-flex liststyle justify-content-center">
+            <ul className="skill-share d-flex liststyle justify-content-left">
               <LightTooltip title="HTML" placement="top" arrow>
                 <li>
                   <img src="images/icons/html.png" alt="Icons Images" />{" "}
@@ -52,7 +52,7 @@ export default function Skils() {
                   <img src="images/icons/vue.png" alt="Icons Images" />
                 </li>
               </LightTooltip>
-              <LightTooltip title="TYPESCRIPT" placement="top" arrow>
+              {/* <LightTooltip title="TYPESCRIPT" placement="top" arrow>
                 <li>
                   <img src="images/icons/ts.png" alt="Icons Images" />
                 </li>
@@ -61,7 +61,7 @@ export default function Skils() {
                 <li>
                   <img src="images/icons/angular.png" alt="Icons Images" />
                 </li>
-              </LightTooltip>
+              </LightTooltip> */}
             </ul>
           </div>
           <div className="skill-share-inner skill-share-inner-width margin-top-25">
@@ -77,11 +77,11 @@ export default function Skils() {
                   <img src="images/icons/mongodb.png" alt="Icons" />
                 </li>
               </LightTooltip>
-              <LightTooltip title="MATERIAL UI" placement="top" arrow>
+              {/* <LightTooltip title="MATERIAL UI" placement="top" arrow>
                 <li>
                   <img src="images/icons/materialui.png" alt="Icons" />
                 </li>
-              </LightTooltip>
+              </LightTooltip> */}
               <LightTooltip title="BOOTSTRAP" placement="top" arrow>
                 <li>
                   <img src="images/icons/bootstrap.png" alt="Icons" />
@@ -167,11 +167,7 @@ export default function Skils() {
                   <img src="images/icons/illustrator.png" alt="Icons" />
                 </li>
               </LightTooltip>
-              <LightTooltip title="ADOBE PRIME" placement="top" arrow>
-                <li>
-                  <img src="images/icons/pr.png" alt="Icons" />
-                </li>
-              </LightTooltip>
+
               <LightTooltip title="CANVA" placement="top" arrow>
                 <li>
                   <img src="images/icons/canva.png" alt="Icons" />
