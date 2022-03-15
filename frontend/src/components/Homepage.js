@@ -6,6 +6,7 @@ import {
   Services,
   Portfolio,
   // Resume,
+  Strategy,
   Blog,
   Testimonials,
   Contact,
@@ -25,6 +26,7 @@ export default function HomePage() {
         <Services />
         <Portfolio />
         {/* <Resume /> */}
+        <Strategy />
         <Blog />
         {/* <Code /> */}
         <Testimonials />
