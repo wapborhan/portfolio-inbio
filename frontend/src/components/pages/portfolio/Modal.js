@@ -1,0 +1,75 @@
+import React from "react";
+
+export default function Modal() {
+  return (
+    <div
+      className="modal fade"
+      id="exampleModalCenter-1"
+      tabIndex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div className="modal-dialog modal-dialog-centered" role="document">
+        <div className="modal-content">
+          <div className="modal-header">
+            <button
+              type="button"
+              className="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">
+                <i data-feather="x"></i>
+              </span>
+            </button>
+          </div>
+          <div className="modal-body">
+            <div className="row align-items-center">
+              <div className="col-lg-6">
+                <div className="portfolio-popup-thumbnail">
+                  <div className="image">
+                    <img
+                      className="w-100"
+                      src="assets/images/portfolio/portfolio-01.jpg"
+                      alt="slide"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-6">
+                <div className="text-content">
+                  <h3>
+                    <span>Featured - Design</span> App Design Development.
+                  </h3>
+                  <p className="mb--30">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cupiditate distinctio assumenda explicabo veniam temporibus
+                    eligendi.
+                  </p>
+                  <p>
+                    Consectetur adipisicing elit. Cupiditate distinctio
+                    assumenda. dolorum alias suscipit rerum maiores aliquam
+                    earum odit, nihil culpa quas iusto hic minus!
+                  </p>
+                  <div className="button-group mt--20">
+                    <a href="#" className="rn-btn thumbs-icon">
+                      <span>LIKE THIS</span>
+                      <i data-feather="thumbs-up"></i>
+                    </a>
+                    <a href="#" className="rn-btn">
+                      <span>VIEW PROJECT</span>
+                      <i data-feather="chevron-right"></i>
+                    </a>
+                  </div>
+                </div>
+                {/* <!-- End of .text-content --> */}
+              </div>
+            </div>
+            {/* <!-- End of .row Body--> */}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

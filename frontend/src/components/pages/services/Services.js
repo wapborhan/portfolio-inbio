@@ -6,6 +6,7 @@ import {
   FiBookOpen,
   FiTv,
 } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 function Services() {
   return (
@@ -129,12 +130,12 @@ function Services() {
         </div>
         <div className="row">
           <div className="col-lg-12 mt-5 text-center">
-            <a className="rn-btn" href="more/features/index.html">
+            <Link className="rn-btn" to="/services">
               See More{" "}
               <i className="feather-loader">
                 <FiLoader />
               </i>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

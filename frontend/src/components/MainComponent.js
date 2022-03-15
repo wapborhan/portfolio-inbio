@@ -1,38 +1,15 @@
 import React from "react";
-import Header from "./pages/header/Header";
-import {
-  Banner,
-  Info,
-  Services,
-  Portfolio,
-  Resume,
-  Blog,
-  Testimonials,
-  Contact,
-  Footer,
-  Code,
-} from "./pages/AllPages";
-import RightDemo from "./RightDemo.js";
-import BacktoTop from "./BacktoTop.js";
+import { Routes, Route } from "react-router-dom";
+import HomePage from "./Homepage";
+import RoutePortfolio from "./router/portfolio/RoutePortfolio";
+import RouterServices from "./router/services/RouterServices";
 
 export default function MainComponent() {
   return (
-    <>
-      <Header />
-      <main className="page-wrapper-two">
-        <Banner />
-        <Info />
-        <Services />
-        <Portfolio />
-        {/* <Resume /> */}
-        <Blog />
-        {/* <Code /> */}
-        <Testimonials />
-        <Contact />
-        <Footer />
-        <RightDemo />
-        <BacktoTop />
-      </main>
-    </>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/portfolio" element={<RoutePortfolio />} />
+      <Route path="/services" element={<RouterServices />} />
+    </Routes>
   );
 }

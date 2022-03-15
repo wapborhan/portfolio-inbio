@@ -1,6 +1,6 @@
 import MainComponent from "./components/MainComponent";
 import React, { useEffect } from "react";
-
+import { BrowserRouter } from "react-router-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -11,7 +11,11 @@ function App() {
     Aos.init({ duration: 2000 });
   }, []);
 
-  return <MainComponent />;
+  return (
+    <BrowserRouter>
+      <MainComponent />
+    </BrowserRouter>
+  );
 }
 
 export default App;
