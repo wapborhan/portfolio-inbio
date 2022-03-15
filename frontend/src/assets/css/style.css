@@ -7512,25 +7512,25 @@ input[type=submit]:hover {
 input:-moz-placeholder,
 textarea:-moz-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 input::-moz-placeholder,
 textarea::-moz-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 [data-overlay],
@@ -8070,7 +8070,7 @@ textarea:-ms-input-placeholder {
   color: var(--color-lightn);
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  strokeWidth: 2;
+  stroke-width: 2;
   position: relative;
   z-index: 2;
   width: 20px;
@@ -14141,7 +14141,7 @@ figcaption {
   color: var(--color-lightn);
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  strokeWidth: 2;
+  stroke-width: 2;
   position: relative;
   z-index: 2;
   width: 20px;
@@ -14521,7 +14521,7 @@ figcaption {
 
 @media only screen and (max-width: 479px) {
   .slide.slider-style-3 .slider-wrapper .slider-info .user-info-top .user-info-header .title {
-    font-size: 30px;
+    font-size: 28px;
     line-height: 40px;
   }
 
@@ -15615,7 +15615,7 @@ div#home {
   width: 50px;
   height: auto;
   color: var(--color-primary);
-  strokeWidth: 1 !important;
+  stroke-width: 1 !important;
 }
 
 .rn-service .inner .content .title {
@@ -18735,7 +18735,7 @@ div#featured-project-carousel {
 }
 
 .contact-about-area .social-area .social-icone a svg {
-  strokeWidth: 2;
+  stroke-width: 2;
   width: 20px;
   color: var(--color-lightn);
   -webkit-transition: var(--transition);
@@ -19572,7 +19572,7 @@ div#featured-project-carousel {
 .service-card-one .inner svg {
   width: 55px;
   height: auto;
-  strokeWidth: 1px;
+  stroke-width: 1px;
   color: var(--color-primary);
   margin-bottom: 25px;
 }
@@ -19856,7 +19856,7 @@ div#featured-project-carousel {
   color: var(--color-lightn);
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  strokeWidth: 2;
+  stroke-width: 2;
   position: relative;
   z-index: 2;
   width: 20px;

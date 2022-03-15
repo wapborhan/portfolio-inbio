@@ -61,8 +61,12 @@ const useStyles = makeStyles((theme) => ({
     position: "fixed",
     bottom: "30px !important",
     right: "30px !important",
-    backgroundColor: "#212428 !important",
+    backgroundColor: "#ff014f !important",
+    height: "50px",
+    width: "50px",
     color: "#fff !important",
+    fontSize: "30px",
+    boxShadow: "0 0 15px -4px #444444b8",
     "&:hover, &.Mui-focusVisible": {
       transition: "0.3s",
       color: "#397BA6",
@@ -78,17 +82,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-//     bottom: 50px;
-//     right: 30px;
-//     cursor: pointer;
-//     z-index: 999;
-//     width: 50px;
-//     height: 50px;
-//     line-height: 46px;
-//     border-radius: 50%;
-//     background-color: #212428;
-//     text-align: center;
 //     z-index: 999 !important;
-//     box-shadow: var(--shadow-1);
+//     box-shadow: ;
 
 export default BacktoTop;

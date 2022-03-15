@@ -38,3 +38,7 @@
     -webkit-transform: rotate(630deg);
   }
 }
+
+.makeStyles-toTop-1 {
+  background-color: var(--color-primary) !important;
+}

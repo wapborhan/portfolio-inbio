@@ -1,4 +1,6 @@
 import React from "react";
+import BackToTop from "../../../BacktoTop";
+import RightDemo from "../../../RightDemo";
 
 export default function RouterFooter() {
   return (
@@ -28,6 +30,8 @@ export default function RouterFooter() {
           </div>
         </div>
       </div>
+      <BackToTop />
+      <RightDemo />
     </div>
   );
 }
