@@ -1,4 +1,5 @@
 import React from "react";
+import ContactUs from "./Form";
 
 function Contact() {
   return (
@@ -129,84 +130,7 @@ function Contact() {
           <div data-aos-delay="600" className="col-lg-7 contact-input">
             <div className="contact-form-wrapper">
               <div className="introduce">
-                <form
-                  className="rnt-contact-form rwt-dynamic-form row"
-                  id="contact-form"
-                  method="POST"
-                  action="https://wapborhan.com/mail.php"
-                >
-                  <div className="col-lg-6">
-                    <div className="form-group">
-                      <label htmlFor="contact-name">Your Name</label>
-                      <input
-                        className="form-control form-control-lg"
-                        name="contact-name"
-                        id="contact-name"
-                        type="text"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="col-lg-6">
-                    <div className="form-group">
-                      <label htmlFor="contact-phone">Phone Number</label>
-                      <input
-                        className="form-control"
-                        name="contact-phone"
-                        id="contact-phone"
-                        type="text"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="col-lg-12">
-                    <div className="form-group">
-                      <label htmlFor="contact-email">Email</label>
-                      <input
-                        className="form-control form-control-sm"
-                        id="contact-email"
-                        name="contact-email"
-                        type="email"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="col-lg-12">
-                    <div className="form-group">
-                      <label htmlFor="subject">subject</label>
-                      <input
-                        className="form-control form-control-sm"
-                        id="subject"
-                        name="subject"
-                        type="text"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="col-lg-12">
-                    <div className="form-group">
-                      <label htmlFor="contact-message">Your Message</label>
-                      <textarea
-                        name="contact-message"
-                        id="contact-message"
-                        cols="30"
-                        rows="10"
-                      ></textarea>
-                    </div>
-                  </div>
-
-                  <div className="col-lg-12">
-                    <button
-                      name="submit"
-                      type="submit"
-                      id="submit"
-                      className="rn-btn"
-                    >
-                      <span>SEND MESSAGE</span>
-                      <i data-feather="arrow-right"></i>
-                    </button>
-                  </div>
-                </form>
+                <ContactUs />
               </div>
             </div>
           </div>

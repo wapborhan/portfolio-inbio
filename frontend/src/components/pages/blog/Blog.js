@@ -39,7 +39,7 @@ function Blog() {
                 <div className="thumbnail">
                   <a href="https://blog.wapborhan.com/2021/12/roadmap.html">
                     <img
-                      src="https://kamalmostakin.com/wp-content/uploads/2021/03/%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%AC-%E0%A6%A1%E0%A7%87%E0%A6%AD%E0%A7%87%E0%A6%B2%E0%A6%AA%E0%A6%BE%E0%A6%B0-%E0%A6%B9%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A3-%E0%A6%97%E0%A6%BE%E0%A6%87%E0%A6%A1%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%A8-1.png"
+                      src="images/blog/blog-1.png"
                       alt="WapBorhan_Blog_Post-1"
                     />
                   </a>
@@ -82,7 +82,7 @@ function Blog() {
             >
               <div className="inner">
                 <div className="thumbnail">
-                  <a href="https://blog.wapborhan.com/2021/12/api-what-is-application-programming.html">
+                  <a href="images/blog/blog-2.jpg">
                     <img
                       src="https://trickbd.com/wp-content/uploads/2021/10/20/20211020_085238.jpg"
                       alt="WapBorhan_Blog_Post-2"
@@ -129,7 +129,7 @@ function Blog() {
                 <div className="thumbnail">
                   <a href="https://blog.wapborhan.com/2021/12/tools.html">
                     <img
-                      src="https://blogger.googleusercontent.com/img/a/AVvXsEg8umG3QnQFfwdDOP8O51i1HkJh0Z7MRI4FctI_bIn_BOIgwRFnpJ89A-2HEVVlTMyoAC9WI98IjD3qtJMvuaUnRzEV_CVihDOBHi-bNfR5Clh4JmoxNf4QdUnEUHVQMlCNUTgcWVjWKy0ERWAX7UAUKXDWIm4RxD3L4_rcIJULueL3M6cTlR1fem_L=s16000"
+                      src="images/blog/blog-3.jpg"
                       alt="WapBorhan_Blog_Post-3"
                     />
                   </a>

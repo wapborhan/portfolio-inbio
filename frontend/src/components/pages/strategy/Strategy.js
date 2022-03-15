@@ -33,7 +33,7 @@ export default class Strategy extends Component {
                         <div className="thumbnail">
                           <a href="https://blog.wapborhan.com/2021/12/tools.html">
                             <img
-                              src="https://www.valleybrook.church/wp-content/uploads/2017/05/working-strategy-.jpg"
+                              src="images/strategy.jpg"
                               alt="WapBorhan_Blog_Post-3"
                             />
                           </a>
