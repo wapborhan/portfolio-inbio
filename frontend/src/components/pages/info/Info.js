@@ -1,6 +1,7 @@
 import React from "react";
 import Skils from "./Skils";
 import { FiUser } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 class Info extends React.Component {
   render() {
@@ -71,9 +72,9 @@ class Info extends React.Component {
                           Download my curriculum vitae:{" "}
                         </div>
                         <div className="button-wrapper d-flex">
-                          <a className="rn-btn mr--30" href="more/cv.html">
-                            <span>DOWNLOAD CV</span>
-                          </a>
+                          <Link className="rn-btn mr--30" to="/about">
+                            <span>About More</span>
+                          </Link>
                           <a className="rn-btn" href="#contacts">
                             <span>CONTACT ME</span>
                           </a>

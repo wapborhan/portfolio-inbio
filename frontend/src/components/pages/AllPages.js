@@ -4,6 +4,7 @@ import Services from "./services/Services";
 import Portfolio from "./portfolio/Portfolio";
 import Resume from "./resume/Resume";
 import Strategy from "./strategy/Strategy";
+import WhyMe from "./whyme/WhyMe";
 import Pricing from "./price/Pricing";
 import Blog from "./blog/Blog";
 import Testimonials from "./testimonials/Testimonials";
@@ -18,6 +19,7 @@ export {
   Portfolio,
   Resume,
   Strategy,
+  WhyMe,
   Pricing,
   Blog,
   Testimonials,

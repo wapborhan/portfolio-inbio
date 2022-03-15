@@ -12,7 +12,7 @@ export default function WhyMe() {
   return (
     <div
       className="rn-service-area rn-section-gap section-separator"
-      id="features"
+      id="whyme"
     >
       <div className="container">
         <div className="row">
@@ -39,30 +39,23 @@ export default function WhyMe() {
             className="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
           >
             <div className="rn-service">
-              <div className="inner">
-                <div className="icon">
+              <div className="inner text-center">
+                <div className="icon ">
                   <i>
                     <FiMenu />
                   </i>
                 </div>
                 <div className="content">
-                  <h4 className="title">Web Design</h4>
+                  <h4 className="title">Always On Time</h4>
                   <p className="description">
-                    I throw myself down among the tall grass by the stream as I
-                    lie close to the earth.
+                    I will delivery your project on time so that you can start
+                    your business with your previous plan.
                   </p>
-                  <a className="read-more-button">
-                    <i className="feather-arrow-right">
-                      <FiArrowRight />
-                    </i>
-                  </a>
                 </div>
               </div>
-              {/* <!-- <a className="over-link" href="more/features/web-design.html"></a> --> */}
             </div>
           </div>
-          {/* <!-- End SIngle Service --> */}
-          {/* <!-- Start Single Service --> */}
+
           <div
             data-aos="fade-up"
             data-aos-duration="500"
@@ -71,31 +64,23 @@ export default function WhyMe() {
             className="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
           >
             <div className="rn-service">
-              <div className="inner">
-                <div className="icon">
+              <div className="inner text-center">
+                <div className="icon ">
                   <i>
                     <FiBookOpen />
                   </i>
                 </div>
                 <div className="content">
-                  <h4 className="title">Web Development</h4>
+                  <h4 className="title">Professional Work</h4>
                   <p className="description">
-                    {" "}
-                    It uses a dictionary of over 200 Latin words, combined with
-                    a handful of model sentence.
+                    I am a Professional Web Designer and Developer. So, I always
+                    here to design your website professionally.
                   </p>
-                  <a className="read-more-button">
-                    <i className="feather-arrow-right">
-                      <FiArrowRight />
-                    </i>
-                  </a>
                 </div>
               </div>
-              {/* <!-- <a className="over-link" href="more/features/web-development.html"></a> --> */}
             </div>
           </div>
-          {/* <!-- End SIngle Service --> */}
-          {/* <!-- Start Single Service --> */}
+
           <div
             data-aos="fade-up"
             data-aos-duration="500"
@@ -104,33 +89,26 @@ export default function WhyMe() {
             className="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
           >
             <div className="rn-service">
-              <div className="inner">
-                <div className="icon">
+              <div className="inner text-center">
+                <div className="icon ">
                   <i>
                     <FiTv />
                   </i>
                 </div>
                 <div className="content">
-                  <h4 className="title">App Development</h4>
+                  <h4 className="title">24/7 Availability</h4>
                   <p className="description">
-                    I throw myself down among the tall grass by the stream as I
-                    lie close to the earth.
+                    I am here to help you always. If you are facing any kind of
+                    problem than you can contact me 24/7.
                   </p>
-                  <a className="read-more-button">
-                    <i className="feather-arrow-right">
-                      <FiArrowRight />
-                    </i>
-                  </a>
                 </div>
               </div>
-              {/* <!-- <a className="over-link" href="more/features/app-development.html"></a> --> */}
             </div>
           </div>
-          {/* <!-- End SIngle Service --> */}
         </div>
         <div className="row">
           <div className="col-lg-12 mt-5 text-center">
-            <Link className="rn-btn" to="/services">
+            <Link className="rn-btn" to="/whyme">
               See More
               <i className="feather-loader">
                 <FiLoader />

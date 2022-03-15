@@ -83,14 +83,14 @@ export default function SideBar() {
               <Link
                 className="nav-link smoth-animation-two"
                 activeClass="active"
-                to="resume"
+                to="whyme"
                 spy={true}
                 // smooth={true}
               >
                 <i>
                   <FiUsers />
                 </i>
-                Skils
+                Why Me
               </Link>
             </li>
             {/* <li className="nav-item">
