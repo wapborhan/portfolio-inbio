@@ -27,9 +27,7 @@ export default function RouterHeader() {
                   <img src="banner.jpg" alt="personal_portfolio" />
                 </div>
                 <div className="header-info-content">
-                  <h4 className="title">
-                    <a href="http://www.wapborhan.com">Borhan Uddin</a>
-                  </h4>
+                  <h4 className="title">Borhan Uddin</h4>
                   <div className="status-info">I am a Front-End Developer</div>
                   {/* <!-- social sharea area --> */}
                   <div className="social-share-style-1 border-none mt--40">
