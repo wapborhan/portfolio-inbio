@@ -5,6 +5,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./assets/css/style.css";
+import "./assets/css/custom.css";
 
 function App() {
   useEffect(() => {

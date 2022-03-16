@@ -38,7 +38,7 @@ export default function Javascript() {
               <div className="thumbnail">
                 <a>
                   <img
-                    src="assets/images/portfolio/javascript/project-01.jpg"
+                    src="images/portfolio/javascript/project-01.jpg"
                     alt="Personal Portfolio Images"
                   />
                 </a>
@@ -109,7 +109,7 @@ export default function Javascript() {
               <div className="thumbnail">
                 <a>
                   <img
-                    src="assets/images/portfolio/javascript/project-02.jpg"
+                    src="images/portfolio/javascript/project-02.jpg"
                     alt="Personal Portfolio Images"
                   />
                 </a>
@@ -184,7 +184,7 @@ export default function Javascript() {
               <div className="thumbnail">
                 <a href="#">
                   <img
-                    src="assets/images/portfolio/javascript/project-03.jpg"
+                    src="images/portfolio/javascript/project-03.jpg"
                     alt="Personal Portfolio Images"
                   />
                 </a>
