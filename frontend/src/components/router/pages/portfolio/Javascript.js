@@ -50,59 +50,36 @@ export default function Javascript() {
                 </a>
               </div>
               <div className="content">
-                <h4 className="title">
-                  <a>
-                    Github User Find & Details
-                    <i>
-                      <FiArrowUpRight />
-                    </i>
-                  </a>
-                </h4>
-                <div className="category-info">
-                  <div className="category-list">
-                    <h3 className="pro-cat">
-                      <p className="tags">
-                        <span className="javascript">Javascript</span>
-                      </p>
-                    </h3>
-                  </div>
-                  <div className="meta">
-                    <div className="card-btn-container d-flex">
-                      <div>
-                        <a
-                          href="https://github.com/wapborhan/github-users"
-                          className="btn card-btn"
-                          title="Source Code"
-                        >
-                          <i>
-                            <FiGithub />
-                          </i>
-                        </a>
-                      </div>
-                      <div>
-                        <a
-                          href="https://code.wapborhan.com/github-users/"
-                          className="btn card-btn"
-                          title="Live"
-                        >
-                          <i className="feather-external-link">
-                            <FiExternalLink />
-                          </i>
-                        </a>
-                      </div>
-                      <div>
-                        <a
-                          data-toggle="modal"
-                          data-target="#exampleModalCenter-1"
-                          className="btn card-btn"
-                          title="Details"
-                        >
-                          <i className="feather-eye">
-                            <FiEye />
-                          </i>
-                        </a>
-                      </div>
-                    </div>
+                <h4 className="title mb-3">Github User Finder</h4>
+                <p className="tags m-0 mb-4">
+                  <span className="html">HTML</span>
+                  <span className="css">CSS</span>
+                  <span className="javascript">Javascript</span>
+                </p>
+                <div className="meta">
+                  <div className="card-btn-container d-flex justify-content-end">
+                    <a
+                      href="https://github.com/wapborhan/github-users"
+                      className="btn card-btn"
+                      title="Source Code"
+                    >
+                      <FiGithub />
+                    </a>
+                    <a
+                      href="https://code.wapborhan.com/github-users/"
+                      className="btn card-btn"
+                      title="Live"
+                    >
+                      <FiExternalLink />
+                    </a>
+                    <a
+                      data-toggle="modal"
+                      data-target="#exampleModalCenter-1"
+                      className="btn card-btn"
+                      title="Details"
+                    >
+                      <FiEye />
+                    </a>
                   </div>
                 </div>
               </div>
@@ -125,65 +102,44 @@ export default function Javascript() {
               <div className="thumbnail">
                 <a>
                   <img
-                    src="images/portfolio/portfolio-02.jpg"
+                    src="images/portfolio/portfolio-01.jpg"
                     alt="Personal Portfolio Images"
                   />
                 </a>
               </div>
               <div className="content">
-                <div className="category-info">
-                  <div className="category-list">
-                    <h3 className="pro-cat">
-                      <p className="tags">
-                        <span className="javascript">Javascript</span>
-                      </p>
-                    </h3>
-                  </div>
-                  <div className="meta">
-                    <div className="card-btn-container d-flex">
-                      <div>
-                        <a
-                          href="https://github.com/wapborhan/github-users"
-                          className="btn card-btn"
-                          title="Source Code"
-                        >
-                          <i>
-                            <FiGithub />
-                          </i>
-                        </a>
-                      </div>
-                      <div>
-                        <a
-                          href="https://code.wapborhan.com/github-users/"
-                          className="btn card-btn"
-                          title="Live"
-                        >
-                          <i className="feather-external-link">
-                            <FiExternalLink />
-                          </i>
-                        </a>
-                      </div>
-                      <div>
-                        <a
-                          data-toggle="modal"
-                          data-target="#exampleModalCenter-1"
-                          className="btn card-btn"
-                          title="Details"
-                        >
-                          <i className="feather-eye">
-                            <FiEye />
-                          </i>
-                        </a>
-                      </div>
-                    </div>
+                <h4 className="title mb-3">Github User Finder</h4>
+                <p className="tags m-0 mb-4">
+                  <span className="html">HTML</span>
+                  <span className="css">CSS</span>
+                  <span className="javascript">Javascript</span>
+                </p>
+                <div className="meta">
+                  <div className="card-btn-container d-flex justify-content-end">
+                    <a
+                      href="https://github.com/wapborhan/github-users"
+                      className="btn card-btn"
+                      title="Source Code"
+                    >
+                      <FiGithub />
+                    </a>
+                    <a
+                      href="https://code.wapborhan.com/github-users/"
+                      className="btn card-btn"
+                      title="Live"
+                    >
+                      <FiExternalLink />
+                    </a>
+                    <a
+                      data-toggle="modal"
+                      data-target="#exampleModalCenter-1"
+                      className="btn card-btn"
+                      title="Details"
+                    >
+                      <FiEye />
+                    </a>
                   </div>
                 </div>
-                <h4 className="title">
-                  <a>
-                    Calculetor
-                    <i className="feather-arrow-up-right"></i>
-                  </a>
-                </h4>
               </div>
             </div>
           </div>
@@ -192,80 +148,56 @@ export default function Javascript() {
 
         {/* <!-- Start Single Portfolio --> */}
         <div
-          data-aos="flip-right"
+          data-aos="flip-left"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
           data-aos-delay="600"
           data-aos-once="true"
           className="col-lg-6 col-xl-3 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30"
         >
-          <div
-            className="rn-portfolio"
-            data-toggle="modal"
-            data-target="#exampleModalCenter-3"
-          >
+          <div className="rn-portfolio">
             <div className="inner">
               <div className="thumbnail">
-                <a href="#">
+                <a>
                   <img
-                    src="images/portfolio/portfolio-03.jpg"
+                    src="images/portfolio/portfolio-01.jpg"
                     alt="Personal Portfolio Images"
                   />
                 </a>
               </div>
               <div className="content">
-                <div className="category-info">
-                  <div className="category-list">
-                    <h3 className="pro-cat">DEVELOPMENT</h3>
-                  </div>
-                  <div className="meta">
-                    <div className="card-btn-container d-flex">
-                      <div>
-                        <a
-                          href="https://github.com/wapborhan/github-users"
-                          className="btn card-btn"
-                          title="Source Code"
-                        >
-                          <i>
-                            <FiGithub />
-                          </i>
-                        </a>
-                      </div>
-                      <div>
-                        <a
-                          href="https://code.wapborhan.com/github-users/"
-                          className="btn card-btn"
-                          title="Live"
-                        >
-                          <i className="feather-external-link">
-                            <FiExternalLink />
-                          </i>
-                        </a>
-                      </div>
-                      <div>
-                        <a
-                          data-toggle="modal"
-                          data-target="#exampleModalCenter-1"
-                          className="btn card-btn"
-                          title="Details"
-                        >
-                          <i className="feather-eye">
-                            <FiEye />
-                          </i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <h4 className="title">
-                  <a>
-                    Todo List
-                    <i className="feather-arrow-up-right"></i>
-                  </a>
-                </h4>
-                <p className="tags mt-3">
+                <h4 className="title mb-3">Github User Finder</h4>
+                <p className="tags m-0 mb-4">
+                  <span className="html">HTML</span>
+                  <span className="css">CSS</span>
                   <span className="javascript">Javascript</span>
                 </p>
+                <div className="meta">
+                  <div className="card-btn-container d-flex justify-content-end">
+                    <a
+                      href="https://github.com/wapborhan/github-users"
+                      className="btn card-btn"
+                      title="Source Code"
+                    >
+                      <FiGithub />
+                    </a>
+                    <a
+                      href="https://code.wapborhan.com/github-users/"
+                      className="btn card-btn"
+                      title="Live"
+                    >
+                      <FiExternalLink />
+                    </a>
+                    <a
+                      data-toggle="modal"
+                      data-target="#exampleModalCenter-1"
+                      className="btn card-btn"
+                      title="Details"
+                    >
+                      <FiEye />
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -274,80 +206,56 @@ export default function Javascript() {
 
         {/* <!-- Start Single Portfolio --> */}
         <div
-          data-aos="flip-right"
+          data-aos="flip-left"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
           data-aos-delay="600"
           data-aos-once="true"
           className="col-lg-6 col-xl-3 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30"
         >
-          <div
-            className="rn-portfolio"
-            data-toggle="modal"
-            data-target="#exampleModalCenter-3"
-          >
+          <div className="rn-portfolio">
             <div className="inner">
               <div className="thumbnail">
-                <a href="#">
+                <a>
                   <img
-                    src="images/portfolio/portfolio-03.jpg"
+                    src="images/portfolio/portfolio-01.jpg"
                     alt="Personal Portfolio Images"
                   />
                 </a>
               </div>
               <div className="content">
-                <div className="category-info">
-                  <div className="category-list">
-                    <h3 className="pro-cat">DEVELOPMENT</h3>
-                  </div>
-                  <div className="meta">
-                    <div className="card-btn-container d-flex">
-                      <div>
-                        <a
-                          href="https://github.com/wapborhan/github-users"
-                          className="btn card-btn"
-                          title="Source Code"
-                        >
-                          <i>
-                            <FiGithub />
-                          </i>
-                        </a>
-                      </div>
-                      <div>
-                        <a
-                          href="https://code.wapborhan.com/github-users/"
-                          className="btn card-btn"
-                          title="Live"
-                        >
-                          <i className="feather-external-link">
-                            <FiExternalLink />
-                          </i>
-                        </a>
-                      </div>
-                      <div>
-                        <a
-                          data-toggle="modal"
-                          data-target="#exampleModalCenter-1"
-                          className="btn card-btn"
-                          title="Details"
-                        >
-                          <i className="feather-eye">
-                            <FiEye />
-                          </i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <h4 className="title">
-                  <a>
-                    Todo List
-                    <i className="feather-arrow-up-right"></i>
-                  </a>
-                </h4>
-                <p className="tags mt-3">
+                <h4 className="title mb-3">Github User Finder</h4>
+                <p className="tags m-0 mb-4">
+                  <span className="html">HTML</span>
+                  <span className="css">CSS</span>
                   <span className="javascript">Javascript</span>
                 </p>
+                <div className="meta">
+                  <div className="card-btn-container d-flex justify-content-end">
+                    <a
+                      href="https://github.com/wapborhan/github-users"
+                      className="btn card-btn"
+                      title="Source Code"
+                    >
+                      <FiGithub />
+                    </a>
+                    <a
+                      href="https://code.wapborhan.com/github-users/"
+                      className="btn card-btn"
+                      title="Live"
+                    >
+                      <FiExternalLink />
+                    </a>
+                    <a
+                      data-toggle="modal"
+                      data-target="#exampleModalCenter-1"
+                      className="btn card-btn"
+                      title="Details"
+                    >
+                      <FiEye />
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

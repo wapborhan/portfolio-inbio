@@ -20114,6 +20114,17 @@ div#featured-project-carousel {
   cursor: pointer;
 }
 
+.rn-portfolio .inner .content .title {
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  color: var(--color-lightn);
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 34px;
+  display: inline-block;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 479px) {
 
   .rn-portfolio .inner .content .title a,
@@ -21902,6 +21913,11 @@ body.white-version {
 }
 
 .white-version .rn-portfolio .inner .content .title a,
+.white-version .rn-blog .inner .content .title a {
+  color: var(--color-heading-wv);
+}
+
+.white-version .rn-portfolio .inner .content .title,
 .white-version .rn-blog .inner .content .title a {
   color: var(--color-heading-wv);
 }
