@@ -2,18 +2,13 @@ import React from "react";
 import RouterHeader from "../header/RouterHeader";
 import RouterFooter from "../footer/RouterFooter";
 import Loading from "../../Loading";
+import PortfolioS from "./PortfolioS";
 
 export default function RoutePortfolio() {
   return (
     <>
       <RouterHeader />
-      <div className="sr-content pt--30">
-        <div className="container">
-          <div className="sect-main">
-            <Loading />
-          </div>
-        </div>
-      </div>
+      <PortfolioS />
       <RouterFooter />
     </>
   );

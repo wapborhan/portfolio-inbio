@@ -1,11 +1,7 @@
 import React from "react";
-import {
-  FiArrowRight,
-  FiLoader,
-  FiMenu,
-  FiBookOpen,
-  FiTv,
-} from "react-icons/fi";
+import { FiLoader } from "react-icons/fi";
+import { BsStopwatch } from "react-icons/bs";
+import { FaRegCalendarAlt, FaAward } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 export default function WhyMe() {
@@ -24,7 +20,9 @@ export default function WhyMe() {
               data-aos-delay="100"
               data-aos-once="true"
             >
-              <span className="subtitle">Features</span>
+              <span className="subtitle">
+                SERVICES INCLUDED IN PROFESSIONAL WORK
+              </span>
               <h2 className="title">Why Choose Me</h2>
             </div>
           </div>
@@ -40,10 +38,8 @@ export default function WhyMe() {
           >
             <div className="rn-service">
               <div className="inner text-center">
-                <div className="icon ">
-                  <i>
-                    <FiMenu />
-                  </i>
+                <div className="icon">
+                  <BsStopwatch />
                 </div>
                 <div className="content">
                   <h4 className="title">Always On Time</h4>
@@ -66,9 +62,7 @@ export default function WhyMe() {
             <div className="rn-service">
               <div className="inner text-center">
                 <div className="icon ">
-                  <i>
-                    <FiBookOpen />
-                  </i>
+                  <FaAward />
                 </div>
                 <div className="content">
                   <h4 className="title">Professional Work</h4>
@@ -91,9 +85,7 @@ export default function WhyMe() {
             <div className="rn-service">
               <div className="inner text-center">
                 <div className="icon ">
-                  <i>
-                    <FiTv />
-                  </i>
+                  <FaRegCalendarAlt />
                 </div>
                 <div className="content">
                   <h4 className="title">24/7 Availability</h4>
@@ -110,7 +102,7 @@ export default function WhyMe() {
           <div className="col-lg-12 mt-5 text-center">
             <Link className="rn-btn" to="/whyme">
               See More
-              <i className="feather-loader">
+              <i className="feather-loader ms-3">
                 <FiLoader />
               </i>
             </Link>

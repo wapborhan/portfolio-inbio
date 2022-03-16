@@ -1,6 +1,18 @@
 import React from "react";
-import { FiMenu, FiTv } from "react-icons/fi";
-import { FaStopwatch } from "react-icons/fa";
+import {
+  MdSecurity,
+  MdSentimentSatisfiedAlt,
+  MdSupportAgent,
+  MdSpeed,
+  MdOutlineContactPage,
+  MdOutlineWatchLater,
+} from "react-icons/md";
+import {
+  FaStopwatch,
+  FaLaptopCode,
+  FaRegCalendarAlt,
+  FaAward,
+} from "react-icons/fa";
 
 export default function WhyMeDetails() {
   return (
@@ -34,12 +46,10 @@ export default function WhyMeDetails() {
             data-aos-once="true"
             className="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
           >
-            <div className="rn-service">
+            <div className="why-me">
               <div className="inner text-center">
                 <div className="icon ">
-                  <i>
-                    <FaStopwatch />
-                  </i>
+                  <MdOutlineWatchLater />
                 </div>
                 <div className="content">
                   <h4 className="title">Always On Time</h4>
@@ -60,12 +70,10 @@ export default function WhyMeDetails() {
             data-aos-once="true"
             className="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
           >
-            <div className="rn-service">
+            <div className="why-me">
               <div className="inner text-center">
                 <div className="icon ">
-                  <i>
-                    <FiTv />
-                  </i>
+                  <FaLaptopCode />
                 </div>
                 <div className="content">
                   <h4 className="title">Hard Working</h4>
@@ -85,12 +93,10 @@ export default function WhyMeDetails() {
             data-aos-once="true"
             className="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
           >
-            <div className="rn-service">
+            <div className="why-me">
               <div className="inner text-center">
                 <div className="icon ">
-                  <i>
-                    <FiMenu />
-                  </i>
+                  <FaRegCalendarAlt />
                 </div>
                 <div className="content">
                   <h4 className="title">24/7 Availability</h4>
@@ -110,12 +116,10 @@ export default function WhyMeDetails() {
             data-aos-once="true"
             className="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
           >
-            <div className="rn-service">
+            <div className="why-me">
               <div className="inner text-center">
                 <div className="icon ">
-                  <i>
-                    <FiMenu />
-                  </i>
+                  <FaAward />
                 </div>
                 <div className="content">
                   <h4 className="title">Professional Work</h4>
@@ -135,12 +139,10 @@ export default function WhyMeDetails() {
             data-aos-once="true"
             className="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
           >
-            <div className="rn-service">
+            <div className="why-me">
               <div className="inner text-center">
                 <div className="icon ">
-                  <i>
-                    <FiMenu />
-                  </i>
+                  <MdSecurity />
                 </div>
                 <div className="content">
                   <h4 className="title">High Security</h4>
@@ -161,12 +163,10 @@ export default function WhyMeDetails() {
             data-aos-once="true"
             className="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
           >
-            <div className="rn-service">
+            <div className="why-me">
               <div className="inner text-center">
                 <div className="icon ">
-                  <i>
-                    <FiMenu />
-                  </i>
+                  <MdSentimentSatisfiedAlt />
                 </div>
                 <div className="content">
                   <h4 className="title">100% Satisfaction</h4>
@@ -186,12 +186,10 @@ export default function WhyMeDetails() {
             data-aos-once="true"
             className="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
           >
-            <div className="rn-service">
+            <div className="why-me">
               <div className="inner text-center">
                 <div className="icon ">
-                  <i>
-                    <FiMenu />
-                  </i>
+                  <MdSupportAgent />
                 </div>
                 <div className="content">
                   <h4 className="title">After Selling Support</h4>
@@ -212,12 +210,10 @@ export default function WhyMeDetails() {
             data-aos-once="true"
             className="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
           >
-            <div className="rn-service">
+            <div className="why-me">
               <div className="inner text-center">
                 <div className="icon ">
-                  <i>
-                    <FiMenu />
-                  </i>
+                  <MdSpeed />
                 </div>
                 <div className="content">
                   <h4 className="title">Speed Optimization</h4>
@@ -237,12 +233,10 @@ export default function WhyMeDetails() {
             data-aos-once="true"
             className="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30"
           >
-            <div className="rn-service">
+            <div className="why-me">
               <div className="inner text-center">
                 <div className="icon ">
-                  <i>
-                    <FiMenu />
-                  </i>
+                  <MdOutlineContactPage />
                 </div>
                 <div className="content">
                   <h4 className="title">Contact form Setup</h4>

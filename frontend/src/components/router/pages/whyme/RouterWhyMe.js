@@ -3,6 +3,7 @@ import RouterHeader from "../header/RouterHeader";
 import RouterFooter from "../footer/RouterFooter";
 import Loading from "../../Loading";
 import WhyMeDetails from "./WhyMeDetails";
+import "./whyme.css";
 
 export default function RouterWhyMe() {
   return (
