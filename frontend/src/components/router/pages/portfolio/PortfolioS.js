@@ -1,5 +1,6 @@
 import React from "react";
 import Javascript from "./Javascript";
+import ReactJS from "./ReactJS";
 
 export default function PortfolioS() {
   return (
@@ -26,11 +27,8 @@ export default function PortfolioS() {
                 </div>
               </div>
 
-              {/* <Wordpress  /> */}
-
-              {/* <PsdtoHtml /> */}
-
               <Javascript />
+              <ReactJS />
             </div>
           </div>
           {/* <!-- End portfolio Area --> */}
