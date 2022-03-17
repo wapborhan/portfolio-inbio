@@ -34,23 +34,15 @@ export default function BackEndSkill() {
 
         <div className="progress-charts">
           <h6 className="heading heading-h6">Express</h6>
-          <Progress done="85" />
-        </div>
-        <div className="progress-charts">
-          <h6 className="heading heading-h6">PHP</h6>
-          <Progress done="72" />
-        </div>
-        <div className="progress-charts">
-          <h6 className="heading heading-h6">PYTHON</h6>
           <Progress done="35" />
         </div>
         <div className="progress-charts">
-          <h6 className="heading heading-h6">NODEJS</h6>
+          <h6 className="heading heading-h6">PHP</h6>
           <Progress done="45" />
         </div>
         <div className="progress-charts">
-          <h6 className="heading heading-h6">EXPRESS</h6>
-          <Progress done="25" />
+          <h6 className="heading heading-h6">NODEJS</h6>
+          <Progress done="35" />
         </div>
       </div>
     </div>

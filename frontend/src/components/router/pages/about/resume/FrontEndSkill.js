@@ -29,17 +29,17 @@ export default function FrontEndSkill() {
         data-aos-once="true"
         className="content"
       >
-        <span className="subtitle">Languages</span>
-        <h4 className="maintitle">Progress</h4>
+        <span className="subtitle">Features</span>
+        <h4 className="maintitle">Front-End</h4>
 
-        {/* <div className="progress-charts">
+        <div className="progress-charts">
           <h6 className="heading heading-h6">HTML</h6>
           <Progress done="93" />
         </div>
         <div className="progress-charts">
           <h6 className="heading heading-h6">CSS</h6>
           <Progress done="85" />
-        </div> */}
+        </div>
         <div className="progress-charts">
           <h6 className="heading heading-h6">JAVASCRIPT</h6>
           <Progress done="65" />
@@ -49,16 +49,8 @@ export default function FrontEndSkill() {
           <Progress done="50" />
         </div>
         <div className="progress-charts">
-          <h6 className="heading heading-h6">NODEJS</h6>
-          <Progress done="45" />
-        </div>
-        <div className="progress-charts">
-          <h6 className="heading heading-h6">EXPRESS</h6>
+          <h6 className="heading heading-h6">Vue JS</h6>
           <Progress done="25" />
-        </div>
-        <div className="progress-charts">
-          <h6 className="heading heading-h6">PHP</h6>
-          <Progress done="45" />
         </div>
       </div>
     </div>

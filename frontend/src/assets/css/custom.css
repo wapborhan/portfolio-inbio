@@ -63,3 +63,10 @@
   text-transform: uppercase;
   display: block;
 }
+
+.codes {
+  box-shadow: var(--shadow-white-3);
+  padding: 30px;
+  border-radius: 10px;
+  height: 100%;
+}

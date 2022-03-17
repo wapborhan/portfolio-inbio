@@ -4,7 +4,8 @@ import RouterFooter from "../footer/RouterFooter";
 import AboutS from "./AboutS";
 import Resume from "./resume/Resume";
 import Pricing from "./price/Pricing";
-import { Code, Contact, Testimonials } from "../../../pages/AllPages";
+import Code from "./code/Code";
+import { Contact, Testimonials } from "../../../pages/AllPages";
 
 export default function AboutMore() {
   return (

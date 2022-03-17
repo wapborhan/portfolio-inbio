@@ -8,7 +8,6 @@ import Blog from "./blog/Blog";
 import Testimonials from "./testimonials/Testimonials";
 import Contact from "./contact/Contact";
 import Footer from "./footer/footer";
-import Code from "./code/Code";
 
 export {
   Banner,
@@ -21,5 +20,4 @@ export {
   Testimonials,
   Contact,
   Footer,
-  Code,
 };
