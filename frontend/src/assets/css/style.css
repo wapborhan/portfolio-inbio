@@ -17922,8 +17922,8 @@ div#featured-project-carousel {
 }
 
 .navigation-wrapper ul.nav li {
-  -ms-flex-preferred-size: 33.33%;
-  flex-basis: 33.33%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
   margin: 0;
 }
 
@@ -18232,7 +18232,7 @@ div#featured-project-carousel {
 }
 
 .rn-pricing .pricing-footer .time-line .single-cmt {
-  margin-right: 15px;
+  margin-right: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

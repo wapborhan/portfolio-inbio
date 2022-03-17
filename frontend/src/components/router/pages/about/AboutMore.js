@@ -1,19 +1,21 @@
 import React from "react";
 import RouterHeader from "../header/RouterHeader";
 import RouterFooter from "../footer/RouterFooter";
-import Loading from "../../Loading";
+import AboutS from "./AboutS";
+import Resume from "./resume/Resume";
+import Pricing from "./price/Pricing";
+import { Code, Contact, Testimonials } from "../../../pages/AllPages";
 
 export default function AboutMore() {
   return (
     <>
       <RouterHeader />
-      <div className="sr-content pt--30">
-        <div className="container">
-          <div className="sect-main">
-            <Loading />
-          </div>
-        </div>
-      </div>
+      <AboutS />
+      <Resume />
+      <Code />
+      <Pricing />
+      <Testimonials />
+      <Contact />
       <RouterFooter />
     </>
   );

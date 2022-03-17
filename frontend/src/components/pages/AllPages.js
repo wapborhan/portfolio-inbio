@@ -2,10 +2,8 @@ import Banner from "./banner/Banner";
 import Info from "./info/Info";
 import Services from "./services/Services";
 import Portfolio from "./portfolio/Portfolio";
-import Resume from "./resume/Resume";
 import Strategy from "./strategy/Strategy";
 import WhyMe from "./whyme/WhyMe";
-import Pricing from "./price/Pricing";
 import Blog from "./blog/Blog";
 import Testimonials from "./testimonials/Testimonials";
 import Contact from "./contact/Contact";
@@ -17,10 +15,8 @@ export {
   Info,
   Services,
   Portfolio,
-  Resume,
   Strategy,
   WhyMe,
-  Pricing,
   Blog,
   Testimonials,
   Contact,
