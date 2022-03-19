@@ -1,6 +1,32 @@
 import React from "react";
 import { styled } from "@mui/material/styles";
 import Tooltip, { tooltipClasses } from "@mui/material/Tooltip";
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaJsSquare,
+  FaReact,
+  FaVuejs,
+  FaNodeJs,
+  FaBootstrap,
+  FaSass,
+  FaWordpressSimple,
+  FaGithubSquare,
+  FaGitAlt,
+} from "react-icons/fa";
+import {
+  SiMongodb,
+  SiJquery,
+  SiVisualstudiocode,
+  SiXampp,
+  SiAdobepremierepro,
+  SiAdobexd,
+  SiSketch,
+  SiAdobeillustrator,
+  SiCanva,
+} from "react-icons/si";
+import { DiBrackets, DiTerminal } from "react-icons/di";
+import { IoLogoFigma } from "react-icons/io5";
 
 const LightTooltip = styled(({ className, ...props }) => (
   <Tooltip {...props} arrow classes={{ popper: className }} />
@@ -28,28 +54,28 @@ export default function Skils() {
             <ul className="skill-share d-flex liststyle justify-content-left">
               <LightTooltip title="HTML" placement="top" arrow>
                 <li>
-                  <img src="images/icons/html.png" alt="Icons Images" />{" "}
+                  <FaHtml5 className="html" />
                 </li>
               </LightTooltip>
 
               <LightTooltip title="CSS" placement="top" arrow>
                 <li>
-                  <img src="images/icons/css.png" alt="Icons Images" />
+                  <FaCss3Alt className="css" />
                 </li>
               </LightTooltip>
               <LightTooltip title="JAVASCRIPT" placement="top" arrow>
                 <li>
-                  <img src="images/icons/js.png" alt="Icons Images" />
+                  <FaJsSquare className="javascript" />
                 </li>
               </LightTooltip>
               <LightTooltip title="REACT" placement="top" arrow>
                 <li>
-                  <img src="images/icons/react.png" alt="Icons Images" />
+                  <FaReact className="react" />
                 </li>
               </LightTooltip>
               <LightTooltip title="VUE" placement="top" arrow>
                 <li>
-                  <img src="images/icons/vue.png" alt="Icons Images" />
+                  <FaVuejs className="vue" />
                 </li>
               </LightTooltip>
               {/* <LightTooltip title="TYPESCRIPT" placement="top" arrow>
@@ -69,12 +95,12 @@ export default function Skils() {
             <ul className="skill-share d-flex liststyle">
               <LightTooltip title="NODE JS" placement="top" arrow>
                 <li>
-                  <img src="images/icons/nodejs.png" alt="Icons" />
+                  <FaNodeJs className="nodejs" />
                 </li>
               </LightTooltip>
               <LightTooltip title="MONGODB" placement="top" arrow>
                 <li>
-                  <img src="images/icons/mongodb.png" alt="Icons" />
+                  <SiMongodb className="mongodb" />
                 </li>
               </LightTooltip>
               {/* <LightTooltip title="MATERIAL UI" placement="top" arrow>
@@ -84,22 +110,22 @@ export default function Skils() {
               </LightTooltip> */}
               <LightTooltip title="BOOTSTRAP" placement="top" arrow>
                 <li>
-                  <img src="images/icons/bootstrap.png" alt="Icons" />
+                  <FaBootstrap className="bootstrap" />
                 </li>
               </LightTooltip>
               <LightTooltip title="SASS" placement="top" arrow>
                 <li>
-                  <img src="images/icons/sass.png" alt="Icons" />
+                  <FaSass className="sass" />
                 </li>
               </LightTooltip>
               <LightTooltip title="JQUARY" placement="top" arrow>
                 <li>
-                  <img src="images/icons/jquary.png" alt="Icons" />
+                  <SiJquery className="jquery" />
                 </li>
               </LightTooltip>
               <LightTooltip title="WORDPRESS" placement="top" arrow>
                 <li>
-                  <img src="images/icons/wordpress.png" alt="Icons" />
+                  <FaWordpressSimple className="wordpress" />
                 </li>
               </LightTooltip>
             </ul>
@@ -109,32 +135,32 @@ export default function Skils() {
             <ul className="skill-share d-flex liststyle">
               <LightTooltip title="VSCODE" placement="top" arrow>
                 <li>
-                  <img src="images/icons/vscode.png" alt="Icons" />
+                  <SiVisualstudiocode className="vscode" />
                 </li>
               </LightTooltip>
               <LightTooltip title="BRACKETS" placement="top" arrow>
                 <li>
-                  <img src="images/icons/brackets.png" alt="Icons" />
+                  <DiBrackets className="brackets" />
                 </li>
               </LightTooltip>
               <LightTooltip title="GITHUB" placement="top" arrow>
                 <li>
-                  <img src="images/icons/github.png" alt="Icons" />
+                  <FaGithubSquare className="github" />
                 </li>
               </LightTooltip>
               <LightTooltip title="GIT" placement="top" arrow>
                 <li>
-                  <img src="images/icons/git.png" alt="Icons" />
+                  <FaGitAlt className="git" />
                 </li>
               </LightTooltip>
               <LightTooltip title="TERMINAL" placement="top" arrow>
                 <li>
-                  <img src="images/icons/terminal.png" alt="Icons" />
+                  <DiTerminal className="terminal" />
                 </li>
               </LightTooltip>
-              <LightTooltip title="XAAMP" placement="top" arrow>
+              <LightTooltip title="XAMPP" placement="top" arrow>
                 <li>
-                  <img src="images/icons/xaamp.png" alt="Icons" />
+                  <SiXampp className="xampp" />
                 </li>
               </LightTooltip>
             </ul>
@@ -144,33 +170,33 @@ export default function Skils() {
             <ul className="skill-share d-flex liststyle">
               <LightTooltip title="PHOTOSHOP" placement="top" arrow>
                 <li>
-                  <img src="images/icons/ps.png" alt="Icons" />
+                  <SiAdobepremierepro className="ps" />
                 </li>
               </LightTooltip>
               <LightTooltip title="ADOBE XD" placement="top" arrow>
                 <li>
-                  <img src="images/icons/xd.png" alt="Icons" />
+                  <SiAdobexd className="xd" />
                 </li>
               </LightTooltip>
               <LightTooltip title="FIGMA" placement="top" arrow>
                 <li>
-                  <img src="images/icons/figma.png" alt="Icons" />
+                  <IoLogoFigma className="figma" />
                 </li>
               </LightTooltip>
               <LightTooltip title="SKETCH" placement="top" arrow>
                 <li>
-                  <img src="images/icons/sketch.png" alt="Icons" />
+                  <SiSketch className="sketch" />
                 </li>
               </LightTooltip>
               <LightTooltip title="ILLUSTRATOR" placement="top" arrow>
                 <li>
-                  <img src="images/icons/illustrator.png" alt="Icons" />
+                  <SiAdobeillustrator className="ai" />
                 </li>
               </LightTooltip>
 
               <LightTooltip title="CANVA" placement="top" arrow>
                 <li>
-                  <img src="images/icons/canva.png" alt="Icons" />
+                  <SiCanva className="canva" />
                 </li>
               </LightTooltip>
             </ul>

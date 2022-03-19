@@ -70,3 +70,11 @@
   border-radius: 10px;
   height: 100%;
 }
+
+.srpad {
+  padding-bottom: 100px;
+}
+
+.padtse {
+  margin-top: 150px !important;
+}

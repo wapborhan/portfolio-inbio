@@ -48,10 +48,10 @@ export default function FrontEndSkill() {
           <h6 className="heading heading-h6">React JS</h6>
           <Progress done="50" />
         </div>
-        <div className="progress-charts">
+        {/* <div className="progress-charts">
           <h6 className="heading heading-h6">Vue JS</h6>
           <Progress done="25" />
-        </div>
+        </div> */}
       </div>
     </div>
   );

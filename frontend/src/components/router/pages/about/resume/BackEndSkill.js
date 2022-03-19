@@ -38,7 +38,7 @@ export default function BackEndSkill() {
         </div>
         <div className="progress-charts">
           <h6 className="heading heading-h6">PHP</h6>
-          <Progress done="45" />
+          <Progress done="25" />
         </div>
         <div className="progress-charts">
           <h6 className="heading heading-h6">NODEJS</h6>

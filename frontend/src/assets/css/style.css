@@ -12947,6 +12947,109 @@ p.tags span {
   color: #fff
 }
 
+.skill-share .html {
+  color: #ff5722;
+}
+
+.skill-share .css {
+  color: #2257ea;
+}
+
+.skill-share .javascript {
+  color: #f5d235;
+}
+
+.skill-share .react {
+  color: #53e1fc;
+}
+
+.skill-share .vue {
+  color: #16d45f;
+}
+
+.skill-share .typescript {
+  color: #2d79c7;
+}
+
+.skill-share .angular {
+  color: #a70a05;
+}
+
+.skill-share .nodejs {
+  color: #3c873a;
+}
+
+.skill-share .mongodb {
+  color: #4db33d;
+}
+
+.skill-share .bootstrap {
+  color: #7132d1;
+}
+
+.skill-share .sass {
+  color: #cc6699;
+  font-weight: bold;
+}
+
+.skill-share .jquery {
+  color: #0868ac;
+}
+
+.skill-share .wordpress {
+  color: #00749c;
+}
+
+.skill-share .vscode {
+  color: #0078d7;
+}
+
+.skill-share .brackets {
+  color: #0b87c0;
+}
+
+.skill-share .github,
+.skill-share .terminal {
+  color: #111214;
+}
+
+.skill-share .git {
+  color: #e44d31;
+}
+
+.skill-share .xampp {
+  color: #ee7422;
+}
+
+.skill-share .ps {
+  color: #004074;
+}
+
+.skill-share .xd {
+  color: #9e0c7c;
+}
+
+
+.skill-share .figma path {
+  color: #e64a1c;
+}
+
+.skill-share .figma circle {
+  color: #18b2f1;
+}
+
+.skill-share .sketch {
+  color: #f0a400;
+}
+
+.skill-share .canva {
+  color: #3667d9;
+}
+
+.skill-share .ai {
+  color: #6d0806;
+}
+
 .rn-portfolio .inner .content .tags span.html {
   background: #ff5722;
 }
@@ -14559,7 +14662,7 @@ figcaption {
 .dwmycl {
   position: relative;
   margin-bottom: 45px;
-  color: var(--color-body-white);
+  /* color: var(--color-body-white); */
 }
 
 div#home {
@@ -14571,7 +14674,7 @@ div#home {
   content: '';
   width: 100%;
   height: 1px;
-  background: #121415;
+  background: #b6b6b6;
   bottom: -18px;
   left: 0;
 }
@@ -19268,6 +19371,11 @@ div#featured-project-carousel {
 
 .sticky-home-wrapper .rn-skill-area .inner .skill-share-inner .skill-share li img {
   max-height: 30px;
+}
+
+.skill-share-inner .skill-share li svg {
+  max-height: 30px;
+  font-size: 30px;
 }
 
 @media only screen and (max-width: 479px) {
