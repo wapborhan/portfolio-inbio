@@ -1,5 +1,5 @@
 import MainComponent from "./components/MainComponent";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { BrowserRouter } from "react-router-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Aos from "aos";

@@ -17,8 +17,12 @@ const ContactUs = () => {
       .then(
         (result) => {
           console.log(result.text);
+          alert(result.text + " Your mail has been sent");
         },
         (error) => {
+          alert(
+            `Sorry Your mail isn't sent \n Please Send Mail direct to \n borhaninfos@gmail.com`
+          );
           console.log(error.text);
         }
       );

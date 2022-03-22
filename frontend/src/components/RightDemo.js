@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Button, Modal } from "react-bootstrap";
 import { FiSettings } from "react-icons/fi";
 
 function RightDemo() {
   const [lgShow, setLgShow] = useState(false);
+
   return (
     <>
       <div className="riht">
-        {/* <!-- Start Right Demo  --> */}
         <div className="rn-right-demo">
           <Button className="demo-button" onClick={() => setLgShow(true)}>
             <span className="text">

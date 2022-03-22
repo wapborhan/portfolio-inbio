@@ -21,6 +21,7 @@ const MobileMenu = () => {
     isOpen === true ? setIsopen(false) : setIsopen(true);
   };
 
+  // Sticky Header
   const ref = useRef();
   let [check, setCheck] = useState(true);
   const sticky = useStickyHeader(50);
