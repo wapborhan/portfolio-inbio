@@ -11,6 +11,7 @@ import {
   FiMessageCircle,
 } from "react-icons/fi";
 import { Link } from "react-scroll";
+import LazyLoad from "react-lazyload";
 
 export default function SideBar() {
   return (
@@ -18,7 +19,9 @@ export default function SideBar() {
       <header className="rn-header-area d-flex align-items-start flex-column left-header-style">
         <div className="logo-area">
           <a href="index.html">
-            <img src="images/logo/logo-06.png" alt="personal-logo" />
+            <LazyLoad>
+              <img src="images/logo/logo-06.png" alt="WapBorhan-logo" />
+            </LazyLoad>
           </a>
         </div>
         <nav id="sideNavs" className="mainmenu-nav navbar-example2">

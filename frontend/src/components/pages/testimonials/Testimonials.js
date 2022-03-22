@@ -2,6 +2,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FiArrowRight, FiArrowLeft } from "react-icons/fi";
+import LazyLoad from "react-lazyload";
 
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -60,10 +61,12 @@ function Testimonials() {
                   <div className="inner">
                     <div className="card-info">
                       <div className="card-thumbnail">
-                        <img
-                          src="images/testimonial/final-home--1st.png"
-                          alt="Testimonial-image"
-                        />
+                        <LazyLoad>
+                          <img
+                            src="images/testimonial/final-home--1st.png"
+                            alt="Testimonial-image"
+                          />
+                        </LazyLoad>
                       </div>
                       <div className="card-content">
                         <span className="subtitle mt--10">Rainbow-Themes</span>
@@ -121,10 +124,12 @@ function Testimonials() {
                   <div className="inner">
                     <div className="card-info">
                       <div className="card-thumbnail">
-                        <img
-                          src="images/testimonial/final-home--2nd.png"
-                          alt="Testimonial-image"
-                        />
+                        <LazyLoad>
+                          <img
+                            src="images/testimonial/final-home--2nd.png"
+                            alt="Testimonial-image"
+                          />
+                        </LazyLoad>
                       </div>
                       <div className="card-content">
                         <span className="subtitle mt--10">Bound - Trolola</span>
@@ -180,10 +185,12 @@ function Testimonials() {
                   <div className="inner">
                     <div className="card-info">
                       <div className="card-thumbnail">
-                        <img
-                          src="images/testimonial/final-home--3rd.png"
-                          alt="Testimonial-image"
-                        />
+                        <LazyLoad>
+                          <img
+                            src="images/testimonial/final-home--3rd.png"
+                            alt="Testimonial-image"
+                          />
+                        </LazyLoad>
                       </div>
                       <div className="card-content">
                         <span className="subtitle mt--10">Glassfisom</span>
@@ -239,10 +246,12 @@ function Testimonials() {
                   <div className="inner">
                     <div className="card-info">
                       <div className="card-thumbnail">
-                        <img
-                          src="images/testimonial/final-home--4th.png"
-                          alt="Testimonial-image"
-                        />
+                        <LazyLoad>
+                          <img
+                            src="images/testimonial/final-home--4th.png"
+                            alt="Testimonial-image"
+                          />
+                        </LazyLoad>
                       </div>
                       <div className="card-content">
                         <span className="subtitle mt--10">NCD - Design</span>
@@ -299,10 +308,12 @@ function Testimonials() {
                   <div className="inner">
                     <div className="card-info">
                       <div className="card-thumbnail">
-                        <img
-                          src="images/testimonial/final-home--5th.png"
-                          alt="Testimonial-image"
-                        />
+                        <LazyLoad>
+                          <img
+                            src="images/testimonial/final-home--5th.png"
+                            alt="Testimonial-image"
+                          />
+                        </LazyLoad>
                       </div>
                       <div className="card-content">
                         <span className="subtitle mt--10">Default name</span>

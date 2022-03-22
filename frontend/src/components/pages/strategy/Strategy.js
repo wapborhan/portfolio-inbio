@@ -1,5 +1,6 @@
 import MainAccordion from "./MainAccordion";
 import React, { Component } from "react";
+import LazyLoad from "react-lazyload";
 
 export default class Strategy extends Component {
   render() {
@@ -32,10 +33,12 @@ export default class Strategy extends Component {
                       <div className="sr-itemd">
                         <div className="thumbnail">
                           <a href="https://blog.wapborhan.com/2021/12/tools.html">
-                            <img
-                              src="images/strategy.jpg"
-                              alt="WapBorhan_Blog_Post-3"
-                            />
+                            <LazyLoad>
+                              <img
+                                src="images/strategy.jpg"
+                                alt="WapBorhan_Blog_Post-3"
+                              />
+                            </LazyLoad>
                           </a>
                         </div>
 

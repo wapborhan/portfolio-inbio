@@ -13,6 +13,7 @@ import {
   FiX,
 } from "react-icons/fi";
 import { Link } from "react-scroll";
+import LazyLoad from "react-lazyload";
 
 const MobileMenu = () => {
   const [isOpen, setIsopen] = useState(false);
@@ -64,7 +65,9 @@ const MobileMenu = () => {
           <div className="col-6">
             <div className="logo">
               <a href="index.html">
-                <img src="images/logo/logo-dark.png" alt="Logo" />
+                <LazyLoad>
+                  <img src="images/logo/logo-dark.png" alt="WapBorhan-Logo" />
+                </LazyLoad>
               </a>
             </div>
           </div>

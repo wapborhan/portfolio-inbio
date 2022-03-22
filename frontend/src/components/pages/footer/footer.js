@@ -1,4 +1,5 @@
 import React from "react";
+import LazyLoad from "react-lazyload";
 
 function Footer() {
   return (
@@ -10,12 +11,17 @@ function Footer() {
             <div className="footer-area text-center">
               <div className="logo">
                 <a href="index.html">
-                  <img src="images/logo/logo-vertical-dark.png" alt="logo" />
+                  <LazyLoad>
+                    <img
+                      src="images/logo/logo-vertical-dark.png"
+                      alt="Wapborhan-Footer_logo"
+                    />
+                  </LazyLoad>
                 </a>
               </div>
 
               <p className="description mt--30">
-                © 2021. All rights reserved by WapBorhan | Designer{" "}
+                © 2022. All rights reserved by WapBorhan | Designer{" "}
                 <a target="_blank" href="https://wapborhan.com">
                   Borhan Uddin
                 </a>

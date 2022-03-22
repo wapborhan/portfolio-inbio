@@ -1,6 +1,7 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import BannerSocial from "./BannerSocial";
+import LazyLoad from "react-lazyload";
 
 export default function Banner() {
   const handleType = (count) => {
@@ -21,12 +22,14 @@ export default function Banner() {
           <div className="col-lg-12">
             <div className="banner-inner">
               <div className="thumbnail gradient-border havatar gradient-animationz">
-                <img
-                  id="border"
-                  className="gradient-border image gardnt"
-                  src="banner.jpg"
-                  alt=""
-                />
+                <LazyLoad>
+                  <img
+                    id="border"
+                    className="gradient-border image gardnt"
+                    src="banner.jpg"
+                    alt=""
+                  />
+                </LazyLoad>
                 <span className="gradient-borders"></span>
               </div>
               <h1>Borhan Uddin</h1>

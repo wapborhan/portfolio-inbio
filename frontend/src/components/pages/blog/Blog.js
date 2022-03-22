@@ -1,5 +1,6 @@
 import React from "react";
 import { FiLoader } from "react-icons/fi";
+import LazyLoad from "react-lazyload";
 
 function Blog() {
   return (
@@ -38,10 +39,12 @@ function Blog() {
               <div className="inner">
                 <div className="thumbnail">
                   <a href="https://blog.wapborhan.com/2021/12/roadmap.html">
-                    <img
-                      src="images/blog/blog-1.png"
-                      alt="WapBorhan_Blog_Post-1"
-                    />
+                    <LazyLoad>
+                      <img
+                        src="images/blog/blog-1.png"
+                        alt="WapBorhan_Blog_Post-1"
+                      />
+                    </LazyLoad>
                   </a>
                 </div>
                 <div className="content">
@@ -83,10 +86,12 @@ function Blog() {
               <div className="inner">
                 <div className="thumbnail">
                   <a href="images/blog/blog-2.jpg">
-                    <img
-                      src="https://trickbd.com/wp-content/uploads/2021/10/20/20211020_085238.jpg"
-                      alt="WapBorhan_Blog_Post-2"
-                    />
+                    <LazyLoad>
+                      <img
+                        src="https://trickbd.com/wp-content/uploads/2021/10/20/20211020_085238.jpg"
+                        alt="WapBorhan_Blog_Post-2"
+                      />
+                    </LazyLoad>
                   </a>
                 </div>
                 <div className="content">
@@ -128,10 +133,12 @@ function Blog() {
               <div className="inner">
                 <div className="thumbnail">
                   <a href="https://blog.wapborhan.com/2021/12/tools.html">
-                    <img
-                      src="images/blog/blog-3.jpg"
-                      alt="WapBorhan_Blog_Post-3"
-                    />
+                    <LazyLoad>
+                      <img
+                        src="images/blog/blog-3.jpg"
+                        alt="WapBorhan_Blog_Post-3"
+                      />
+                    </LazyLoad>
                   </a>
                 </div>
                 <div className="content">

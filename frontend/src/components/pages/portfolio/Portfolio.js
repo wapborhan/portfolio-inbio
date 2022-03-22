@@ -1,6 +1,7 @@
 import React from "react";
 import { FiGithub, FiExternalLink, FiEye, FiLoader } from "react-icons/fi";
 import { Link } from "react-router-dom";
+import LazyLoad from "react-lazyload";
 
 function Portfolio() {
   return (
@@ -38,10 +39,12 @@ function Portfolio() {
               <div className="inner">
                 <div className="thumbnail">
                   <a>
-                    <img
-                      src="images/portfolio/portfolio-01.jpg"
-                      alt="Personal Portfolio Images"
-                    />
+                    <LazyLoad>
+                      <img
+                        src="images/portfolio/portfolio-01.jpg"
+                        alt="Personal Portfolio Images"
+                      />
+                    </LazyLoad>
                   </a>
                 </div>
                 <div className="content">
@@ -116,10 +119,12 @@ function Portfolio() {
               <div className="inner">
                 <div className="thumbnail">
                   <a>
-                    <img
-                      src="images/portfolio/portfolio-02.jpg"
-                      alt="Personal Portfolio Images"
-                    />
+                    <LazyLoad>
+                      <img
+                        src="images/portfolio/portfolio-02.jpg"
+                        alt="Personal Portfolio Images"
+                      />
+                    </LazyLoad>
                   </a>
                 </div>
                 <div className="content">
@@ -193,10 +198,12 @@ function Portfolio() {
               <div className="inner">
                 <div className="thumbnail">
                   <a>
-                    <img
-                      src="images/portfolio/portfolio-03.jpg"
-                      alt="Personal Portfolio Images"
-                    />
+                    <LazyLoad>
+                      <img
+                        src="images/portfolio/portfolio-03.jpg"
+                        alt="Personal Portfolio Images"
+                      />
+                    </LazyLoad>
                   </a>
                 </div>
                 <div className="content">
