@@ -1,7 +1,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { FiArrowRight, FiArrowLeft } from "react-icons/fi";
+import { FiArrowRight, FiArrowLeft, FiStar } from "react-icons/fi";
 import LazyLoad from "react-lazyload";
 
 function SampleNextArrow(props) {
@@ -38,6 +38,7 @@ function Testimonials() {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   };
+
   return (
     <div
       className="rn-testimonial-area rn-section-gap section-separator"
@@ -85,26 +86,10 @@ function Testimonials() {
                           </span>
                         </div>
                         <div className="rating">
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
+                          <FiStar />
+                          <FiStar />
+                          <FiStar />
+                          <FiStar />
                         </div>
                       </div>
                       <div className="seperator"></div>
@@ -115,6 +100,12 @@ function Testimonials() {
                         ante. Ut tincidunt est ac dolor aliquam sodales
                         phasellus smauris .
                       </p>
+                      <div
+                        className="discription-are"
+                        style={{
+                          backgroundImage: `url("images/quote.png")`,
+                        }}
+                      ></div>
                     </div>
                   </div>
                 </div>
@@ -146,26 +137,11 @@ function Testimonials() {
                           </span>
                         </div>
                         <div className="rating">
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
+                          <FiStar />
+                          <FiStar />
+                          <FiStar />
+                          <FiStar />
+                          <FiStar />
                         </div>
                       </div>
                       <div className="seperator"></div>
@@ -176,6 +152,12 @@ function Testimonials() {
                         ante. Ut tincidunt est ac dolor aliquam sodales
                         phasellus smauris .
                       </p>
+                      <div
+                        className="discription-are"
+                        style={{
+                          backgroundImage: `url("images/quote.png")`,
+                        }}
+                      ></div>
                     </div>
                   </div>
                 </div>
@@ -207,26 +189,10 @@ function Testimonials() {
                           </span>
                         </div>
                         <div className="rating">
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
+                          <FiStar />
+                          <FiStar />
+                          <FiStar />
+                          <FiStar />
                         </div>
                       </div>
                       <div className="seperator"></div>
@@ -236,6 +202,12 @@ function Testimonials() {
                         sem in, lobortis mauris hendrerit ante. Ut tincidunt est
                         ac dolor aliquam sodales phasellus smauris .
                       </p>
+                      <div
+                        className="discription-are"
+                        style={{
+                          backgroundImage: `url("images/quote.png")`,
+                        }}
+                      ></div>
                     </div>
                   </div>
                 </div>
@@ -268,26 +240,11 @@ function Testimonials() {
                           </span>
                         </div>
                         <div className="rating">
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
+                          <FiStar />
+                          <FiStar />
+                          <FiStar />
+                          <FiStar />
+                          <FiStar />
                         </div>
                       </div>
                       <div className="seperator"></div>
@@ -298,6 +255,12 @@ function Testimonials() {
                         tincidunt est ac dolor aliquam sodales phasellus smauris
                         .
                       </p>
+                      <div
+                        className="discription-are"
+                        style={{
+                          backgroundImage: `url("images/quote.png")`,
+                        }}
+                      ></div>
                     </div>
                   </div>
                 </div>
@@ -332,26 +295,11 @@ function Testimonials() {
                           </span>
                         </div>
                         <div className="rating">
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
-                          <img
-                            src="images/icons/rating.png"
-                            alt="rating-image"
-                          />
+                          <FiStar />
+                          <FiStar />
+                          <FiStar />
+                          <FiStar />
+                          <FiStar />
                         </div>
                       </div>
                       <div className="seperator"></div>
@@ -362,6 +310,12 @@ function Testimonials() {
                         tincidunt est ac dolor aliquam sodales phasellus smauris
                         .
                       </p>
+                      <div
+                        className="discription-are"
+                        style={{
+                          backgroundImage: `url("images/quote.png")`,
+                        }}
+                      ></div>
                     </div>
                   </div>
                 </div>

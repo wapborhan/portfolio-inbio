@@ -17178,12 +17178,16 @@ div#featured-project-carousel {
 }
 
 .testimonial .inner .card-description .title-area .rating {
-  padding: 5px 17px 9px 17px;
+  padding: 5px 15px 9px 15px;
   border-radius: 6px;
   background: var(--background-color-1);
   -webkit-box-shadow: var(--shadow-1);
   box-shadow: var(--shadow-1);
   display: inline-block;
+}
+
+.testimonial .inner .card-description .title-area .rating svg {
+  color: var(--color-primary);
 }
 
 @media only screen and (max-width: 767px) {
@@ -17252,6 +17256,21 @@ div#featured-project-carousel {
   .testimonial .inner .card-description::before {
     display: none;
   }
+}
+
+.discription-are {
+  content: "";
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: 0;
+  top: -130px;
+  background: transparent;
+  background-size: cover;
+  z-index: -1;
+  opacity: 0.5;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .testimonial .inner .card-description::after {
