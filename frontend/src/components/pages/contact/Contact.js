@@ -1,5 +1,6 @@
 import React from "react";
 import ContactUs from "./Form";
+import LazyLoad from "react-lazyload";
 
 function Contact() {
   return (
@@ -20,16 +21,17 @@ function Contact() {
           <div className="col-lg-5">
             <div className="contact-about-area">
               <div className="thumbnail">
-                {/* <!--                                <img src="assets/images/contact/contact1.png" alt="contact-img">--> */}
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1288.384878338166!2d88.95830402281295!3d24.02744201588017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fea5e989a3df29%3A0xf5251011b08f158f!2z4KaP4Ka44KaG4KawIOCmrOCni-CmsOCmueCmvuCmqA!5e0!3m2!1sbn!2sbd!4v1629847093289!5m2!1sbn!2sbd"
-                  width="460"
-                  height="285"
-                  style={{ border: "0" }}
-                  allowFullScreen=""
-                  loading="lazy"
-                  tittle="Map"
-                ></iframe>
+                <LazyLoad>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1288.384878338166!2d88.95830402281295!3d24.02744201588017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fea5e989a3df29%3A0xf5251011b08f158f!2z4KaP4Ka44KaG4KawIOCmrOCni-CmsOCmueCmvuCmqA!5e0!3m2!1sbn!2sbd!4v1629847093289!5m2!1sbn!2sbd"
+                    width="460"
+                    height="285"
+                    style={{ border: "0" }}
+                    allowFullScreen=""
+                    loading="lazy"
+                    tittle="Map"
+                  ></iframe>
+                </LazyLoad>
               </div>
               <div className="title-area">
                 <h4 className="title">Borhan Uddin</h4>

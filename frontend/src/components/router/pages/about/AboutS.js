@@ -1,4 +1,5 @@
 import React from "react";
+import LazyLoad from "react-lazyload";
 
 export default function AboutS() {
   return (
@@ -127,10 +128,12 @@ export default function AboutS() {
                           <img src="images/icons/js.png" alt="Icons Images" />
                         </li>
                         <li>
-                          <img
-                            src="images/icons/react.png"
-                            alt="Icons Images"
-                          />
+                          <LazyLoad>
+                            <img
+                              src="images/icons/react.png"
+                              alt="Icons Images"
+                            />
+                          </LazyLoad>
                         </li>
                       </ul>
                     </div>

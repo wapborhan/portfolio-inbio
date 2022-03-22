@@ -48,7 +48,7 @@ export default function RouterHeader() {
             <div className="col-lg-6">
               <div className="header-left">
                 <div className="header-thumbnail">
-                  <img src="banner.jpg" alt="personal_portfolio" />
+                  <img src="images/banner.jpg" alt="personal_portfolio" />
                 </div>
                 <div className="header-info-content">
                   <h4 className="title">Borhan Uddin</h4>
