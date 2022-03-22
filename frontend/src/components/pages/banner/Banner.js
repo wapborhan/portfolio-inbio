@@ -26,7 +26,7 @@ export default function Banner() {
                   <img
                     id="border"
                     className="gradient-border image gardnt"
-                    src="banner.jpg"
+                    src="images/banner.jpg"
                     alt=""
                   />
                 </LazyLoad>

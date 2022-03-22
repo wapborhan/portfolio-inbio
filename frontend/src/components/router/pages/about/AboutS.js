@@ -142,7 +142,7 @@ export default function AboutS() {
             <div className="order-1 order-lg-2 col-lg-5">
               <div className="thumbnail">
                 <div className="inner">
-                  <img src="about.png" alt="WapBorhan" />
+                  <img src="images/about.png" alt="WapBorhan" />
                 </div>
               </div>
             </div>
