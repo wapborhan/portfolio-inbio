@@ -78,3 +78,7 @@
 .padtse {
   margin-top: 150px !important;
 }
+
+.tags {
+  text-transform: capitalize;
+}

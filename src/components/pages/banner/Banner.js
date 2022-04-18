@@ -22,14 +22,12 @@ export default function Banner() {
           <div className="col-lg-12">
             <div className="banner-inner">
               <div className="thumbnail gradient-border havatar gradient-animationz">
-                <LazyLoad>
-                  <img
-                    id="border"
-                    className="gradient-border image gardnt"
-                    src="images/banner.jpg"
-                    alt=""
-                  />
-                </LazyLoad>
+                <img
+                  id="border"
+                  className="gradient-border image gardnt"
+                  src="images/banner.jpg"
+                  alt=""
+                />
                 <span className="gradient-borders"></span>
               </div>
               <h1>Borhan Uddin</h1>
