@@ -82,3 +82,7 @@
 .tags {
   text-transform: capitalize;
 }
+
+.slide.slider-style-3 .slider-wrapper .slider-info .user-info-top .user-info-header .title{
+  font-size: 35px !important;
+}

@@ -76,6 +76,12 @@ function Testimonials() {
                           Chief Operating Officer
                         </span>
                       </div>
+                      <div className="rating">
+                        <FiStar />
+                        <FiStar />
+                        <FiStar />
+                        <FiStar />
+                      </div>
                     </div>
                     <div className="card-description">
                       <div className="title-area">
@@ -84,12 +90,6 @@ function Testimonials() {
                           <span className="date">
                             via Upwork - Mar 4, 2015 - Aug 30, 2021
                           </span>
-                        </div>
-                        <div className="rating">
-                          <FiStar />
-                          <FiStar />
-                          <FiStar />
-                          <FiStar />
                         </div>
                       </div>
                       <div className="seperator"></div>
@@ -126,6 +126,14 @@ function Testimonials() {
                         <span className="subtitle mt--10">Bound - Trolola</span>
                         <h3 className="title">Jone Duone Joe</h3>
                         <span className="designation">Operating Officer</span>
+                      </div>
+
+                      <div className="rating">
+                        <FiStar />
+                        <FiStar />
+                        <FiStar />
+                        <FiStar />
+                        <FiStar />
                       </div>
                     </div>
                     <div className="card-description">

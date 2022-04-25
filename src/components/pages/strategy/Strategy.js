@@ -33,7 +33,7 @@ export default class Strategy extends Component {
                     <div className="col-lg-6">
                       <div className="sr-itemd">
                         <div className="thumbnail">
-                          <a href="https://blog.wapborhan.com/2021/12/tools.html">
+                          <a>
                             <LazyLoad placeholder={<Loading />}>
                               <img
                                 src="images/strategy.jpg"
