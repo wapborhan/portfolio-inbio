@@ -1,11 +1,20 @@
 import React, { Component } from "react";
 // import Javascript from "./Javascript";
-import PortfolioDetails from "./PortfolioDetails";
-import PORTFOLIO from "../../../../assets/data/portfolio";
+import ReactJS from "./ReactJS";
+import Javascript from "./Javascript";
+import Landing from "./Landing";
+import Android from "./Android";
+import REACT from "../../../../assets/data/ReactData";
+import JAVASCRIPT from "../../../../assets/data/JavascriptData";
+import LANDING_PAGE from "../../../../assets/data/LandingData";
+import ANDROID from "../../../../assets/data/AndroidData";
 
 export default class PortfolioS extends Component {
   state = {
-    portfolio: PORTFOLIO,
+    react: REACT,
+    javascript: JAVASCRIPT,
+    landing: LANDING_PAGE,
+    android: ANDROID,
   };
 
   render() {
@@ -33,9 +42,13 @@ export default class PortfolioS extends Component {
                   </div>
                 </div>
 
-                <PortfolioDetails project={this.state.portfolio} />
+                <ReactJS project={this.state.react} />
 
-                {/* <Javascript /> */}
+                <Javascript project={this.state.javascript} />
+
+                <Landing project={this.state.landing} />
+
+                <Android project={this.state.android} />
               </div>
             </div>
             {/* <!-- End portfolio Area --> */}

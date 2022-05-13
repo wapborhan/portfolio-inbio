@@ -13114,6 +13114,10 @@ p.tags span {
   background: #a70a05;
 }
 
+.rn-portfolio .inner .content .tags span.java {
+  background: #d0a384;
+}
+
 .rn-portfolio:hover {
   background: linear-gradient(145deg, #ffffff, #e2e8ec) !important;
 }

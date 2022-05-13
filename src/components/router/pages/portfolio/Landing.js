@@ -1,8 +1,7 @@
 import React from "react";
-import { FiGithub, FiExternalLink, FiEye, FiLoader } from "react-icons/fi";
+import { FiGithub, FiExternalLink, FiEye } from "react-icons/fi";
 
-export default function PortfolioDetails(props) {
-  console.log(props);
+export default function Landing(props) {
   return (
     <div>
       {/* <!-- Project Tittle Start -->/ */}
@@ -17,7 +16,7 @@ export default function PortfolioDetails(props) {
                 className="rn-btn btn-brd mr--30"
                 href="more/portfolio/javascript.html"
               >
-                <span>React</span>
+                <span>Landing Page</span>
               </a>
             </div>
           </div>
@@ -31,7 +30,7 @@ export default function PortfolioDetails(props) {
           return (
             <div
               key={portfolio.id}
-              className="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30"
+              className="col-lg-4 col-xl-3 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30"
             >
               <div className="rn-portfolio">
                 <div className="inner">
@@ -78,8 +77,8 @@ export default function PortfolioDetails(props) {
                       </div>
                     </div>
                     {/* <div className="desc">
-                      <p>{portfolio.short_desc}</p>
-                    </div> */}
+                    <p>{portfolio.short_desc}</p>
+                  </div> */}
                   </div>
                 </div>
               </div>
