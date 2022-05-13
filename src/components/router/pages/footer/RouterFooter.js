@@ -14,17 +14,13 @@ export default function RouterFooter() {
                   <img src="images/logo/logo-vertical-dark.png" alt="logo" />
                 </a>
               </div>
-
               <p className="description mt--30">
                 © 2022. All rights reserved by{" "}
                 <a target="_blank" href="https://wapborhan.com">
                   WapBorhan
-                </a>{" "}
-                | Designer{" "}
-                <a target="_blank" href="https://facebook.com/infoborhan">
-                  Borhan Uddin
                 </a>
-                .{" "}
+                . | Design BY{" "}
+                <a href="https://srdreamlab.netlify.app/">SR Dream Lab</a>.
               </p>
             </div>
           </div>

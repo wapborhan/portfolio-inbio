@@ -21,11 +21,12 @@ function Footer() {
               </div>
 
               <p className="description mt--30">
-                © 2022. All rights reserved by WapBorhan | Designer{" "}
+                © 2022. All rights reserved by{" "}
                 <a target="_blank" href="https://wapborhan.com">
-                  Borhan Uddin
+                  WapBorhan
                 </a>
-                .{" "}
+                . | Design BY{" "}
+                <a href="https://srdreamlab.netlify.app/">SR Dream Lab</a>.
               </p>
             </div>
           </div>

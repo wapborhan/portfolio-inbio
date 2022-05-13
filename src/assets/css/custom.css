@@ -1,6 +1,3 @@
-@import url("./fonts/poppins/stylesheet.css");
-@import url("./fonts/montserrat/stylesheet.css");
-
 .rn-portfolio-area .catt-title {
   grid-template-columns: auto 1fr;
   display: grid;
