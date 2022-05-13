@@ -1,3 +1,6 @@
+@import url("./fonts/poppins/stylesheet.css");
+@import url("./fonts/montserrat/stylesheet.css");
+
 .rn-portfolio-area .catt-title {
   grid-template-columns: auto 1fr;
   display: grid;
@@ -83,6 +86,6 @@
   text-transform: capitalize;
 }
 
-.slide.slider-style-3 .slider-wrapper .slider-info .user-info-top .user-info-header .title{
+.slide.slider-style-3 .slider-wrapper .slider-info .user-info-top .user-info-header .title {
   font-size: 35px !important;
 }
