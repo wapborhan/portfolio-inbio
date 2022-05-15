@@ -57,7 +57,7 @@ const REACT = [
   {
     id: "6",
     name: "Burger Builder",
-    image: "images/portfolio/no-image.jpg",
+    image: "images/portfolio/burger-builder.jpg",
     language: "react",
     source_link: "",
     live_link: "",

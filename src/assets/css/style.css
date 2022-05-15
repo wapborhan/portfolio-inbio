@@ -13119,7 +13119,7 @@ p.tags span {
 }
 
 .rn-portfolio:hover {
-  background: linear-gradient(145deg, #ffffff, #e2e8ec) !important;
+  background: linear-gradient(145deg, #ffdcdc, #e0dddd) !important
 }
 
 .rn-portfolio .inner .thumbnail {

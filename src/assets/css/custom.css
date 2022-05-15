@@ -86,3 +86,8 @@
 .slide.slider-style-3 .slider-wrapper .slider-info .user-info-top .user-info-header .title {
   font-size: 35px !important;
 }
+
+
+.rn-portfolio:hover .inner .content .title {
+  color: var(--color-primary);
+}
