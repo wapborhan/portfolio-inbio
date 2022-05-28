@@ -70,7 +70,7 @@ const REACT = [
   {
     id: "7",
     name: "Restaurent",
-    image: "images/portfolio/no-image.jpg",
+    image: "images/portfolio/restuarant.jpg",
     language: "react",
     source_link: "https://github.com/wapborhan/restaurant",
     live_link: "http://restaurantz.netlify.app/",
@@ -93,7 +93,7 @@ const REACT = [
   {
     id: "9",
     name: "SR Chat",
-    image: "images/portfolio/no-image.jpg",
+    image: "images/portfolio/sr-chat.jpg",
     language: "react",
     source_link: "https://github.com/wapborhan/sr-chat",
     live_link: "htttp://code.wapborhan.com/sr-chat",
