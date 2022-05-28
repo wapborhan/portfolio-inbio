@@ -2,7 +2,7 @@ const JAVASCRIPT = [
   {
     id: "1",
     name: "Tasbih",
-    image: "images/portfolio/no-image.jpg",
+    image: "images/portfolio/tasbih.jpg",
     language: "javascript",
     source_link: "https://github.com/wapborhan/tasbih",
     live_link: "https://code.wapborhan.com/tasbih/",
@@ -12,7 +12,7 @@ const JAVASCRIPT = [
   {
     id: "2",
     name: "Gradient Generator",
-    image: "images/portfolio/no-image.jpg",
+    image: "images/portfolio/gradient.jpg",
     language: "javascript",
     source_link: "https://github.com/wapborhan/gradient-generator",
     live_link: "https://code.wapborhan.com/gradient-generator/",
@@ -24,7 +24,7 @@ const JAVASCRIPT = [
   {
     id: "3",
     name: "Calculator",
-    image: "images/portfolio/no-image.jpg",
+    image: "images/portfolio/calculator.jpg",
     language: "javascript",
     source_link: "https://github.com/wapborhan/calculator",
     live_link: "https://code.wapborhan.com/calculator/",
@@ -35,7 +35,7 @@ const JAVASCRIPT = [
   {
     id: "4",
     name: "Time Break",
-    image: "images/portfolio/no-image.jpg",
+    image: "images/portfolio/break.jpg",
     language: "javascript",
     source_link: "https://github.com/wapborhan/break",
     live_link: "https://code.wapborhan.com/break/",
@@ -46,7 +46,7 @@ const JAVASCRIPT = [
   {
     id: "5",
     name: "INCOME-EXPENSE    ",
-    image: "images/portfolio/no-image.jpg",
+    image: "images/portfolio/income-expense.jpg",
     language: "javascript",
     source_link: "https://github.com/wapborhan/income-expense",
     live_link: "https://code.wapborhan.com/income-expense/",
@@ -58,7 +58,7 @@ const JAVASCRIPT = [
   {
     id: "6",
     name: "Notes",
-    image: "images/portfolio/no-image.jpg",
+    image: "images/portfolio/notes.jpg",
     language: "javascript",
     source_link: "https://github.com/wapborhan/notes",
     live_link: "https://code.wapborhan.com/notes/",
@@ -69,7 +69,7 @@ const JAVASCRIPT = [
   {
     id: "7",
     name: "Money Count",
-    image: "images/portfolio/no-image.jpg",
+    image: "images/portfolio/money-count.jpg",
     language: "javascript",
     source_link: "https://github.com/wapborhan/money-count",
     live_link: "https://code.wapborhan.com/money-count/",
@@ -80,7 +80,7 @@ const JAVASCRIPT = [
   {
     id: "8",
     name: "Word Count",
-    image: "images/portfolio/no-image.jpg",
+    image: "images/portfolio/word-count.jpg",
     language: "javascript",
     source_link: "https://github.com/wapborhan/word-count",
     live_link: "https://code.wapborhan.com/word-count/",

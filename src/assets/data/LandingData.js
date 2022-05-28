@@ -2,7 +2,7 @@ const LANDING_PAGE = [
   {
     id: "1",
     name: "Mogo",
-    image: "images/portfolio/no-image.jpg",
+    image: "images/portfolio/mogo.jpg",
     language: "react",
     source_link: "https://github.com/wapborhan/mogo",
     live_link: "https://code.wapborhan.com/mogo/",
@@ -12,7 +12,7 @@ const LANDING_PAGE = [
   {
     id: "2",
     name: "Tajam",
-    image: "images/portfolio/no-image.jpg",
+    image: "images/portfolio/tajam.jpg",
     language: "react",
     source_link: "https://github.com/wapborhan/tajam",
     live_link: "https://code.wapborhan.com/tajam/",
@@ -23,7 +23,7 @@ const LANDING_PAGE = [
   {
     id: "3",
     name: "HeadP",
-    image: "images/portfolio/no-image.jpg",
+    image: "images/portfolio/headp.jpg",
     language: "html",
     source_link: "https://github.com/wapborhan/headp",
     live_link: "https://code.wapborhan.com/headp/",
@@ -34,7 +34,7 @@ const LANDING_PAGE = [
   {
     id: "4",
     name: "Leospa",
-    image: "images/portfolio/no-image.jpg",
+    image: "images/portfolio/leospa.jpg",
     language: "html",
     source_link: "https://github.com/wapborhan/leospa",
     live_link: "https://code.wapborhan.com/leospa/",
@@ -45,7 +45,7 @@ const LANDING_PAGE = [
   {
     id: "5",
     name: "Corporate",
-    image: "images/portfolio/no-image.jpg",
+    image: "images/portfolio/corporate.jpg",
     language: "html",
     source_link: "https://github.com/wapborhan/corporate",
     live_link: "https://code.wapborhan.com/corporate/",
@@ -56,7 +56,7 @@ const LANDING_PAGE = [
   {
     id: "6",
     name: "Business",
-    image: "images/portfolio/no-image.jpg",
+    image: "images/portfolio/business.jpg",
     language: "html",
     source_link: "https://github.com/wapborhan/business",
     live_link: "https://code.wapborhan.com/business/",
@@ -67,7 +67,7 @@ const LANDING_PAGE = [
   {
     id: "7",
     name: "RexList",
-    image: "images/portfolio/no-image.jpg",
+    image: "images/portfolio/rexList.jpg",
     language: "html",
     source_link: "https://github.com/wapborhan/rexlist",
     live_link: "https://code.wapborhan.com/rexlist/",
@@ -78,7 +78,7 @@ const LANDING_PAGE = [
   {
     id: "8",
     name: "CodesTrickZ",
-    image: "images/portfolio/no-image.jpg",
+    image: "images/portfolio/codestrickz.jpg",
     language: "react",
     source_link: "https://github.com/wapborhan/codestrickz",
     live_link: "https://code.wapborhan.com/codestrickz/",
