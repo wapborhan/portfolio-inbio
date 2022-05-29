@@ -81,7 +81,7 @@ const REACT = [
   {
     id: "8",
     name: "Weather",
-    image: "images/portfolio/no-image.jpg",
+    image: "images/portfolio/weather.jpg",
     language: "react",
     source_link: "https://github.com/wapborhan/weather-react",
     live_link: "htttp://code.wapborhan.com/weather-react",
