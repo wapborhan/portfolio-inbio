@@ -10,7 +10,7 @@ function Footer() {
           <div className="col-lg-12">
             <div className="footer-area text-center">
               <div className="logo">
-                <a href="index.html">
+                <a href="/">
                   <LazyLoad>
                     <img
                       src="images/logo/logo-vertical-dark.png"
