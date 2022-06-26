@@ -1,7 +1,57 @@
 import React from "react";
 import LazyLoad from "react-lazyload";
+import { Typewriter } from "react-simple-typewriter";
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaJsSquare,
+  FaReact,
+  FaVuejs,
+  FaNodeJs,
+  FaBootstrap,
+  FaSass,
+  FaWordpressSimple,
+  FaGithubSquare,
+  FaGitAlt,
+} from "react-icons/fa";
+import {
+  SiMongodb,
+  SiExpress,
+  SiJquery,
+  SiVisualstudiocode,
+  SiXampp,
+  SiAdobepremierepro,
+  SiAdobexd,
+  SiSketch,
+  SiAdobeillustrator,
+  SiCanva,
+} from "react-icons/si";
+import { styled } from "@mui/material/styles";
+import Tooltip, { tooltipClasses } from "@mui/material/Tooltip";
+
+const LightTooltip = styled(({ className, ...props }) => (
+  <Tooltip {...props} arrow classes={{ popper: className }} />
+))(({ theme }) => ({
+  [`& .${tooltipClasses.tooltip}`]: {
+    backgroundColor: "rgb(255, 1, 79)",
+    color: theme.palette.common.white,
+    boxShadow: theme.shadows[1],
+    fontSize: 12,
+    fontWeight: 700,
+  },
+  [`& .${tooltipClasses.arrow}`]: {
+    color: "rgb(255, 1, 79)",
+  },
+}));
 
 export default function AboutS() {
+  const handleType = (count) => {
+    // console.log(count);
+  };
+
+  const handleDone = () => {
+    console.log(`Done after 5 loops!`);
+  };
   return (
     <div className="slide slider-style-1">
       <div className="container">
@@ -20,7 +70,21 @@ export default function AboutS() {
 
                         <span className="cd-words-wrapper">
                           <b className="is-visible ms-3">
-                            Front-End Developer.
+                            <Typewriter
+                              words={[
+                                "Front-End Developer.",
+                                "Wordpress Developer.",
+                                "App Developer.",
+                              ]}
+                              loop={true}
+                              cursor
+                              cursorStyle="|"
+                              typeSpeed={70}
+                              deleteSpeed={50}
+                              delaySpeed={1000}
+                              onLoopDone={handleDone}
+                              onType={handleType}
+                            />
                           </b>
                         </span>
                       </span>
@@ -117,24 +181,27 @@ export default function AboutS() {
                   <div className="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12 mt_mobile--30">
                     <div className="skill-share-inner">
                       <span className="title">best skill on</span>
-                      <ul className="skill-share d-flex liststyle">
-                        <li>
-                          <img src="images/icons/html.png" alt="Icons Images" />
-                        </li>
-                        <li>
-                          <img src="images/icons/css.png" alt="Icons Images" />
-                        </li>
-                        <li>
-                          <img src="images/icons/js.png" alt="Icons Images" />
-                        </li>
-                        <li>
-                          <LazyLoad>
-                            <img
-                              src="images/icons/react.png"
-                              alt="Icons Images"
-                            />
-                          </LazyLoad>
-                        </li>
+                      <ul className="skill-share d-flex liststyle justify-content-left">
+                        <LightTooltip title="MONGODB" placement="top" arrow>
+                          <li>
+                            <SiMongodb className="mongodb" />
+                          </li>
+                        </LightTooltip>
+                        <LightTooltip title="EXPRESS" placement="top" arrow>
+                          <li>
+                            <SiExpress className="Express" />
+                          </li>
+                        </LightTooltip>
+                        <LightTooltip title="REACT" placement="top" arrow>
+                          <li>
+                            <FaReact className="react" />
+                          </li>
+                        </LightTooltip>
+                        <LightTooltip title="NODE JS" placement="top" arrow>
+                          <li>
+                            <FaNodeJs className="nodejs" />
+                          </li>
+                        </LightTooltip>
                       </ul>
                     </div>
                   </div>

@@ -12,10 +12,7 @@ export default function Javascript(props) {
               Some <span className="txt-success">Projects</span> I've Build By
             </h3>
             <div className="text-right">
-              <a
-                className="rn-btn btn-brd mr--30"
-                href="more/portfolio/javascript.html"
-              >
+              <a className="rn-btn btn-brd mr--30">
                 <span>Javascript</span>
               </a>
             </div>

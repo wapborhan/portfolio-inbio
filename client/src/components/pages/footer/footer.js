@@ -25,8 +25,8 @@ function Footer() {
                 <a target="_blank" href="https://wapborhan.com">
                   WapBorhan
                 </a>
-                . | Design BY{" "}
-                <a href="https://srdreamlab.netlify.app/">SR Dream Lab</a>.
+                . | Design BY <a href="https://srdreamlab.com/">SR Dream Lab</a>
+                .
               </p>
             </div>
           </div>

@@ -40,8 +40,8 @@ class Info extends React.Component {
                             <i data-feather="file"></i>
                             <span>
                               Developer{" "}
-                              <a href="http://www.codestrickz.xyz">
-                                CodesTrickZ
+                              <a href="http://www.srdreamlab.com">
+                                SR Dream Lab
                               </a>
                             </span>
                           </div>

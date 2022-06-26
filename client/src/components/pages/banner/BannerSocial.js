@@ -6,6 +6,7 @@ import {
   FaTwitterSquare,
   FaCodepen,
 } from "react-icons/fa";
+import { AiFillAndroid } from "react-icons/ai";
 
 export default function BannerSocial() {
   return (
@@ -13,7 +14,7 @@ export default function BannerSocial() {
       <ul className="social-share d-flex liststyle">
         <li>
           <a
-            href="http://facebook.com/infoborhan"
+            href="http://facebook.com/wapborhan"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -54,6 +55,15 @@ export default function BannerSocial() {
             rel="noopener noreferrer"
           >
             <FaCodepen />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/wapborhan/wapborhan-apps/raw/main/app/wapborhan-V1.1.apk"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiFillAndroid />
           </a>
         </li>
       </ul>

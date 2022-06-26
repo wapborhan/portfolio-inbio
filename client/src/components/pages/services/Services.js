@@ -51,11 +51,11 @@ function Services() {
                     I throw myself down among the tall grass by the stream as I
                     lie close to the earth.
                   </p>
-                  <a className="read-more-button">
+                  {/* <a className="read-more-button">
                     <i className="feather-arrow-right">
                       <FiArrowRight />
                     </i>
-                  </a>
+                  </a> */}
                 </div>
               </div>
               {/* <!-- <a className="over-link" href="more/features/web-design.html"></a> --> */}
@@ -84,11 +84,11 @@ function Services() {
                     It uses a dictionary of over 200 Latin words, combined with
                     a handful of model sentence.
                   </p>
-                  <a className="read-more-button">
+                  {/* <a className="read-more-button">
                     <i className="feather-arrow-right">
                       <FiArrowRight />
                     </i>
-                  </a>
+                  </a> */}
                 </div>
               </div>
               {/* <!-- <a className="over-link" href="more/features/web-development.html"></a> --> */}
@@ -116,11 +116,11 @@ function Services() {
                     I throw myself down among the tall grass by the stream as I
                     lie close to the earth.
                   </p>
-                  <a className="read-more-button">
+                  {/* <a className="read-more-button">
                     <i className="feather-arrow-right">
                       <FiArrowRight />
                     </i>
-                  </a>
+                  </a> */}
                 </div>
               </div>
               {/* <!-- <a className="over-link" href="more/features/app-development.html"></a> --> */}

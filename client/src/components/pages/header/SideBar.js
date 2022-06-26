@@ -151,7 +151,7 @@ export default function SideBar() {
             <ul className="social-share d-flex liststyle">
               <li className="facebook">
                 <a
-                  href="http://www.facebook.com/infoborhan"
+                  href="http://www.facebook.com/wapborhan"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
