@@ -145,7 +145,7 @@ export default function SideBar() {
             </li>
           </ul>
         </nav>
-        <div className="footer">
+        {/* <div className="footer">
           <div className="social-share-style-1  mt--30">
             <span className="title">find with me</span>
             <ul className="social-share d-flex liststyle">
@@ -218,7 +218,7 @@ export default function SideBar() {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </header>
     </div>
   );

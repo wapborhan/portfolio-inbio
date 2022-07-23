@@ -33,25 +33,15 @@ export default function Banner() {
               <h1>Borhan Uddin</h1>
               {/* <!-- type headline start--> */}
               <span className="cd-headline clip is-full-width">
-                <span className="cd-words-wrapper">
-                  <Typewriter
-                    words={[
-                      "Front-End Developer.",
-                      "Wordpress Developer.",
-                      "App Developer.",
-                    ]}
-                    loop={true}
-                    cursor
-                    cursorStyle="|"
-                    typeSpeed={70}
-                    deleteSpeed={50}
-                    delaySpeed={1000}
-                    onLoopDone={handleDone}
-                    onType={handleType}
-                  />
-                </span>
+                <div class="info">
+                  <i data-feather="file"></i>
+                  <span>
+                    Founder &amp; CEO{" "}
+                    <a href="http://www.srdreamlab.com">SR Dream Lab</a>
+                  </span>
+                </div>
               </span>
-              {/* <!-- type headline end --> */}
+
               <div className="button-area">
                 <BannerSocial />
               </div>

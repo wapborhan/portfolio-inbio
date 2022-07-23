@@ -91,3 +91,11 @@
 .rn-portfolio:hover .inner .content .title {
   color: var(--color-primary);
 }
+
+.info span {
+  color: #3c3e47 !important;
+}
+
+.info span a {
+  color: #ff014f;
+}

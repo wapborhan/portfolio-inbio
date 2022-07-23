@@ -1,6 +1,12 @@
 import React from "react";
 import Skils from "./Skils";
 import { FiUser } from "react-icons/fi";
+import {
+  FaCentos,
+  FaRegEnvelope,
+  FaPeriscope,
+  FaRegUser,
+} from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 class Info extends React.Component {
@@ -20,7 +26,7 @@ class Info extends React.Component {
                           <div className="sr-user">
                             <div className="user">
                               <i>
-                                <FiUser />
+                                <FaRegUser />
                               </i>
                             </div>
                             <h2 className="title">
@@ -37,16 +43,19 @@ class Info extends React.Component {
                         </div>
                         <div className="user-info-footer">
                           <div className="info">
-                            <i data-feather="file"></i>
+                            <FaCentos />
                             <span>
-                              Developer{" "}
-                              <a href="http://www.srdreamlab.com">
+                              Founder & CEO{" "}
+                              <a
+                                href="http://www.srdreamlab.com"
+                                target="_blank"
+                              >
                                 SR Dream Lab
                               </a>
                             </span>
                           </div>
                           <div className="info">
-                            <i data-feather="mail"></i>
+                            <FaRegEnvelope />
                             <span>
                               <a href="mailto:borhaninfos@gmail.com">
                                 borhaninfos@gmail.com
@@ -54,7 +63,7 @@ class Info extends React.Component {
                             </span>
                           </div>
                           <div className="info">
-                            <i data-feather="map-pin"></i>
+                            <FaPeriscope />
                             <span>
                               <a href="https://goo.gl/maps/MA7zFUaa29n3J6JA6">
                                 {" "}
