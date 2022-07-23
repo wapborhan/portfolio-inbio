@@ -33,7 +33,7 @@ export default function Banner() {
               <h1>Borhan Uddin</h1>
               {/* <!-- type headline start--> */}
               <span className="cd-headline clip is-full-width">
-                <div class="info">
+                <div className="info">
                   <i data-feather="file"></i>
                   <span>
                     Founder &amp; CEO{" "}

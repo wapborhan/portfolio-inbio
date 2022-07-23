@@ -41,22 +41,22 @@ function Portfolio() {
                   <a>
                     <LazyLoad>
                       <img
-                        src="images/portfolio/portfolio-01.jpg"
-                        alt="Personal Portfolio Images"
+                        src="images/portfolio/alquranbd.PNG"
+                        alt="AlquranBD"
                       />
                     </LazyLoad>
                   </a>
                 </div>
                 <div className="content">
                   <div className="category-info">
-                    <div className="category-list">
-                      <a>Development</a>
+                    <div className="tags mt-3">
+                      <span className="react">React</span>
                     </div>
                     <div className="meta">
                       <div className="card-btn-container d-flex">
                         <div>
                           <a
-                            href="https://github.com/wapborhan/github-users"
+                            href="https://islambd.netlify.app/about"
                             className="btn card-btn"
                             title="Source Code"
                           >
@@ -67,7 +67,7 @@ function Portfolio() {
                         </div>
                         <div>
                           <a
-                            href="https://code.wapborhan.com/github-users/"
+                            href="https://islambd.netlify.app/"
                             className="btn card-btn"
                             title="Live"
                           >
@@ -78,9 +78,8 @@ function Portfolio() {
                         </div>
                         <div>
                           <a
-                            data-toggle="modal"
-                            data-target="#exampleModalCenter-1"
                             className="btn card-btn"
+                            href="https://islambd.netlify.app/about"
                             title="Details"
                           >
                             <i className="feather-eye">
@@ -93,15 +92,10 @@ function Portfolio() {
                   </div>
                   <h4 className="title">
                     <a>
-                      Github User's Finder
+                      IslamBD
                       <i className="feather-arrow-up-right"></i>
                     </a>
                   </h4>
-                  <p className="tags mt-3">
-                    <span className="html">Html</span>
-                    <span className="css">Css</span>
-                    <span className="javascript">Javascript</span>
-                  </p>
                 </div>
               </div>
             </div>
@@ -121,8 +115,8 @@ function Portfolio() {
                   <a>
                     <LazyLoad>
                       <img
-                        src="images/portfolio/portfolio-02.jpg"
-                        alt="Personal Portfolio Images"
+                        src="images/portfolio/portfolio-01.jpg"
+                        alt="Github"
                       />
                     </LazyLoad>
                   </a>
@@ -130,13 +124,15 @@ function Portfolio() {
                 <div className="content">
                   <div className="category-info">
                     <div className="category-list">
-                      <a>Development</a>
+                      <p className="tags mt-3">
+                        <span className="react">React</span>
+                      </p>
                     </div>
                     <div className="meta">
                       <div className="card-btn-container d-flex">
                         <div>
                           <a
-                            href="https://github.com/wapborhan/calculator"
+                            href="https://github.com/wapborhan/github-users-react"
                             className="btn card-btn"
                             title="Source Code"
                           >
@@ -147,7 +143,7 @@ function Portfolio() {
                         </div>
                         <div>
                           <a
-                            href="http://code.wapborhan.com/calculator/"
+                            href="https://code.wapborhan.com/github-users-react/"
                             className="btn card-btn"
                             title="Live"
                           >
@@ -158,8 +154,7 @@ function Portfolio() {
                         </div>
                         <div>
                           <a
-                            data-toggle="modal"
-                            data-target="#exampleModalCenter-2"
+                            href="https://github.com/wapborhan/github-users-react/blob/main/README.md"
                             className="btn card-btn"
                             title="Details"
                           >
@@ -173,14 +168,10 @@ function Portfolio() {
                   </div>
                   <h4 className="title">
                     <a>
-                      Calculators<i className="feather-arrow-up-right"></i>
+                      Github User Finder
+                      <i className="feather-arrow-up-right"></i>
                     </a>
                   </h4>
-                  <p className="tags mt-3">
-                    <span className="html">Html</span>
-                    <span className="css">Css</span>
-                    <span className="javascript">Javascript</span>
-                  </p>
                 </div>
               </div>
             </div>
@@ -199,23 +190,22 @@ function Portfolio() {
                 <div className="thumbnail">
                   <a>
                     <LazyLoad>
-                      <img
-                        src="images/portfolio/portfolio-03.jpg"
-                        alt="Personal Portfolio Images"
-                      />
+                      <img src="images/portfolio/portfolio-03.jpg" alt="ToDo" />
                     </LazyLoad>
                   </a>
                 </div>
                 <div className="content">
                   <div className="category-info">
                     <div className="category-list">
-                      <a>Development</a>
+                      <p className="tags mt-3">
+                        <span className="react">React</span>
+                      </p>
                     </div>
                     <div className="meta">
                       <div className="card-btn-container d-flex">
                         <div>
                           <a
-                            href="https://github.com/wapborhan/todo"
+                            href="https://github.com/wapborhan/todo-react"
                             className="btn card-btn"
                             title="Source Code"
                           >
@@ -226,7 +216,7 @@ function Portfolio() {
                         </div>
                         <div>
                           <a
-                            href="http://code.wapborhan.com/todo/"
+                            href="https://code.wapborhan.com/todo-react/"
                             className="btn card-btn"
                             title="Live"
                           >
@@ -237,8 +227,7 @@ function Portfolio() {
                         </div>
                         <div>
                           <a
-                            data-toggle="modal"
-                            data-target="#exampleModalCenter-3"
+                            href="https://github.com/wapborhan/todo-react/blob/main/README.md"
                             className="btn card-btn"
                             title="Details"
                           >
@@ -259,11 +248,6 @@ function Portfolio() {
                       <i className="feather-arrow-up-right"></i>
                     </a>
                   </h4>
-                  <p className="tags mt-3">
-                    <span className="html">Html</span>
-                    <span className="css">Css</span>
-                    <span className="javascript">Javascript</span>
-                  </p>
                 </div>
               </div>
             </div>

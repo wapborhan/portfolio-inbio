@@ -1,12 +1,12 @@
 const REACT = [
   {
     id: "1",
-    name: "AlQuranBD",
+    name: "IslamBD",
     image: "images/portfolio/alquranbd.PNG",
     language: "react",
-    source_link: "http://alquranbd.netlify.app/about",
-    live_link: "http://alquranbd.netlify.app/",
-    about_link: "https://alquranbd.netlify.app/about",
+    source_link: "https://islambd.netlify.app/about",
+    live_link: "https://islambd.netlify.app/",
+    about_link: "https://islambd.netlify.app/about",
     description: "",
   },
   {

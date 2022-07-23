@@ -45,12 +45,11 @@ class Info extends React.Component {
                           <div className="info">
                             <FaCentos />
                             <span>
-                              Founder & CEO{" "}
                               <a
-                                href="http://www.srdreamlab.com"
+                                href="https://api.whatsapp.com/send?phone=8801620557840&text=Hello"
                                 target="_blank"
                               >
-                                SR Dream Lab
+                                +880 1620 557 840
                               </a>
                             </span>
                           </div>

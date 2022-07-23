@@ -40,13 +40,13 @@ function Services() {
           >
             <div className="rn-service">
               <div className="inner">
-                <div className="icon">
+                <div className="icon text-center">
                   <i>
                     <FiMenu />
                   </i>
                 </div>
                 <div className="content">
-                  <h4 className="title">Web Design</h4>
+                  <h4 className="title">Website Design</h4>
                   <p className="description">
                     I throw myself down among the tall grass by the stream as I
                     lie close to the earth.
@@ -72,7 +72,7 @@ function Services() {
           >
             <div className="rn-service">
               <div className="inner">
-                <div className="icon">
+                <div className="icon text-center">
                   <i>
                     <FiBookOpen />
                   </i>
@@ -105,7 +105,7 @@ function Services() {
           >
             <div className="rn-service">
               <div className="inner">
-                <div className="icon">
+                <div className="icon text-center">
                   <i>
                     <FiTv />
                   </i>
