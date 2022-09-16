@@ -83,17 +83,24 @@
   text-transform: capitalize;
 }
 
-.slide.slider-style-3 .slider-wrapper .slider-info .user-info-top .user-info-header .title {
+.slide.slider-style-3
+  .slider-wrapper
+  .slider-info
+  .user-info-top
+  .user-info-header
+  .title {
   font-size: 35px !important;
 }
-
 
 .rn-portfolio:hover .inner .content .title {
   color: var(--color-primary);
 }
 
-.info span {
+.white-version .slider-style-5 .banner-inner .cd-headline .info span {
   color: #3c3e47 !important;
+}
+.slider-style-5 .cd-headline span {
+  color: var(--color-heading) !important;
 }
 
 .info span a {
