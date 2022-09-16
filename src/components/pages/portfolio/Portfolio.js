@@ -258,8 +258,8 @@ function Portfolio() {
           <div className="col-lg-12 mt-5 text-center">
             <Link className="rn-btn" to="portfolio">
               See More{" "}
-              <i className="feather-loader">
-                <FiLoader />
+              <i className="feather-loader fa-pulse">
+                <FiLoader className="fab-pulse fab-fw" />
               </i>
             </Link>
           </div>

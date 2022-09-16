@@ -76,9 +76,9 @@ class Info extends React.Component {
 
                     <div className="col-xl-12 col-lg-12 col-12">
                       <div className="user-info-bottom">
-                        <div className="dwmycl">
+                        {/* <div className="dwmycl">
                           Download my curriculum vitae:{" "}
-                        </div>
+                        </div> */}
                         <div className="button-wrapper d-flex">
                           <Link className="rn-btn mr--30" to="/about">
                             <span>About More</span>

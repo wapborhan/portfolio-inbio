@@ -2,8 +2,7 @@ import React from "react";
 import { styled } from "@mui/material/styles";
 import Tooltip, { tooltipClasses } from "@mui/material/Tooltip";
 import {
-  FaHtml5,
-  FaCss3Alt,
+  FaPhp,
   FaJsSquare,
   FaReact,
   FaVuejs,
@@ -16,14 +15,11 @@ import {
 } from "react-icons/fa";
 import {
   SiMongodb,
-  SiJquery,
   SiVisualstudiocode,
   SiXampp,
-  SiAdobepremierepro,
-  SiAdobexd,
-  SiSketch,
-  SiAdobeillustrator,
-  SiCanva,
+  SiTailwindcss,
+  SiExpress,
+  SiMaterialui,
 } from "react-icons/si";
 import { DiBrackets, DiTerminal } from "react-icons/di";
 import { IoLogoFigma } from "react-icons/io5";
@@ -52,20 +48,14 @@ export default function Skils() {
           <div className="skill-share-inner ">
             <span className="title">Primary Skills on</span>
             <ul className="skill-share d-flex liststyle justify-content-left">
-              <LightTooltip title="HTML" placement="top" arrow>
+              <LightTooltip title="MONGODB" placement="top" arrow>
                 <li>
-                  <FaHtml5 className="html" />
+                  <SiMongodb className="mongodb" />
                 </li>
               </LightTooltip>
-
-              <LightTooltip title="CSS" placement="top" arrow>
+              <LightTooltip title="EXPRESS" placement="top" arrow>
                 <li>
-                  <FaCss3Alt className="css" />
-                </li>
-              </LightTooltip>
-              <LightTooltip title="JAVASCRIPT" placement="top" arrow>
-                <li>
-                  <FaJsSquare className="javascript" />
+                  <SiExpress className="express" />
                 </li>
               </LightTooltip>
               <LightTooltip title="REACT" placement="top" arrow>
@@ -73,11 +63,12 @@ export default function Skils() {
                   <FaReact className="react" />
                 </li>
               </LightTooltip>
-              <LightTooltip title="VUE" placement="top" arrow>
+              <LightTooltip title="NODE JS" placement="top" arrow>
                 <li>
-                  <FaVuejs className="vue" />
+                  <FaNodeJs className="nodejs" />
                 </li>
               </LightTooltip>
+
               {/* <LightTooltip title="TYPESCRIPT" placement="top" arrow>
                 <li>
                   <img src="images/icons/ts.png" alt="Icons Images" />
@@ -93,36 +84,17 @@ export default function Skils() {
           <div className="skill-share-inner skill-share-inner-width margin-top-25">
             <span className="title">Secondary Skills on</span>
             <ul className="skill-share d-flex liststyle">
-              <LightTooltip title="NODE JS" placement="top" arrow>
+              <LightTooltip title="VUE" placement="top" arrow>
                 <li>
-                  <FaNodeJs className="nodejs" />
+                  <FaVuejs className="vue" />
                 </li>
               </LightTooltip>
-              <LightTooltip title="MONGODB" placement="top" arrow>
+              <LightTooltip title="VUE" placement="top" arrow>
                 <li>
-                  <SiMongodb className="mongodb" />
+                  <FaPhp className="php" />
                 </li>
               </LightTooltip>
-              {/* <LightTooltip title="MATERIAL UI" placement="top" arrow>
-                <li>
-                  <img src="images/icons/materialui.png" alt="Icons" />
-                </li>
-              </LightTooltip> */}
-              <LightTooltip title="BOOTSTRAP" placement="top" arrow>
-                <li>
-                  <FaBootstrap className="bootstrap" />
-                </li>
-              </LightTooltip>
-              <LightTooltip title="SASS" placement="top" arrow>
-                <li>
-                  <FaSass className="sass" />
-                </li>
-              </LightTooltip>
-              <LightTooltip title="JQUARY" placement="top" arrow>
-                <li>
-                  <SiJquery className="jquery" />
-                </li>
-              </LightTooltip>
+
               <LightTooltip title="WORDPRESS" placement="top" arrow>
                 <li>
                   <FaWordpressSimple className="wordpress" />
@@ -166,37 +138,26 @@ export default function Skils() {
             </ul>
           </div>
           <div className="skill-share-inner skill-share-inner-width margin-top-25">
-            <span className="title">Graphical Skills</span>
+            <span className="title">CSS Framework</span>
             <ul className="skill-share d-flex liststyle">
-              <LightTooltip title="PHOTOSHOP" placement="top" arrow>
+              <LightTooltip title="BOOTSTRAP" placement="top" arrow>
                 <li>
-                  <SiAdobepremierepro className="ps" />
+                  <FaBootstrap className="bootstrap" />
                 </li>
               </LightTooltip>
-              <LightTooltip title="ADOBE XD" placement="top" arrow>
+              <LightTooltip title="TAILWIND CSS" placement="top" arrow>
                 <li>
-                  <SiAdobexd className="xd" />
+                  <SiTailwindcss className="tailwindcss" />
                 </li>
               </LightTooltip>
-              <LightTooltip title="FIGMA" placement="top" arrow>
+              <LightTooltip title="MATERIAL UI" placement="top" arrow>
                 <li>
-                  <IoLogoFigma className="figma" />
+                  <SiMaterialui className="materialui" />
                 </li>
               </LightTooltip>
-              <LightTooltip title="SKETCH" placement="top" arrow>
+              <LightTooltip title="SASS" placement="top" arrow>
                 <li>
-                  <SiSketch className="sketch" />
-                </li>
-              </LightTooltip>
-              <LightTooltip title="ILLUSTRATOR" placement="top" arrow>
-                <li>
-                  <SiAdobeillustrator className="ai" />
-                </li>
-              </LightTooltip>
-
-              <LightTooltip title="CANVA" placement="top" arrow>
-                <li>
-                  <SiCanva className="canva" />
+                  <FaSass className="sass" />
                 </li>
               </LightTooltip>
             </ul>
