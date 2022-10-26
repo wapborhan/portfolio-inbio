@@ -3,7 +3,22 @@
 /* Header */
 .accordion>div>div:first-of-type {
   padding: 1em;
-  background-color: #dddddd;
+  background-color: var(--background-color-2);
+  color: #ffffff;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+  user-select: none;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.3s;
+border: 1px solid var(--color-primary);
+
+}
+
+.white-version .accordion>div>div:first-of-type {
+  padding: 1em;
+  background-color: #ddd;
   color: #434343;
   text-transform: uppercase;
   -webkit-user-select: none;
@@ -12,9 +27,17 @@
   cursor: pointer;
   font-weight: 700;
   transition: all 0.3s;
+border: 1px solid var(--color-primary);
+
 }
 
+ .accordion-item{
+background-color: var(--color-tertiary) !important;
+}
 
+.white-version .accordion-item{
+background-color: #fff !important;
+}
 
 .accordion>div>div:first-of-type:hover {
   background-color: var(--color-primary);
@@ -49,6 +72,7 @@
 .accordion>div.open .accordion-item {
   opacity: 1;
   transition: opacity 700ms ease;
+
 }
 
 .accordion img.accordion-item {

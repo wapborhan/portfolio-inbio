@@ -20,9 +20,10 @@ import {
   SiTailwindcss,
   SiExpress,
   SiMaterialui,
+  SiJavascript,
 } from "react-icons/si";
 import { DiBrackets, DiTerminal } from "react-icons/di";
-import { IoLogoFigma } from "react-icons/io5";
+import { RiReactjsLine } from "react-icons/ri";
 
 const LightTooltip = styled(({ className, ...props }) => (
   <Tooltip {...props} arrow classes={{ popper: className }} />
@@ -84,6 +85,11 @@ export default function Skils() {
           <div className="skill-share-inner skill-share-inner-width margin-top-25">
             <span className="title">Secondary Skills on</span>
             <ul className="skill-share d-flex liststyle">
+              <LightTooltip title="JavaScript" placement="top" arrow>
+                <li>
+                  <SiJavascript className="javascript" />
+                </li>
+              </LightTooltip>
               <LightTooltip title="VUE" placement="top" arrow>
                 <li>
                   <FaVuejs className="vue" />
@@ -98,6 +104,11 @@ export default function Skils() {
               <LightTooltip title="WORDPRESS" placement="top" arrow>
                 <li>
                   <FaWordpressSimple className="wordpress" />
+                </li>
+              </LightTooltip>
+              <LightTooltip title="React Native" placement="top" arrow>
+                <li>
+                  <RiReactjsLine className="react" />
                 </li>
               </LightTooltip>
             </ul>
@@ -150,11 +161,11 @@ export default function Skils() {
                   <SiTailwindcss className="tailwindcss" />
                 </li>
               </LightTooltip>
-              <LightTooltip title="MATERIAL UI" placement="top" arrow>
+              {/* <LightTooltip title="MATERIAL UI" placement="top" arrow>
                 <li>
                   <SiMaterialui className="materialui" />
                 </li>
-              </LightTooltip>
+              </LightTooltip> */}
               <LightTooltip title="SASS" placement="top" arrow>
                 <li>
                   <FaSass className="sass" />
