@@ -12254,11 +12254,13 @@ body.template-color-1 {
   left: 0;
 }
 
-.header-style-2.sticky {
+.white-version.header-style-2.sticky {
   position: fixed;
   background: #ecf0f3;
 }
-
+.header-style-2.sticky {
+  position: fixed;
+}
 @media only screen and (max-width: 479px) {
   .header-style-2 {
     -webkit-box-shadow: var(--shadow-white-3);
