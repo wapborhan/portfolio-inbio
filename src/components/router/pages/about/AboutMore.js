@@ -6,7 +6,7 @@ import Resume from "./resume/Resume";
 import Social from "./social/Social";
 import Pricing from "./price/Pricing";
 import Code from "./code/Code";
-import { Contact, Testimonials } from "../../../pages/AllPages";
+import { Contact, Footer, Testimonials } from "../../../pages/AllPages";
 import BacktoTop from "../../../BacktoTop";
 import RightDemo from "../../../RightDemo";
 
@@ -23,6 +23,7 @@ export default function AboutMore() {
       <Contact />
       <BacktoTop />
       <RightDemo />
+      <Footer />
     </>
   );
 }
