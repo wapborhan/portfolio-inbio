@@ -14,6 +14,7 @@ export default function MainComponent() {
       <Route path="/portfolio" element={<RoutePortfolio />} />
       <Route path="/services" element={<RouterServices />} />
       <Route path="/whyme" element={<RouterWhyMe />} />
+      <Route path="*" element={<HomePage />} />
     </Routes>
   );
 }
