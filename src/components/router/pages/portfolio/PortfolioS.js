@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import axios from "axios";
 // import Javascript from "./Javascript";
 import ReactJS from "./ReactJS";
 import Javascript from "./Javascript";
@@ -15,7 +16,22 @@ export default class PortfolioS extends Component {
     javascript: JAVASCRIPT,
     landing: LANDING_PAGE,
     android: ANDROID,
+    data: null,
   };
+
+  componentDidMount() {
+    axios
+      .get(
+        `https://srdreamlab-e981b-default-rtdb.firebaseio.com
+
+`
+      )
+      .then((res) => {
+        const persons = res.data;
+        // this.setState({ data });
+        console.log(persons);
+      });
+  }
 
   render() {
     return (
