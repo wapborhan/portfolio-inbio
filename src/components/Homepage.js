@@ -16,6 +16,7 @@ import {
 } from "./pages/AllPages";
 import RightDemo from "./RightDemo.js";
 import BacktoTop from "./BacktoTop.js";
+import StrategyTwo from "./pages/strategy/StrategyTwo";
 
 export default function HomePage() {
   return (
@@ -27,7 +28,8 @@ export default function HomePage() {
         <Services />
         <Portfolio />
         {/* <Resume /> */}
-        <Strategy />
+        {/* <Strategy /> */}
+        <StrategyTwo />
         <WhyMe />
         <Blog />
         {/* <Code /> */}
