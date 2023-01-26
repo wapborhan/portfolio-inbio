@@ -12,25 +12,29 @@ import ANDROID from "../../../../assets/data/AndroidData";
 
 export default class PortfolioS extends Component {
   state = {
-    react: null,
+    react: REACT,
     javascript: JAVASCRIPT,
     landing: LANDING_PAGE,
     android: ANDROID,
     data: null,
   };
 
-  componentDidMount() {
-    axios
-      .get(`https://srdreamlab-e981b-default-rtdb.firebaseio.com/react.json`)
-      .then((res) => {
-        const react = res.data;
-        // this.setState({ data });
-        console.log(react);
-        this.setState();
-      });
-  }
+  // componentDidMount() {
+  //   axios
+  //     .get(`https://srdreamlab-e981b-default-rtdb.firebaseio.com/react.json`)
+  //     .then((res) => {
+  //       // console.log(res.data);
+  //       this.setState({ react: res.data });
+  //     });
+  // }
 
   render() {
+    // console.log(this.state.react);
+
+    this.state.react.map((item) => {
+      console.log(item);
+    });
+
     return (
       <div className="sr-content pt--30">
         <div className="container">
@@ -55,7 +59,7 @@ export default class PortfolioS extends Component {
                   </div>
                 </div>
 
-                <ReactJS project={this.state.react} />
+                {/* <ReactJS project={this.state.react} /> */}
 
                 <Javascript project={this.state.javascript} />
 

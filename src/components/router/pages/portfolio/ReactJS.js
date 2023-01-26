@@ -2,7 +2,7 @@ import React from "react";
 import { FiGithub, FiExternalLink, FiEye, FiLoader } from "react-icons/fi";
 
 export default function ReactJS(props) {
-  console.log(props);
+  // console.log(props);
   return (
     <div>
       {/* <!-- Project Tittle Start -->/ */}
