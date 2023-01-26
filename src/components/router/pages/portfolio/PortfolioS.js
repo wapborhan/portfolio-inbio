@@ -12,7 +12,7 @@ import ANDROID from "../../../../assets/data/AndroidData";
 
 export default class PortfolioS extends Component {
   state = {
-    react: REACT,
+    react: null,
     javascript: JAVASCRIPT,
     landing: LANDING_PAGE,
     android: ANDROID,
@@ -21,15 +21,11 @@ export default class PortfolioS extends Component {
 
   componentDidMount() {
     axios
-      .get(
-        `https://srdreamlab-e981b-default-rtdb.firebaseio.com
-
-`
-      )
+      .get(`https://webkit-8ac2e-default-rtdb.firebaseio.com/react.json`)
       .then((res) => {
-        const persons = res.data;
+        const react = res.data;
         // this.setState({ data });
-        console.log(persons);
+        console.log(react);
       });
   }
 
