@@ -21,11 +21,12 @@ export default class PortfolioS extends Component {
 
   componentDidMount() {
     axios
-      .get(`https://webkit-8ac2e-default-rtdb.firebaseio.com/react.json`)
+      .get(`https://srdreamlab-e981b-default-rtdb.firebaseio.com/react.json`)
       .then((res) => {
         const react = res.data;
         // this.setState({ data });
         console.log(react);
+        this.setState();
       });
   }
 
