@@ -1,24 +1,20 @@
 import React, { useState, useEffect } from "react";
-import { Button, Modal } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import { FaSun, FaMoon } from "react-icons/fa";
 
 function RightDemo() {
-  const [isDark, setDark] = useState(false);
+  const [isDark, setDark] = useState();
+
   const toggleDark = () => {
     setDark(!isDark);
-    // const html = document.getElementsByTagName("body");
-    // console.log(html);
     document.body.classList.toggle("white-version");
   };
+
   return (
     <>
       <div className="riht">
         <div className="rn-right-demo">
-          <Button
-            className="demo-button"
-            // onClick={() => setLgShow(true)}
-            onClick={toggleDark}
-          >
+          <Button className="demo-button" onClick={toggleDark}>
             <span className="text">{!isDark ? <FaSun /> : <FaMoon />}</span>
           </Button>
         </div>

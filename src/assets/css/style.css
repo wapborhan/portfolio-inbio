@@ -19116,6 +19116,7 @@ div#featured-project-carousel {
   border-radius: 10px;
   background-color: #212428;
   height: 100%;
+  border: 1px solid #bfbfbf;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -19303,6 +19304,7 @@ div#featured-project-carousel {
   border-radius: 10px;
   margin-left: 20px;
   height: 100%;
+  border: 1px solid #bfbfbf;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

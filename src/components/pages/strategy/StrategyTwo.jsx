@@ -19,11 +19,11 @@ const StrategyTwo = () => {
               data-aos-once="true"
             >
               <span className="subtitle">WORKING STRATEGY</span>
-              <h2 className="title">What I Do</h2>
+              <h2 className="title  mb-5">What I Do</h2>
             </div>
           </div>
         </div>
-        <div className="row row--25 mt_md--10 mt_sm--10 justify-content-center">
+        <div className="row row--25 mt_md--10 mt_sm--10 justify-content-center ">
           <div className="col-lg-12">
             <Sta />
           </div>
