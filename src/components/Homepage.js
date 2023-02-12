@@ -18,7 +18,7 @@ import RightDemo from "./RightDemo.js";
 import BacktoTop from "./BacktoTop.js";
 import StrategyTwo from "./pages/strategy/StrategyTwo";
 
-export default function HomePage() {
+export default function HomePage(props) {
   return (
     <>
       <Header />
@@ -26,7 +26,7 @@ export default function HomePage() {
         <Banner />
         <Info />
         <Services />
-        <Portfolio />
+        <Portfolio react={props.project} />
         {/* <Resume /> */}
         {/* <Strategy /> */}
         <StrategyTwo />

@@ -1,13 +1,15 @@
 import React from "react";
 
-export default function Modal() {
+export default function Modal(props) {
   return (
     <div
       className="modal fade"
-      id="exampleModalCenter-1"
+      // className="modal fade show d-block"
+      id="exampleModalCenter"
       tabIndex="-1"
+      // style="display: block; padding-right: 19px;"
+      aria-modal="true"
       role="dialog"
-      aria-hidden="true"
     >
       <div className="modal-dialog modal-dialog-centered" role="document">
         <div className="modal-content">
@@ -15,11 +17,25 @@ export default function Modal() {
             <button
               type="button"
               className="close"
-              data-dismiss="modal"
+              data-bs-dismiss="modal"
               aria-label="Close"
             >
               <span aria-hidden="true">
-                <i data-feather="x"></i>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="feather feather-x"
+                >
+                  <line x1="18" y1="6" x2="6" y2="18"></line>
+                  <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
               </span>
             </button>
           </div>
@@ -30,7 +46,7 @@ export default function Modal() {
                   <div className="image">
                     <img
                       className="w-100"
-                      src="assets/images/portfolio/portfolio-01.jpg"
+                      src="assets/images/portfolio/portfolio-04.jpg"
                       alt="slide"
                     />
                   </div>
@@ -55,18 +71,42 @@ export default function Modal() {
                   <div className="button-group mt--20">
                     <a href="#" className="rn-btn thumbs-icon">
                       <span>LIKE THIS</span>
-                      <i data-feather="thumbs-up"></i>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="feather feather-thumbs-up"
+                      >
+                        <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+                      </svg>
                     </a>
                     <a href="#" className="rn-btn">
                       <span>VIEW PROJECT</span>
-                      <i data-feather="chevron-right"></i>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="feather feather-chevron-right"
+                      >
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                      </svg>
                     </a>
                   </div>
                 </div>
-                {/* <!-- End of .text-content --> */}
               </div>
             </div>
-            {/* <!-- End of .row Body--> */}
           </div>
         </div>
       </div>
