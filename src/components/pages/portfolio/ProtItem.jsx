@@ -4,7 +4,6 @@ import LazyLoad from "react-lazyload";
 export default class ProtItem extends Component {
   render() {
     const reactdata = this.props.react.map((item) => {
-      console.log(item);
       return (
         <div
           data-aos="fade-up"
