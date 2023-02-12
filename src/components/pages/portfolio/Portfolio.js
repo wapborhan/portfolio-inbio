@@ -2,51 +2,10 @@ import React, { useState } from "react";
 import { FiGithub, FiExternalLink, FiEye, FiLoader } from "react-icons/fi";
 import Modal from "./Modal";
 import { Link } from "react-router-dom";
-import LazyLoad from "react-lazyload";
+
+import ProtItem from "./ProtItem";
 
 function Portfolio(props) {
-  const reactdata = props.react.map((item) => {
-    console.log(item);
-    return (
-      <div
-        data-aos="fade-up"
-        data-aos-delay="300"
-        data-aos-once="true"
-        className="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30 aos-init aos-animate"
-        key={item.id}
-      >
-        <div className="rn-portfolio">
-          <div className="inner">
-            <div className="thumbnail">
-              <a>
-                <LazyLoad>
-                  <img src={item.image} alt={item.name} />
-                </LazyLoad>
-              </a>
-            </div>
-            <div className="content">
-              <div className="category-info">
-                <div className="category-list">
-                  <a>{item.language}</a>
-                </div>
-                <div className="meta">
-                  <span>
-                    <a href="#">
-                      <i className="feather-heart"></i>
-                    </a>
-                    600
-                  </span>
-                </div>
-              </div>
-              <h4 className="title">
-                <a>{item.name}</a>
-              </h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  });
   return (
     <div
       className="rn-portfolio-area rn-section-gap section-separator"
@@ -55,13 +14,7 @@ function Portfolio(props) {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <div
-              data-aos="fade-up"
-              data-aos-duration="500"
-              data-aos-delay="100"
-              data-aos-once="true"
-              className="section-title text-center"
-            >
+            <div className="section-title text-center">
               <span className="subtitle">
                 Visit my portfolio and keep your feedback
               </span>
@@ -70,16 +23,14 @@ function Portfolio(props) {
           </div>
         </div>
         <div className="row row--25 mt--10 mt_md--10 mt_sm--10 justify-content-center">
-          {reactdata}
+          <ProtItem react={props.react} />
         </div>
         <Modal />
         <div className="row">
           <div className="col-lg-12 mt-5 text-center">
             <Link className="rn-btn" to="portfolio">
-              See More{" "}
-              <i className="feather-loader fa-pulse">
-                <FiLoader className="fab-pulse fab-fw" />
-              </i>
+              See More
+              <FiLoader className="fab-pulse fab-fw" />
             </Link>
           </div>
         </div>

@@ -25,15 +25,15 @@ export default function HomePage(props) {
       <main className="page-wrapper-two">
         <Banner />
         <Info />
-        <Services />
+        {/* <Services /> */}
         <Portfolio react={props.project} />
         {/* <Resume /> */}
         {/* <Strategy /> */}
-        <StrategyTwo />
+        {/* <StrategyTwo /> */}
         <WhyMe />
         <Blog />
         {/* <Code /> */}
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Contact />
         <Footer />
         <RightDemo />

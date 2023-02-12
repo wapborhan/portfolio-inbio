@@ -51,7 +51,7 @@ export default function SideBar() {
                 About
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link
                 className="nav-link smoth-animation-two"
                 activeClass="active"
@@ -64,7 +64,7 @@ export default function SideBar() {
                 </i>
                 Features
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link
                 className="nav-link smoth-animation-two"
@@ -115,7 +115,7 @@ export default function SideBar() {
                 blog
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link
                 className="nav-link smoth-animation-two"
                 activeClass="active"
@@ -128,7 +128,7 @@ export default function SideBar() {
                 </i>
                 Testimonial
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link
                 className="nav-link smoth-animation-two"
@@ -145,7 +145,7 @@ export default function SideBar() {
             </li>
           </ul>
         </nav>
-        {/* <div className="footer">
+        <div className="footer">
           <div className="social-share-style-1  mt--30">
             <span className="title">find with me</span>
             <ul className="social-share d-flex liststyle">
@@ -218,7 +218,7 @@ export default function SideBar() {
               </li>
             </ul>
           </div>
-        </div> */}
+        </div>
       </header>
     </div>
   );
