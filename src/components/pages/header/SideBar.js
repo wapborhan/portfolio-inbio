@@ -10,6 +10,7 @@ import {
   FiMessageSquare,
   FiMessageCircle,
 } from "react-icons/fi";
+import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 
 export default function SideBar() {
@@ -17,9 +18,9 @@ export default function SideBar() {
     <div className="d-none d-xl-block header-style-2">
       <header className="rn-header-area d-flex align-items-start flex-column left-header-style">
         <div className="logo-area">
-          <a href="index.html">
+          <NavLink to="/">
             <img src="images/logo/logo-06.png" alt="WapBorhan-logo" />
-          </a>
+          </NavLink>
         </div>
         <nav id="sideNavs" className="mainmenu-nav navbar-example2">
           <ul className="primary-menu nav nav-pills">

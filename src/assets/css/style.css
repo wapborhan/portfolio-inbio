@@ -1,8 +1,7 @@
 @charset "UTF-8";
-@import url("./fonts/poppins/stylesheet.css");
-@import url("./fonts/montserrat/stylesheet.css");
-/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&amp;display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&amp;display=swap"); */
+/* @import url("./fonts/poppins/stylesheet.css"); */
+/* @import url("./fonts/montserrat/stylesheet.css"); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
   --color-primary: #ff014f;
@@ -12158,7 +12157,7 @@ body.template-color-1 {
   transform: translateX(0px);
   border-right: 1px solid #121415;
   background: #212428;
-  padding: 10px 40px 0px;
+  padding: 30px 40px 0px;
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -12570,7 +12569,14 @@ body.template-color-1 {
   position: fixed;
   z-index: 99;
   right: 0px;
-  top: calc(50% - 55px);
+  top: calc(50% - 80px);
+}
+.rn-right-demo2 {
+  width: 40px;
+  position: fixed;
+  z-index: 99;
+  right: 0px;
+  top: calc(50% - 30px);
 }
 
 .rn-right-demo .demo-button {
@@ -12593,7 +12599,26 @@ body.template-color-1 {
   text-transform: uppercase;
   cursor: pointer;
 }
-
+.rn-right-demo2 .demo-button {
+  border-radius: 6px 0 0 6px;
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  background: var(--gradient-red-hover);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  position: relative;
+  z-index: 2;
+  font-size: 14px;
+  border: 0 none;
+  width: 100%;
+  min-width: 100%;
+  padding: 10px 0px 8px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
 .rn-right-demo .demo-button::before {
   content: "";
   position: absolute;
@@ -15389,7 +15414,7 @@ div#home {
   text-align: center;
   position: relative;
   z-index: 1;
-  padding-top: 30px;
+  padding-top: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
