@@ -1,16 +1,9 @@
 import React from "react";
-import { Typewriter } from "react-simple-typewriter";
 import BannerSocial from "./BannerSocial";
-import LazyLoad from "react-lazyload";
+import { useTranslation } from "react-i18next";
 
 export default function Banner() {
-  const handleType = (count) => {
-    // console.log(count);
-  };
-
-  const handleDone = () => {
-    console.log(`Done after 5 loops!`);
-  };
+  const { t } = useTranslation();
   return (
     <section
       id="home"
@@ -30,13 +23,13 @@ export default function Banner() {
                 />
                 <span className="gradient-borders"></span>
               </div>
-              <h1>Borhan Uddin</h1>
+              <h1> {t("banner.name")}</h1>
               {/* <!-- type headline start--> */}
               <span className="cd-headline clip is-full-width">
                 <div className="info">
                   <i data-feather="file"></i>
                   <span>
-                    Founder &amp; CEO{" "}
+                    {t("banner.position")}{" "}
                     <a href="http://www.srdreamlab.com">SR Dream Lab</a>
                   </span>
                 </div>

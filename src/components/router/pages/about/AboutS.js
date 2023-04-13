@@ -1,31 +1,8 @@
 import React from "react";
 import LazyLoad from "react-lazyload";
 import { Typewriter } from "react-simple-typewriter";
-import {
-  FaHtml5,
-  FaCss3Alt,
-  FaJsSquare,
-  FaReact,
-  FaVuejs,
-  FaNodeJs,
-  FaBootstrap,
-  FaSass,
-  FaWordpressSimple,
-  FaGithubSquare,
-  FaGitAlt,
-} from "react-icons/fa";
-import {
-  SiMongodb,
-  SiExpress,
-  SiJquery,
-  SiVisualstudiocode,
-  SiXampp,
-  SiAdobepremierepro,
-  SiAdobexd,
-  SiSketch,
-  SiAdobeillustrator,
-  SiCanva,
-} from "react-icons/si";
+import { FaReact, FaNodeJs } from "react-icons/fa";
+import { SiMongodb, SiExpress } from "react-icons/si";
 import { styled } from "@mui/material/styles";
 import Tooltip, { tooltipClasses } from "@mui/material/Tooltip";
 
@@ -212,7 +189,9 @@ export default function AboutS() {
             <div className="order-1 order-lg-2 col-lg-5">
               <div className="thumbnail">
                 <div className="inner">
-                  <img src="images/about.png" alt="WapBorhan" />
+                  <LazyLoad>
+                    <img src="images/about.png" alt="WapBorhan" />
+                  </LazyLoad>
                 </div>
               </div>
             </div>
