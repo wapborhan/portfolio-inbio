@@ -12,8 +12,10 @@ import {
 } from "react-icons/fi";
 import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
+import { useTranslation } from "react-i18next";
 
 export default function SideBar() {
+  const { t } = useTranslation();
   return (
     <div className="d-none d-xl-block header-style-2">
       <header className="rn-header-area d-flex align-items-start flex-column left-header-style">
@@ -35,7 +37,7 @@ export default function SideBar() {
                 <i>
                   <FiHome />
                 </i>
-                Home
+                {t("sidebar.nav1")}
               </Link>
             </li>
             <li className="nav-item">
@@ -49,7 +51,7 @@ export default function SideBar() {
                 <i>
                   <FiUser />
                 </i>
-                About
+                {t("sidebar.nav2")}
               </Link>
             </li>
             {/* <li className="nav-item">
@@ -77,7 +79,7 @@ export default function SideBar() {
                 <i>
                   <FiLayers />
                 </i>
-                Portfolio
+                {t("sidebar.nav3")}
               </Link>
             </li>
             <li className="nav-item">
@@ -91,7 +93,7 @@ export default function SideBar() {
                 <i>
                   <FiUsers />
                 </i>
-                Why Me
+                {t("sidebar.nav4")}
               </Link>
             </li>
             {/* <li className="nav-item">
@@ -113,7 +115,7 @@ export default function SideBar() {
                 <i>
                   <FiImage />
                 </i>
-                blog
+                {t("sidebar.nav5")}
               </Link>
             </li>
             {/* <li className="nav-item">
@@ -141,14 +143,14 @@ export default function SideBar() {
                 <i>
                   <FiMessageCircle />
                 </i>
-                Contact
+                {t("sidebar.nav6")}
               </Link>
             </li>
           </ul>
         </nav>
         <div className="footer">
           <div className="social-share-style-1  mt--30">
-            <span className="title">find with me</span>
+            <span className="title">{t("sidebar.social")}</span>
             <ul className="social-share d-flex liststyle">
               <li className="facebook">
                 <a

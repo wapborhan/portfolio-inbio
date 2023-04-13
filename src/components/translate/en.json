@@ -1,6 +1,20 @@
 {
+  "sidebar": {
+    "nav1": "Home",
+    "nav2": "About",
+    "nav3": "Portfolio",
+    "nav4": "Why Me",
+    "nav5": "blog",
+    "nav6": "Contact",
+    "social": "FIND WITH ME"
+  },
   "banner": {
     "name": "Borhan Uddin",
     "position": "Founder & CEO"
+  },
+  "about": {
+    "head": "Hi, I am",
+    "name": "Borhan",
+    "desc": "I am a web-developer. I like working with JavaScript. Therefore I use React JS to make stunning UI. I am ready to work with honesty, dedication, sincerity, and confidence to adapt to any situation to achieve my purpose."
   }
 }
