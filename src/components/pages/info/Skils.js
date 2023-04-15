@@ -1,6 +1,7 @@
 import React from "react";
 import { styled } from "@mui/material/styles";
 import Tooltip, { tooltipClasses } from "@mui/material/Tooltip";
+import { useTranslation } from "react-i18next";
 import {
   FaPhp,
   FaJsSquare,
@@ -41,13 +42,14 @@ const LightTooltip = styled(({ className, ...props }) => (
 }));
 
 export default function Skils() {
+  const { t } = useTranslation();
   return (
     <div className="background-image-area srpd">
       <div className="rn-skill-area section-height">
         <div className="inner slide skills">
-          <h5 className="title">About My Skill</h5>
+          <h5 className="title"> {t("about.tech.h1")}</h5>
           <div className="skill-share-inner ">
-            <span className="title">Primary Skills on</span>
+            <span className="title">{t("about.tech.h2")}</span>
             <ul className="skill-share d-flex liststyle justify-content-left">
               <LightTooltip title="MONGODB" placement="top" arrow>
                 <li>
@@ -83,7 +85,7 @@ export default function Skils() {
             </ul>
           </div>
           <div className="skill-share-inner skill-share-inner-width margin-top-25">
-            <span className="title">Secondary Skills on</span>
+            <span className="title">{t("about.tech.h3")}</span>
             <ul className="skill-share d-flex liststyle">
               <LightTooltip title="JavaScript" placement="top" arrow>
                 <li>
@@ -114,7 +116,7 @@ export default function Skils() {
             </ul>
           </div>
           <div className="skill-share-inner skill-share-inner-width margin-top-25">
-            <span className="title">Tools I Used</span>
+            <span className="title">{t("about.tech.h4")}</span>
             <ul className="skill-share d-flex liststyle">
               <LightTooltip title="VSCODE" placement="top" arrow>
                 <li>
@@ -149,7 +151,7 @@ export default function Skils() {
             </ul>
           </div>
           <div className="skill-share-inner skill-share-inner-width margin-top-25">
-            <span className="title">CSS Framework</span>
+            <span className="title">{t("about.tech.h5")}</span>
             <ul className="skill-share d-flex liststyle">
               <LightTooltip title="BOOTSTRAP" placement="top" arrow>
                 <li>

@@ -15,6 +15,15 @@
   "about": {
     "head": "Hi, I am",
     "name": "Borhan",
-    "desc": "I am a web-developer. I like working with JavaScript. Therefore I use React JS to make stunning UI. I am ready to work with honesty, dedication, sincerity, and confidence to adapt to any situation to achieve my purpose."
+    "desc": "I am a web-developer. I like working with JavaScript. Therefore I use React JS to make stunning UI. I am ready to work with honesty, dedication, sincerity, and confidence to adapt to any situation to achieve my purpose.",
+    "button1": "About More",
+    "button2": "CONTACT ME",
+    "tech": {
+      "h1": "About My Skill",
+      "h2": "PRIMARY SKILLS ON",
+      "h3": "SECONDARY SKILLS ON",
+      "h4": "TOOLS I USED",
+      "h5": "CSS FRAMEWORK"
+    }
   }
 }

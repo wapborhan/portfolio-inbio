@@ -75,10 +75,10 @@ const Info = () => {
                         </div> */}
                       <div className="button-wrapper d-flex">
                         <Link className="rn-btn mr--30" to="/about">
-                          <span>About More</span>
+                          <span>{t("about.button1")}</span>
                         </Link>
                         <a className="rn-btn" href="#contacts">
-                          <span>CONTACT ME</span>
+                          <span>{t("about.button2")}</span>
                         </a>
                       </div>
                     </div>
