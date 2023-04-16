@@ -71,17 +71,6 @@ export default function Skils() {
                   <FaNodeJs className="nodejs" />
                 </li>
               </LightTooltip>
-
-              {/* <LightTooltip title="TYPESCRIPT" placement="top" arrow>
-                <li>
-                  <img src="images/icons/ts.png" alt="Icons Images" />
-                </li>
-              </LightTooltip>
-              <LightTooltip title="ANGULAR" placement="top" arrow>
-                <li>
-                  <img src="images/icons/angular.png" alt="Icons Images" />
-                </li>
-              </LightTooltip> */}
             </ul>
           </div>
           <div className="skill-share-inner skill-share-inner-width margin-top-25">
