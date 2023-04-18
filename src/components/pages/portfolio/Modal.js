@@ -1,25 +1,15 @@
 import React from "react";
 
 export default function Modal(props) {
+  console.log(props);
+  const show = props.show ? "modal fade show d-block" : "modal fade";
+
   return (
-    <div
-      className="modal fade"
-      // className="modal fade show d-block"
-      id="exampleModalCenter"
-      tabIndex="-1"
-      // style="display: block; padding-right: 19px;"
-      aria-modal="true"
-      role="dialog"
-    >
+    <div className={show}>
       <div className="modal-dialog modal-dialog-centered" role="document">
         <div className="modal-content">
           <div className="modal-header">
-            <button
-              type="button"
-              className="close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            >
+            <button type="button" className="close" onClick={props.onHide}>
               <span aria-hidden="true">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

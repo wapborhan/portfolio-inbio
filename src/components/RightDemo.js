@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FaSun, FaMoon } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import { useLocale } from "./translate/useLocale";
+import ThemeToggler from "./theme/ThemeToggler";
 
 const darkMode = "darkMode";
 
@@ -82,6 +83,10 @@ function RightDemo() {
               </svg>
             )}
           </button>
+
+          {/* <div className="demo-button rightdemo2">
+              <ThemeToggler />
+            </div> */}
         </div>
       </div>
     </>

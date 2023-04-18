@@ -6,6 +6,10 @@ import { Link } from "react-router-dom";
 import ProtItem from "./ProtItem";
 
 function Portfolio(props) {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <div
       className="rn-portfolio-area rn-section-gap section-separator"
@@ -23,7 +27,15 @@ function Portfolio(props) {
           </div>
         </div>
         <div className="row row--25 mt--10 mt_md--10 mt_sm--10 justify-content-center">
-          <ProtItem react={props.react} />
+          <div className="th" onClick={handleShow}>
+            hj
+          </div>
+          <ProtItem
+            react={props.react}
+            handleShow={handleShow}
+            show={show}
+            onHide={handleClose}
+          />
         </div>
         <Modal />
         <div className="row">
@@ -72,6 +84,7 @@ function Portfolio(props) {
                     </div>
                   </div>
                 </div> */}
+      {/* <Modal show={show} onHide={handleClose} /> */}
     </div>
   );
 }

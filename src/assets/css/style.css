@@ -12585,6 +12585,9 @@ body.template-color-1 {
   right: 0px;
   top: calc(50% - 30px);
   margin-top: 10px;
+  height: 45px;
+
+  padding: 0 5px !important;
 }
 .rn-right-demo .demo-button {
   border-radius: 6px 0 0 6px;
@@ -12605,6 +12608,7 @@ body.template-color-1 {
   letter-spacing: 1px;
   text-transform: uppercase;
   cursor: pointer;
+  color: #fff;
 }
 .rn-right-demo2 .demo-button {
   border-radius: 6px 0 0 6px;
