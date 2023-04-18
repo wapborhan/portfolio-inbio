@@ -12578,7 +12578,14 @@ body.template-color-1 {
   right: 0px;
   top: calc(50% - 30px);
 }
-
+.rightdemo2 {
+  width: 40px;
+  position: fixed;
+  z-index: 99;
+  right: 0px;
+  top: calc(50% - 30px);
+  margin-top: 10px;
+}
 .rn-right-demo .demo-button {
   border-radius: 6px 0 0 6px;
   background: linear-gradient(145deg, #1e2024, #23272b);
