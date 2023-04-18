@@ -11,7 +11,8 @@ export default class ProtItem extends Component {
             data-aos="fade-up"
             data-aos-delay="300"
             data-aos-once="true"
-            className="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30 aos-init aos-animate cursor-pointer"
+            className="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30 aos-init aos-animate"
+            style={{ cursor: "pointer" }}
             key={item.id}
             onClick={this.props.handleShow}
           >
