@@ -12943,13 +12943,21 @@ a:before {
   opacity: 0.3;
 }
 
-.skills h5.title::after {
+.white-version .skills h5.title::after {
   position: absolute;
   content: "";
   width: 100%;
   height: 1px;
   background: #121415;
   bottom: -18px;
+  left: 0;
+}
+
+.skills h5.title::after {position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #bfbfbf;bottom: -18px;
   left: 0;
 }
 

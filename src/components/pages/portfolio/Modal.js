@@ -1,4 +1,5 @@
 import React from "react";
+import IMG from "../../../";
 
 export default function Modal(props) {
   console.log(props);
@@ -36,7 +37,7 @@ export default function Modal(props) {
                   <div className="image">
                     <img
                       className="w-100"
-                      src="assets/images/portfolio/portfolio-04.jpg"
+                      src="/public/images/portfolio/portfolio-04.jpg"
                       alt="slide"
                     />
                   </div>
