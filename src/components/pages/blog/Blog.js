@@ -50,7 +50,7 @@ function Blog() {
                 <div className="content">
                   <div className="category-info">
                     <div className="category-list">
-                      <a href=" ">Canada</a>
+                      <a href=" ">Roadmap</a>
                     </div>
                     <div className="meta">
                       <span>
