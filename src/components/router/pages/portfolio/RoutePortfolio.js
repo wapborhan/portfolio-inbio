@@ -29,7 +29,7 @@ export default function RoutePortfolio(props) {
                 <ReactJS react={props.project.react} />
                 <Javascript javascript={props.project.javascript} />
                 <Landing landing={props.project.landingpage} />
-                <Android project={props.project.apps} />
+                {/* <Android project={props.project.apps} /> */}
               </div>
             </div>
           </div>

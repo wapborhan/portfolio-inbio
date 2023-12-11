@@ -26,10 +26,11 @@ function Portfolio(props) {
             </div>
           </div>
         </div>
-        <div className="row row--25 mt--10 mt_md--10 mt_sm--10 justify-content-center">
+        <div className="row  mt--10 mt_md--10 mt_sm--10 justify-content-center">
           {/* <div className="th" onClick={handleShow}>
             hj
           </div> */}
+
           <ProtItem
             react={props.react}
             handleShow={handleShow}

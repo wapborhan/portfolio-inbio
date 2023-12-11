@@ -43,6 +43,7 @@ const ContactUs = () => {
             name="from_name"
             id="contact-name"
             type="text"
+            required
           />
         </div>
       </div>
@@ -67,6 +68,7 @@ const ContactUs = () => {
             id="contact-email"
             name="to_name"
             type="email"
+            required
           />
         </div>
       </div>
@@ -79,6 +81,7 @@ const ContactUs = () => {
             id="subject"
             name="to_subject"
             type="text"
+            required
           />
         </div>
       </div>

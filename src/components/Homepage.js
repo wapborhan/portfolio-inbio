@@ -29,7 +29,7 @@ export default function HomePage(props) {
         <Portfolio react={props.project} />
         {/* <Resume /> */}
         {/* <Strategy /> */}
-        {/* <StrategyTwo /> */}
+        <StrategyTwo />
         <WhyMe />
         <Blog />
         {/* <Code /> */}

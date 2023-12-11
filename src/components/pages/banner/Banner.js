@@ -30,7 +30,7 @@ export default function Banner() {
                   <i data-feather="file"></i>
                   <span>
                     {t("banner.position")}{" "}
-                    <a href="http://www.srdreamlab.com">SR Dream Lab</a>
+                    {/* <a href="http://www.srdreamlab.com">SR Dream Lab</a> */}
                   </span>
                 </div>
               </span>

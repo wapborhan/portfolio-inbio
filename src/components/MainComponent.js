@@ -14,7 +14,7 @@ export default class MainComponent extends Component {
     react: [],
     javascript: [],
     landingpage: [],
-    apps: [],
+    // apps: [],
   };
   componentDidMount() {
     axios(baseURL + "/react.json").then(({ data }) =>
@@ -26,9 +26,9 @@ export default class MainComponent extends Component {
     axios(baseURL + "/landingpage.json").then(({ data }) =>
       this.setState({ landingpage: data })
     );
-    axios(baseURL + "/apps.json").then(({ data }) =>
-      this.setState({ apps: data })
-    );
+    // axios(baseURL + "/apps.json").then(({ data }) =>
+    //   this.setState({ apps: data })
+    // );
   }
 
   render() {
@@ -40,6 +40,7 @@ export default class MainComponent extends Component {
           path="/portfolio"
           element={<RoutePortfolio project={this.state} />}
         />
+
         <Route path="/services" element={<RouterServices />} />
         <Route path="/whyme" element={<RouterWhyMe />} />
         <Route path="*" element={<HomePage />} />
