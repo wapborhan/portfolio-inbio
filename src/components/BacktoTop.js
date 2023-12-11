@@ -4,17 +4,6 @@ import { makeStyles } from "@material-ui/core/styles";
 // import ExpandLessIcon from "@material-ui/icons/ExpandLess";
 import IconButton from "@material-ui/core/IconButton";
 
-// function BacktoTop() {
-//   return (
-//     <div className="backto-top">
-//       <div>
-//         <i>
-//           <FiArrowUp />
-//         </i>
-//       </div>
-//     </div>
-//   );
-// }
 const BacktoTop = ({ showBelow = 250 }) => {
   const classes = useStyles();
 
