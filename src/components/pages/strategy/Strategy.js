@@ -1,11 +1,10 @@
 import MainAccordion from "./MainAccordion";
-import React, { Component } from "react";
 import Loading from "../../router/Loading";
 import LazyLoad from "react-lazyload";
 
-export default class Strategy extends Component {
-  render() {
-    return (
+const Strategy = () => {
+  return (
+    <div>
       <div
         className="rn-service-area rn-section-gap section-separator"
         id="features"
@@ -65,6 +64,8 @@ export default class Strategy extends Component {
           </div>
         </div>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
+
+export default Strategy;

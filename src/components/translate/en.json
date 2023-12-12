@@ -6,7 +6,7 @@
     "nav4": "Why Me",
     "nav5": "blog",
     "nav6": "Contact",
-    "social": "FIND WITH ME"
+    "social": "DOWNLOAD RESUME"
   },
   "banner": {
     "name": "Borhan Uddin",
@@ -28,7 +28,27 @@
   },
   "portfolio": {
     "subheading": "VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK",
-    "heading": "VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK",
+    "heading": "MY PORTFOLIO",
     "btn": "See More"
+  },
+
+  "strategy": {
+    "subheading": "WORKING STRATEGY",
+    "heading": "What I Do",
+    "str1": {
+      "id": "01",
+      "title": "Project Introduction",
+      "desc": "I Explore Your Expectations And The Ideas(If Any) You Have. Assist You To Make A Clean Brief, Then Dig Deeper To Identify The Achievable Best Solution. Email Is The Preferred Communication Method At This Stage. When You Decide To Work With Us, We Get Together To Create A Detailed Brief With Assumptions And Constraints."
+    },
+    "str2": {
+      "id": "02",
+      "title": "Research & Concept",
+      "desc": "The Objective Of This Stage Is To Define The Project Scope, Technical Requirements, And Milestones. Your Project Starts To Get A Face Based On Your Information. i Will Create The Visual/S And Design Guidelines For Your Approval. and Start Working On Approved Visual/S And Ensure It Looks As Expected. Based On Your Review Feedback."
+    },
+    "str3": {
+      "id": "03",
+      "title": "Project Termination",
+      "desc": "I Will Work Through The Checklist Before It Goes Live. After Making It Live, We Will Be There For Any Urgent Bug Fixes. We Will Share Documentation, Including Video Instructions So That You Can Reference Them For Any Updates/Fixes. I’ll Be Here For Any Help And Advice."
+    }
   }
 }

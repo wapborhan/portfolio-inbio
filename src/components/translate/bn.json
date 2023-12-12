@@ -6,7 +6,7 @@
     "nav4": "কেন আমি",
     "nav5": "ব্লগ",
     "nav6": "যোগাযোগ",
-    "social": "আমাকে খুঁজুন"
+    "social": "জীবনবৃত্তান্ত ডাউনলোড করুন"
   },
   "banner": {
     "name": "বোরহান উদ্দিন",
@@ -30,5 +30,24 @@
     "subheading": "আমার পোর্টফোলিও দেখুন এবং আপনার প্রতিক্রিয়া রাখুন",
     "heading": "আমার পোর্টফোলিও",
     "btn": "আরো দেখুন"
+  },
+  "strategy": {
+    "subheading": "কাজের কৌশল",
+    "heading": "আমি কি করি",
+    "str1": {
+      "id": "০১",
+      "title": "প্রকল্প পরিচিতি",
+      "desc": "I Explore Your Expectations And The Ideas(If Any) You Have. Assist You To Make A Clean Brief, Then Dig Deeper To Identify The Achievable Best Solution. Email Is The Preferred Communication Method At This Stage. When You Decide To Work With Us, We Get Together To Create A Detailed Brief With Assumptions And Constraints."
+    },
+    "str2": {
+      "id": "০২",
+      "title": "গবেষণা ও ধারণা",
+      "desc": "The Objective Of This Stage Is To Define The Project Scope, Technical Requirements, And Milestones. Your Project Starts To Get A Face Based On Your Information. i Will Create The Visual/S And Design Guidelines For Your Approval. and Start Working On Approved Visual/S And Ensure It Looks As Expected. Based On Your Review Feedback."
+    },
+    "str3": {
+      "id": "০৩",
+      "title": "প্রকল্প সমাপ্তি",
+      "desc": "I Will Work Through The Checklist Before It Goes Live. After Making It Live, We Will Be There For Any Urgent Bug Fixes. We Will Share Documentation, Including Video Instructions So That You Can Reference Them For Any Updates/Fixes. I’ll Be Here For Any Help And Advice."
+    }
   }
 }

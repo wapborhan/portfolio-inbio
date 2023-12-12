@@ -31,7 +31,7 @@ export default function HomePage(props) {
         {/* <Strategy /> */}
         <StrategyTwo />
         <WhyMe />
-        <Blog />
+        {/* <Blog /> */}
         {/* <Code /> */}
         {/* <Testimonials /> */}
         <Contact />

@@ -1,8 +1,10 @@
 import React from "react";
 import Sta from "./Sta";
 import "./strategy.css";
+import { useTranslation } from "react-i18next";
 
 const StrategyTwo = () => {
+  const { t } = useTranslation();
   return (
     <div
       className="rn-service-area rn-section-gap section-separator"
@@ -18,8 +20,8 @@ const StrategyTwo = () => {
               data-aos-delay="100"
               data-aos-once="true"
             >
-              <span className="subtitle">WORKING STRATEGY</span>
-              <h2 className="title  mb-5">What I Do</h2>
+              <span className="subtitle">{t("strategy.subheading")}</span>
+              <h2 className="title  mb-5">{t("strategy.heading")}</h2>
             </div>
           </div>
         </div>
