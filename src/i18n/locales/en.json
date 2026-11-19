@@ -1,0 +1,154 @@
+{
+  "sidebar": {
+    "nav1": "Home",
+    "nav2": "About",
+    "nav3": "Portfolio",
+    "nav4": "Why Me",
+    "nav5": "Blog",
+    "nav6": "Contact",
+    "social": "DOWNLOAD RESUME",
+    "findWithMe": "FIND WITH ME"
+  },
+  "routerHeader": {
+    "homePage": "Home Page",
+    "position": "I am a Front-End Developer"
+  },
+  "banner": {
+    "name": "Borhan Uddin",
+    "position": "Front-End Developer"
+  },
+  "about": {
+    "head": "Hi, I am",
+    "name": "Borhan",
+    "desc": "I am a web-developer. I like working with JavaScript. Therefore I use React JS to make stunning UI. I am ready to work with honesty, dedication, sincerity, and confidence to adapt to any situation to achieve my purpose.",
+    "button1": "About More",
+    "button2": "CONTACT ME",
+    "tech": {
+      "h1": "About My Skill",
+      "h2": "PRIMARY SKILLS ON",
+      "h3": "SECONDARY SKILLS ON",
+      "h4": "TOOLS I USED",
+      "h5": "CSS FRAMEWORK"
+    }
+  },
+  "aboutPage": {
+    "subtitle": "Welcome to my world",
+    "bestSkill": "BEST SKILL ON",
+    "typewriter": [
+      "Front-End Developer.",
+      "Wordpress Developer.",
+      "App Developer."
+    ]
+  },
+  "resume": {
+    "subtitle": "2+ Years of Experience",
+    "title": "My Skills",
+    "features": "Features",
+    "frontend": "Front-End",
+    "backend": "Back-End"
+  },
+  "pricing": {
+    "subtitle": "Pricing",
+    "title": "My Pricing",
+    "orderNow": "ORDER NOW",
+    "delivery": "Days Delivery",
+    "revision": "Unlimited Revision"
+  },
+  "socialSection": {
+    "title": "Social Links",
+    "subtitle": "Click To Find Me"
+  },
+  "portfolio": {
+    "subheading": "VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK",
+    "heading": "MY PORTFOLIO",
+    "myProject": "My Project",
+    "btn": "See More"
+  },
+  "strategy": {
+    "subheading": "WORKING STRATEGY",
+    "heading": "What I Do",
+    "str1": {
+      "id": "01",
+      "title": "Project Introduction",
+      "desc": "I Explore Your Expectations And The Ideas(If Any) You Have. Assist You To Make A Clean Brief, Then Dig Deeper To Identify The Achievable Best Solution. Email Is The Preferred Communication Method At This Stage. When You Decide To Work With Us, We Get Together To Create A Detailed Brief With Assumptions And Constraints."
+    },
+    "str2": {
+      "id": "02",
+      "title": "Research & Concept",
+      "desc": "The Objective Of This Stage Is To Define The Project Scope, Technical Requirements, And Milestones. Your Project Starts To Get A Face Based On Your Information. i Will Create The Visual/S And Design Guidelines For Your Approval. and Start Working On Approved Visual/S And Ensure It Looks As Expected. Based On Your Review Feedback."
+    },
+    "str3": {
+      "id": "03",
+      "title": "Project Termination",
+      "desc": "I Will Work Through The Checklist Before It Goes Live. After Making It Live, We Will Be There For Any Urgent Bug Fixes. We Will Share Documentation, Including Video Instructions So That You Can Reference Them For Any Updates/Fixes. I’ll Be Here For Any Help And Advice."
+    }
+  },
+  "whyme": {
+    "subheading": "SERVICES INCLUDED IN PROFESSIONAL WORK",
+    "heading": "Why Choose Me",
+    "service1": {
+      "title": "Always On Time",
+      "desc": "I will delivery your project on time so that you can start your business with your previous plan."
+    },
+    "service2": {
+      "title": "Professional Work",
+      "desc": "I am a Professional Web Designer and Developer. So, I always here to design your website professionally."
+    },
+    "service3": {
+      "title": "24/7 Availability",
+      "desc": "I am here to help you always. If you are facing any kind of problem than you can contact me 24/7."
+    },
+    "details": {
+      "hardWorking": {
+        "title": "Hard Working",
+        "desc": "I am a hard working person who always works hard for his clients. So, there is no way to delay."
+      },
+      "security": {
+        "title": "High Security",
+        "desc": "Security is one of the most important issue for a website. So, I always work carefully to protect your website properly."
+      },
+      "satisfaction": {
+        "title": "100% Satisfaction",
+        "desc": "I always take corrections from clients before submitting project and work as a way of the most satisfaction."
+      },
+      "afterSupport": {
+        "title": "After Selling Support",
+        "desc": "I will provide after selling support. The support will not be paid but if there is any big issue you may charge for solution."
+      },
+      "speed": {
+        "title": "Speed Optimization",
+        "desc": "I will optimize speed of your website around 90 in all page speed tools with plugins or manually."
+      },
+      "contactForm": {
+        "title": "Contact form Setup",
+        "desc": "I will set your contact form so that people can reach you via Email. I will use Contact form 7 or WP form."
+      }
+    },
+    "btn": "See More"
+  },
+  "contact": {
+    "subheading": "Contact",
+    "heading": "Contact With Me",
+    "title": "Borhan Uddin",
+    "designation": "Web Designer",
+    "desc": "I am available for freelance work. Connect with me via and call in to my account.",
+    "whatsapp": "Whatsapp:",
+    "email": "Email:",
+    "findWithMe": "FIND WITH ME",
+    "form": {
+      "name": "Your Name",
+      "phone": "Phone Number",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "SEND MESSAGE",
+      "sending": "Sending...",
+      "success": "Your mail has been sent",
+      "error": "Sorry Your mail isn't sent \nPlease Send Mail direct to \nborhaninfos@gmail.com"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved by",
+    "designBy": "Design BY"
+  }
+}

@@ -11,6 +11,9 @@
 
 # production
 /build
+.next
+/out
+/legacy_backup
 
 # misc
 .DS_Store
