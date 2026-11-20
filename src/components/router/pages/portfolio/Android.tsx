@@ -2,6 +2,8 @@
 
 import React from "react";
 import { FiGithub, FiExternalLink, FiEye } from "react-icons/fi";
+import { getImageUrl } from "@/lib/image";
+import PortfolioCard, { ProjectItem } from "./PortfolioCard";
 
 interface ProjectItem {
   id: string | number;
@@ -29,7 +31,15 @@ export default function Android(props: AndroidProps) {
           <div className="inner">
             <div className="thumbnail">
               <a>
-                <img src={item.image} alt="Personal Portfolio Images" />
+                <img
+                  src={getImageUrl(item.image)}
+                  alt={item.name || "Personal Portfolio Images"}
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src = getImageUrl(
+                      "/images/portfolio/no-image.jpg"
+                    );
+                  }}
+                />
               </a>
             </div>
             <div className="content">
@@ -102,6 +112,10 @@ export default function Android(props: AndroidProps) {
         {/* <!-- Start Single Portfolio --> */}
         {appsdata}
         {/* <!-- End Single Portfolio --> */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt--10 mt_md--10 mt_sm--10">
+        {(props.project || []).map((item) => (
+          <PortfolioCard key={item.id} item={item} />
+        ))}
       </div>
     </div>
   );

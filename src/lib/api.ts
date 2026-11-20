@@ -1,18 +1,14 @@
 import { ProjectItem, PortfolioData } from "@/types/project";
 import { readFileSync } from "fs";
 import path from "path";
-
+import { getImageUrl } from "./image";
 
 const BASE_URL = "https://srdreamlab-e981b-default-rtdb.firebaseio.com";
 
 const normalizeProject = (item: any): ProjectItem => {
-  let image = item.image || "";
-  if (image.startsWith("images/")) {
-    image = "/" + image;
-  }
   return {
     ...item,
-    image,
+    image: getImageUrl(item.image),
   };
 };
 

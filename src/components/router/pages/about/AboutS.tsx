@@ -37,23 +37,15 @@ export default function AboutS() {
 
   const typewriterWords =
     i18n.language === "bn"
-      ? [
-          "ফ্রন্ট-এন্ড ডেভেলপার।",
-          "ওয়ার্ডপ্রেস ডেভেলপার।",
-          "অ্যাপ ডেভেলপার।",
-        ]
-      : [
-          "Front-End Developer.",
-          "Wordpress Developer.",
-          "App Developer.",
-        ];
+      ? ["ফ্রন্ট-এন্ড ডেভেলপার।", "ওয়ার্ডপ্রেস ডেভেলপার।", "অ্যাপ ডেভেলপার।"]
+      : ["Front-End Developer.", "Wordpress Developer.", "App Developer."];
 
   return (
     <div className="slide slider-style-1">
       <div className="container">
         <div className="srpad">
           <div className="row row--30 align-items-center">
-            <div className="order-2 order-lg-1 col-lg-7 mt_md--50 mt_sm--50 mt_lg--30">
+            <div className="col-lg-7 mt_md--50 mt_sm--50 mt_lg--30">
               <div className="content padtse">
                 <div className="inner mb-5">
                   <span className="subtitle">{t("aboutPage.subtitle")}</span>
@@ -192,9 +184,8 @@ export default function AboutS() {
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div className="order-1 order-lg-2 col-lg-5">
+            </div>{" "}
+            <div className="col-lg-5">
               <div className="thumbnail">
                 <div className="inner">
                   <LazyLoad>

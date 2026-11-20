@@ -3,6 +3,7 @@
 import React from "react";
 import { FiGithub, FiExternalLink, FiEye } from "react-icons/fi";
 import { ProjectItem } from "@/types/project";
+import { getImageUrl } from "@/lib/image";
 
 interface ReactProjectsProps {
   react?: ProjectItem[];
@@ -19,7 +20,15 @@ export default function ReactProjects({ react = [] }: ReactProjectsProps) {
           <div className="inner">
             <div className="thumbnail">
               <a>
-                <img src={item.image} alt="Personal Portfolio Images" />
+                <img
+                  src={getImageUrl(item.image)}
+                  alt={item.name || "Personal Portfolio Images"}
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src = getImageUrl(
+                      "/images/portfolio/no-image.jpg"
+                    );
+                  }}
+                />
               </a>
             </div>
             <div className="content">

@@ -1,6 +1,7 @@
 "use client";
 import React, { Component, Fragment } from "react";
 import { FiGithub, FiExternalLink, FiEye } from "react-icons/fi";
+import { getImageUrl } from "@/lib/image";
 
 interface ProjectItem {
   id: string | number;
@@ -32,7 +33,15 @@ export default class ProtItem extends Component<ProtItemProps> {
             <div className="inner">
               <div className="thumbnail">
                 <a>
-                  <img src={item.image} alt={item.name || "Portfolio Image"} />
+                  <img
+                    src={getImageUrl(item.image)}
+                    alt={item.name || "Portfolio Image"}
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).src = getImageUrl(
+                        "/images/portfolio/no-image.jpg"
+                      );
+                    }}
+                  />
                 </a>
               </div>
               <div className="content">
@@ -42,13 +51,13 @@ export default class ProtItem extends Component<ProtItemProps> {
                     <span className={item.language}>{item.language}</span>
                   </div>
                   <div className="meta">
-                    <div className="card-btn-container d-flex justify-content-end">
+                    <div className="card-btn-container flex justify-end">
                       {item.source_link && (
                         <a
                           href={item.source_link}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="btn card-btn"
+                          className="btn card-btn p-2"
                           title="Source Code"
                         >
                           <FiGithub />

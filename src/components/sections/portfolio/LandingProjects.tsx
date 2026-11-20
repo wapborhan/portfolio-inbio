@@ -3,12 +3,15 @@
 import React from "react";
 import { FiGithub, FiExternalLink, FiEye } from "react-icons/fi";
 import { ProjectItem } from "@/types/project";
+import { getImageUrl } from "@/lib/image";
 
 interface LandingProjectsProps {
   landing?: ProjectItem[];
 }
 
-export default function LandingProjects({ landing = [] }: LandingProjectsProps) {
+export default function LandingProjects({
+  landing = [],
+}: LandingProjectsProps) {
   const landingdata = landing.map((item) => {
     return (
       <div
@@ -19,7 +22,15 @@ export default function LandingProjects({ landing = [] }: LandingProjectsProps) 
           <div className="inner">
             <div className="thumbnail">
               <a>
-                <img src={item.image} alt="Personal Portfolio Images" />
+                <img
+                  src={getImageUrl(item.image)}
+                  alt="Personal Portfolio Images"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src = getImageUrl(
+                      "/images/portfolio/no-image.jpg",
+                    );
+                  }}
+                />
               </a>
             </div>
             <div className="content">
