@@ -7,6 +7,7 @@ import ReactJS from "./ReactJS";
 import Javascript from "./Javascript";
 import Landing from "./Landing";
 import { useTranslation } from "react-i18next";
+import Android from "./Android";
 
 interface RoutePortfolioProps {
   project?: {
@@ -42,6 +43,7 @@ export default function RoutePortfolio(props: RoutePortfolioProps) {
                 <ReactJS react={project.react} />
                 <Javascript javascript={project.javascript} />
                 <Landing landing={project.landingpage} />
+                <Android project={project.apps} />
               </div>
             </div>
           </div>
